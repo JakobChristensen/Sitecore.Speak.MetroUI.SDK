@@ -1,0 +1,55 @@
+﻿@using System.Text
+@using Sitecore.Mvc
+@using Sitecore.Text
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Typography.MetroTags.MetroTextRenderingModel
+@{
+  var parameters = new UrlString(Model.Rendering.RenderingItem.InnerItem["Parameters"]);
+  var tag = parameters["Tag"];
+
+  Model.IsScriptEnabled = false;
+  Model.HasNestedControls = true;
+  
+  Model.Class = parameters["Class"] ?? string.Empty;
+  Model.Class.AppendIf(Model.Alignment, "Left", "text-left").
+    AppendIf(Model.Alignment, "Right", "text-right").
+    AppendIf(Model.Alignment, "Center", "text-center").
+    AppendIf(Model.Alignment, "Justify", "text-justify").
+    AppendIf(Model.Emphasis, "Alert", "text-alert").
+    AppendIf(Model.Emphasis, "Info", "text-info").
+    AppendIf(Model.Emphasis, "Muted", "text-muted").
+    AppendIf(Model.Emphasis, "Success", "text-success").
+    AppendIf(Model.Emphasis, "Warning", "text-warning");
+
+  Model.DataBind.IsVisible().
+    Css("text-left", "Alignment", "Left").
+    Css("text-center", "Alignment", "Center").
+    Css("text-right", "Alignment", "Right").
+    Css("text-justify", "Alignment", "Justify").
+    Css("text-muted", "Emphasis", "Muted").
+    Css("text-warning", "Emphasis", "Warning").
+    Css("text-alert", "Emphasis", "Alert").
+    Css("text-info", "Emphasis", "Info").
+    Css("text-success", "Emphasis", "Success");
+
+  var sb = new StringBuilder("<");
+  sb.Append(tag);
+  sb.Append(' ');
+  sb.Append(Model.HtmlAttributes);
+  sb.Append(">");
+        
+  var startTag = sb.ToString();
+  var endTag = "</" + tag + ">";
+}               
+@Html.Raw(startTag)
+  @Html.Sitecore().Placeholder(Model.ControlId + ".Content")
+  @if (Model.IsScriptEnabled)
+  {
+    <!-- ko text: Text -->
+    @Html.Sitecore().Translate(Model.Text)
+    <!-- /ko -->
+  }
+  else
+  {
+    @Html.Sitecore().Translate(Model.Text)
+  }
+@Html.Raw(endTag)

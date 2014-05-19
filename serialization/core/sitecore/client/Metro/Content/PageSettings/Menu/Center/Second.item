@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {9C1DFEC4-CFC4-4E2E-AD2F-B513ED407E1C}
+database: core
+path: /sitecore/client/Metro/Content/PageSettings/Menu/Center/Second
+parent: {842C1F63-6B1A-48C5-AD62-579CB02ECC78}
+name: Second
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FF9A25C-3228-4DA3-9039-5EB31364D7C2}
+templatekey: MetroLink
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----version----
+language: en
+version: 1
+revision: 34e09011-927b-4aba-81c9-8a16c73ed95e
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130816T124726
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+34e09011-927b-4aba-81c9-8a16c73ed95e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140409T153726:635326546469967824
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

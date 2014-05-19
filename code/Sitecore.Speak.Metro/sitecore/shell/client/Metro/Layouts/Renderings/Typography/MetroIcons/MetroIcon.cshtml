@@ -1,0 +1,16 @@
+﻿@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Typography.MetroIcons.MetroIconRenderingModel
+@{                         
+  
+  var path = Sitecore.Context.Item.Paths.Path;
+  Model.Class = Model.Icon;
+  Model.Class.AppendIf(Model.Alignment, "Left", "on-left-white").
+    AppendIf(Model.Alignment, "Right", "on-right");
+
+  if (!string.IsNullOrEmpty(Model.Foreground))
+  {
+    Model.Class.Append("fg-" + Model.Foreground);
+  }
+
+  Model.IsScriptEnabled = false;
+}         
+<i @Model.HtmlAttributes></i>

@@ -1,0 +1,23 @@
+﻿@using System.Web.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.Bootstrap3Checkboxes.Bootstrap3CheckboxRenderingModel
+@{
+  Model.Class = Model.IsInline ? "checkbox-inline" : "checkbox";
+  Model.DataBind.IsVisible();
+}        
+@if (Model.IsInline)
+{
+  <label @Model.HtmlAttributes>
+    <input type="checkbox" value="@Model.Value" @Html.AttributeIf(Model.IsChecked, "checked", "checked") @Model.DataBindIfScriptEnabled().IsEnabled().IsChecked()>
+    @Model.Text
+  </label>
+}
+else
+{
+  <div @Model.HtmlAttributes>
+    <label>
+      <input type="checkbox" value="@Model.Value" @Html.AttributeIf(Model.IsChecked, "checked", "checked") @Model.DataBindIfScriptEnabled().IsEnabled().IsChecked()>
+      @Model.Text
+    </label>
+  </div>
+}

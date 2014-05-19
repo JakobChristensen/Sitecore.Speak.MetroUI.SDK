@@ -1,0 +1,52 @@
+﻿@using Sitecore.Metro
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Buttons.MetroShortcuts.MetroShortcutRenderingModel
+@{
+  Model.Class = "shortcut";
+  Model.Class.AppendIf(Model.Type, "Default", "default").
+    AppendIf(Model.Type, "Primary", "primary").
+    AppendIf(Model.Type, "Info", "info").
+    AppendIf(Model.Type, "Success", "success").
+    AppendIf(Model.Type, "Warning", "warning").
+    AppendIf(Model.Type, "Danger", "danger").
+    AppendIf(Model.Type, "Inverse", "inverse").
+    AppendIf(Model.Type, "Link", "link").
+    AppendIf(!Model.IsEnabled, "disabled");
+
+    Model.DataBind.IsVisible().IsEnabled().Click().
+    Css("primary", "Type", "Primary").
+    Css("info", "Type", "Info").
+    Css("success", "Type", "Success").
+    Css("warning", "Type", "Warning").
+    Css("danger", "Type", "Danger").
+    Css("inverse", "Type", "Inverse").
+    Css("link", "Type", "Link");
+
+  Model.Attributes[HtmlTextWriterAttribute.Type] = "button";
+}      
+<button @Model.HtmlAttributes @Html.Sitecore().ClickAttribute(Model.Click)>
+  @if (!string.IsNullOrEmpty(Model.Icon))
+  {
+    <i class="@Model.Icon"></i>
+  }
+  <!-- ko text: Text -->
+  @Model.Text
+  <!-- /ko -->
+  @if (!string.IsNullOrEmpty(Model.SmallText))
+  {
+    var className = string.Empty;
+
+    if (!string.IsNullOrEmpty(Model.SmallTextForeground))
+    {
+      className = "fg-" + Model.SmallTextForeground;
+    }
+
+    if (!string.IsNullOrEmpty(Model.SmallTextBackground))
+    {
+      className += " bg-" + Model.SmallTextBackground;
+    }
+
+    <small @Html.Sitecore().ClassAttribute(className) @Model.DataBindAttribute().Text("SmallText")>@Model.SmallText</small>
+  }
+</button>

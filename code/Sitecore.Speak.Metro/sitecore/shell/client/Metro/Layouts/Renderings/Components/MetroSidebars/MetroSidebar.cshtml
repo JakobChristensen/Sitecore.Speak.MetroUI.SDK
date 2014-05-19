@@ -1,0 +1,89 @@
+﻿@using Sitecore
+@using Sitecore.Data.Items
+@using Sitecore.Metro
+@using Sitecore.Mvc
+@using Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroSidebars
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroSidebars.MetroSidebarRenderingModel
+@{
+  IEnumerable<Item> items = null;
+  Item app = null;
+  if (!string.IsNullOrEmpty(Model.ItemsDataSource))
+  {
+    items = MetroApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId);
+  }
+  else
+  {
+    app = MetroApplication.GetApplicationItem(Model.PageItem);
+    if (app != null)
+    {
+      items = app.GetChildren();
+    }
+  }
+
+  if (items == null || !items.Any())
+  {
+    return;
+  }
+
+  Model.Class = "sidebar";
+  Model.Class.AppendIf(Model.Theme, "Light", "light");
+  Model.DataBind.IsVisible();
+
+  var active = Model.Active;
+}      
+<nav @Model.HtmlAttributes>
+  <ul>
+    @{
+      foreach (var item in items)
+      {
+        bool isSelected;
+        if (!string.IsNullOrEmpty(active))
+        {
+          isSelected = string.Compare(item.Name, active, StringComparison.InvariantCultureIgnoreCase) == 0 || string.Compare(item.ID.ToString(), active, StringComparison.InvariantCultureIgnoreCase) == 0;
+        }
+        else
+        {
+          isSelected = item.Axes.IsAncestorOf(Model.PageItem);
+        }
+
+        if (item.Is(MetroApplication.Header))
+        {
+          @RenderHeader(Model, item)
+        }
+        else if (item.Is(MetroApplication.DropDownMenu))
+        {
+          @RenderDropDownMenu(Model, item, isSelected)
+        }
+        else if (item.Is(MetroApplication.Link))
+        {
+          @RenderLink(Model, item, isSelected)
+        }
+      }
+    }
+  </ul>
+</nav>
+@helper RenderHeader([NotNull] MetroSidebarRenderingModel model, [NotNull] Item item)
+{
+  <li class="title">@Html.Sitecore().Icon(item, Model.IconFieldName)@Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)</li>
+}
+@helper RenderLink([NotNull] MetroSidebarRenderingModel model, [NotNull] Item item, bool isSelected)
+{
+  <li @Html.Sitecore().ClassAttributeIf(isSelected, "active")><a @Html.Sitecore().HrefAttribute(item, Model.LinkFieldName)>@Html.Sitecore().Icon(item, Model.IconFieldName)@Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)</a></li>
+}
+@helper RenderDropDownMenu([NotNull] MetroSidebarRenderingModel model, [NotNull] Item item, bool isSelected)
+{
+  <li>
+    <a class="dropdown-toggle" href="#">@Html.Sitecore().Icon(item, Model.IconFieldName)@Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)</a>
+    @{var menuItemId = item["ItemsDataSource"];
+    if (string.IsNullOrEmpty(menuItemId))
+    {
+      menuItemId = item.ID.ToString();
+    }
+
+    var items = MetroApplication.GetMenuItems(Model, menuItemId, Model.ControlId);
+
+    <ul class="dropdown-menu" data-role="dropdown" role="menu">@Html.Sitecore().Menu(items, Model.DisplayFieldName, Model.IconFieldName, Model.LinkFieldName)</ul>
+    }
+  </li>
+
+}

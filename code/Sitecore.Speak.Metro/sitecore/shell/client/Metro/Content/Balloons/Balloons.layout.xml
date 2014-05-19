@@ -1,0 +1,21 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{2ED403B0-665C-4C52-9991-4DDB59423CDF}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Id="Container1" Placeholder="Page.Body">
+      <MetroGrid Id="Grid1">
+        <MetroRow Id="Row1" Columns="12">
+          <MetroHeading1 Text="Balloons" />
+
+          <MetroExample Id="Example1">
+            <MetroBalloon Text="&lt;p>&lt;p>Balloon is represent to create information or dialog UI. You can put inside any of elements.&lt;/p>&lt;/p>"  />
+            <MetroBalloon Text="&lt;p>&lt;p>Balloon is represent to create information or dialog UI. You can put inside any of elements.&lt;/p>&lt;/p>" Position="Top" />
+            <MetroBalloon Text="&lt;p>&lt;p>Balloon is represent to create information or dialog UI. You can put inside any of elements.&lt;/p>&lt;/p>" Position="Left" />
+            <MetroBalloon Text="&lt;p>&lt;p>Balloon is represent to create information or dialog UI. You can put inside any of elements.&lt;/p>&lt;/p>" Position="Right" />
+          </MetroExample>
+        </MetroRow>
+      </MetroGrid>
+    </MetroContainer>
+  </Device>
+</Layout>

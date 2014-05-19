@@ -1,0 +1,12 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroHints.MetroHintRenderingModel
+@{
+  Model.DataBind.IsVisible();
+  Model.Attributes["data-hint"] = Model.Hint;
+  Model.Attributes["data-hint-position"] = Model.Position.ToLowerInvariant();
+  Model.HasNestedControls = true;
+}
+<a href="#" @Model.HtmlAttributes>
+  @Html.Sitecore().Placeholder(Model.ControlId + ".Content")
+  @Html.Sitecore().Translate(Model.Text)
+</a>

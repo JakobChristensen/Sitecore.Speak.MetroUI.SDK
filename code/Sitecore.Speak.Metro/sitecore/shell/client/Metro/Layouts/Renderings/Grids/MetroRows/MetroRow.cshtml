@@ -1,0 +1,27 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Grid.MetroRows.MetroRowRenderingModel
+@{
+  Model.Class = "row";
+  Model.IsScriptEnabled = false;
+  Model.HasNestedControls = true;
+
+  var separator = new [] { ',' };
+  var columns = Model.Columns.Split(separator, StringSplitOptions.RemoveEmptyEntries);
+}      
+<div class="row">
+  @{
+    if (columns.Length > 0)
+    {
+      for (var n = 0; n < columns.Length; n++)
+      {
+        <div @Html.Sitecore().ClassAttribute("span" + columns[n].Trim())>
+          @Html.Sitecore().Placeholder(Model.ControlId + ".Column" + (n + 1))
+        </div>
+      }
+    }
+    else
+    {
+      @Html.Sitecore().Placeholder(Model.ControlId + ".Column1")
+    }
+  }
+</div>

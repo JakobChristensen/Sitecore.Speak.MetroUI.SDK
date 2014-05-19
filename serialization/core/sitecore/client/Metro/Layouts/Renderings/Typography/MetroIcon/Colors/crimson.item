@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {50F4E10B-006F-457B-9F63-898E3160B856}
+database: core
+path: /sitecore/client/Metro/Layouts/Renderings/Typography/MetroIcon/Colors/crimson
+parent: {D65D1D7D-0F35-4C23-A924-78573535EC89}
+name: crimson
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----version----
+language: en
+version: 1
+revision: 04666d93-4f06-48b2-a892-07fcc0e9a1d0
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140414T081408
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+04666d93-4f06-48b2-a892-07fcc0e9a1d0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140414T081408:635330600481551933
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

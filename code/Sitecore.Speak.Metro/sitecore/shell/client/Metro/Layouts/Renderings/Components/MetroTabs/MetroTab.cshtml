@@ -1,0 +1,73 @@
+﻿@using Sitecore.Metro
+@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroTabs.MetroTabRenderingModel
+@{
+  var items = MetroApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId).ToList();
+  if (!items.Any())
+  {
+    return;
+  }
+
+  Model.Class = "tab-control";
+  Model.DataBind.IsVisible();
+  Model.HasNestedControls = true;
+}      
+<div @Model.HtmlAttributes data-role="tab-control">
+  <ul class="tabs">
+    @{
+      var tabIndex = 0;
+      foreach (var item in items)
+      {
+        if (string.Compare(item.Name, "PageSettings", StringComparison.InvariantCultureIgnoreCase) == 0)
+        {
+          continue;
+        }
+
+        var isSelected = string.Compare(item.Name, Model.Active, StringComparison.InvariantCultureIgnoreCase) == 0 || string.Compare(item.ID.ToString(), Model.Active, StringComparison.InvariantCultureIgnoreCase) == 0;
+        var id = "#" + Model.ControlId + "_Tab" + tabIndex;
+
+        <li @Html.Sitecore().AttributeIf(isSelected, "class", "active")>
+          <a href="@id">@Html.Sitecore().Icon(item, Model.IconFieldName)@Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)</a>
+        </li>
+
+        tabIndex++;
+      }
+    }
+  </ul>
+  <div class="frames">
+    @{
+      var contentIndex = 0;
+      foreach (var item in items)
+      {
+        if (string.Compare(item.Name, "PageSettings", StringComparison.InvariantCultureIgnoreCase) == 0)
+        {
+          continue;
+        }
+
+        var id = this.Model.ControlId + "_Tab" + contentIndex;
+
+        HtmlString content;
+        if (Model.RenderItemAsContent)
+        {
+          var itemRenderer = new Sitecore.Web.UI.Controls.Common.ItemRenderers.ItemRenderer
+          {
+            DataSource = item.ID.ToString(),
+            UsePlaceholders = true
+          };
+
+          content = new HtmlString(itemRenderer.Render());
+        }
+        else
+        {
+          content = this.Html.Sitecore().Placeholder(this.Model.ControlId + ".Tab" + (contentIndex + 1));
+        }
+        
+        <div id="@id" class="frame">
+          @content
+        </div>
+
+        contentIndex++;
+      }
+    }
+  </div>
+</div>

@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {3A594369-4562-432F-ACE8-19AD6E1E255A}
+database: core
+path: /sitecore/client/Metro/Content/Typography/Tables
+parent: {E9D829F0-9C71-4B19-92C0-F12B9D2A4D83}
+name: Tables
+master: {00000000-0000-0000-0000-000000000000}
+template: {4D83536E-C5E0-4309-972D-DA868BB496F4}
+templatekey: MetroPage
+
+----field----
+field: {6876E6A1-1195-4BE3-8F39-07DAA9E010F8}
+name: TileBackground
+key: tilebackground
+content-length: 6
+
+orange
+----field----
+field: {03BE64A3-C32E-4E81-87C3-5D75B83E44B5}
+name: TileHorizontalSize
+key: tilehorizontalsize
+content-length: 6
+
+Double
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 24
+
+Business/16x16/table.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3099
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Tables" ph="Row1.Column1" />
+    <r id="{262EDE8D-941C-4A6D-A365-D2E7A377C3A6}" par="Id=StaticJsonDataSource1&amp;JsonDataSource=%7B6FD56988-5AC6-47B1-B78F-BFBDE9829733%7D&amp;JsonFieldName=Data" ph="Row1.Column1" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Default%20tables%20styles" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=All%20tables%20has%20default%20styles%3A%20width%20100%25%2C%20cell%20padding%2010px%20and%20text%20align%20left." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Table1Example" ph="Row1.Column1" />
+    <r id="{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}" par="Data=%7BBinding%20StaticJsonDataSource1.Data%7D" ph="Table1Example.Content" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Striped%20rows" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Adds%20zebra-striping%20to%20any%20table%20row%20within%20the%20%3C%20tbody%3E%20with%20class%20.striped." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Table2Example" ph="Row1.Column1" />
+    <r id="{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}" par="Data=%7BBinding%20StaticJsonDataSource1.Data%7D&amp;IsStriped=1" ph="Table2Example.Content" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Bordered%20table" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Adds%20borders%20to%20any%20table%20with%20class%20.bordered." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Table3Example" ph="Row1.Column1" />
+    <r id="{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}" par="Data=%7BBinding%20StaticJsonDataSource1.Data%7D&amp;IsBordered=1" ph="Table3Example.Content" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Hovered%20table" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Enable%20a%20hover%20state%20on%20table%20rows%20within%20a%20%3C%20tbody%3E." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Table4Example" ph="Row1.Column1" />
+    <r id="{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}" par="Data=%7BBinding%20StaticJsonDataSource1.Data%7D&amp;Hover=1" ph="Table4Example.Content" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 7286f8d3-cd21-4a6e-91fe-8e7350d2fe48
+
+----field----
+field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
+name: BrowserTitle
+key: browsertitle
+content-length: 6
+
+Tables
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140413T083947
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7286f8d3-cd21-4a6e-91fe-8e7350d2fe48
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140513T152558:635355915580789784
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

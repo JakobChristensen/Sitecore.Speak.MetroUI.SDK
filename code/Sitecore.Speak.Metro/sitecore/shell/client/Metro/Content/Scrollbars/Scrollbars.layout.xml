@@ -1,0 +1,37 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{89369B50-E816-4206-9D4A-702CA79D71D7}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Id="Container1" Placeholder="Page.Body">
+      <MetroGrid Id="Grid1">
+        <MetroRow Id="Row1" Columns="12">
+          <MetroHeading1 Text="Scrollbars" />
+          <MetroParagraph Text="Metro UI CSS provides scrollbar component to create scroll area. This component required metro-scroll.js." />
+
+          <MetroExample Id="Example1">
+            <MetroGrid Id="Container2" IsFluid="True">
+              <MetroRow Id="Example1Row" Columns="4,4,4" >
+                <MetroHeading4 Text="Vertical scroll" />
+                <MetroScrollbar Id="Text1" Scrollbars="Vertical" Height="335">
+                  <MetroParagraph Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+                </MetroScrollbar>
+
+                <MetroHeading4 Placeholder="Example1Row.Column2" Text="Horizontal scroll" />
+                <MetroScrollbar Id="Text2" Placeholder="Example1Row.Column2"  Scrollbars="Horizontal" Height="335">
+                  <MetroParagraph Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
+                </MetroScrollbar>
+
+                <MetroHeading4 Placeholder="Example1Row.Column3" Text="Both" />
+                <MetroScrollbar Id="Text3" Placeholder="Example1Row.Column3"  Scrollbars="Both" Height="335">
+                  <MetroParagraph Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+                </MetroScrollbar>
+              </MetroRow>
+            </MetroGrid>
+          </MetroExample>
+
+        </MetroRow>
+      </MetroGrid>
+    </MetroContainer>
+  </Device>
+</Layout>

@@ -1,0 +1,34 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Buttons.MetroButtons.MetroButtonRenderingModel
+@{
+  Model.Class.AppendIf(Model.Type, string.Empty, "default").
+    AppendIf(Model.Type, "Default", "default").
+    AppendIf(Model.Type, "Primary", "primary").
+    AppendIf(Model.Type, "Info", "info").
+    AppendIf(Model.Type, "Success", "success").
+    AppendIf(Model.Type, "Warning", "warning").
+    AppendIf(Model.Type, "Danger", "danger").
+    AppendIf(Model.Type, "Inverse", "inverse").
+    AppendIf(Model.Type, "Link", "link").
+    AppendIf(Model.Size, "Large", "large").
+    AppendIf(Model.Size, "Small", "small").
+    AppendIf(Model.Size, "Mini", "mini").
+    AppendIf(!Model.IsEnabled, "disabled");
+    
+  Model.DataBind.IsVisible().IsEnabled().Text().Click().
+    Css("large", "Size", "Large").
+    Css("small", "Size", "Small").
+    Css("mini", "Size", "Mini").
+    Css("primary", "Type", "Primary").
+    Css("info", "Type", "Info").
+    Css("success", "Type", "Success").
+    Css("warning", "Type", "Warning").
+    Css("danger", "Type", "Danger").
+    Css("inverse", "Type", "Inverse").
+    Css("link", "Type", "Link");
+
+  Model.Attributes[HtmlTextWriterAttribute.Type] = Model.ButtonType;
+}                               
+<button @Model.HtmlAttributes @Html.Sitecore().ClickAttribute(Model.Click)>
+  @Model.Text
+</button>

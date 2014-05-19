@@ -1,0 +1,29 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroPanels.MetroPanelRenderingModel
+@{
+  Model.Class = "panel";
+  Model.DataBind.IsVisible();
+
+  var header = new ClassBuilder("panel-header");
+
+  if (!string.IsNullOrEmpty(Model.Foreground))
+  {
+    header.Append("fg-" + Model.Foreground);
+  }
+
+  if (!string.IsNullOrEmpty(Model.Background))
+  {
+    header.Append("bg-" + Model.Background);
+  }
+}      
+<div @Model.HtmlAttributes @Html.Sitecore().AttributeIf(Model.IsCollapsible, "data-role", "panel")>
+  <div @Html.Sitecore().ClassAttribute(header) @Model.DataBindAttribute().Text().ToHtmlString()>
+    @Html.Sitecore().Placeholder(Model.ControlId + ".Header")
+    @Html.Sitecore().Translate(Model.Text) 
+  </div>
+  <div class="panel-content">
+    @Html.Sitecore().Placeholder(Model.ControlId + ".Content")
+  </div>
+</div>
+      

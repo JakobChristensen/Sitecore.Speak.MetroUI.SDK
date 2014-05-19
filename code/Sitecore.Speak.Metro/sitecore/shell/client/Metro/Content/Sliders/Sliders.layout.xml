@@ -1,0 +1,30 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{0E667078-23EC-48E8-BA2B-26E0FEE60E28}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Id="Container1" Placeholder="Page.Body">
+      <MetroGrid Id="Grid1">
+        <MetroRow Id="Row1" Columns="12">
+          <MetroHeading1 Text="Sliders" />
+          <MetroParagraph Text="Metro UI CSS provides a component for creating slider." />
+
+          <MetroExample Id="Example1">
+            <MetroSlider Position="30" Max="100" />
+            <MetroSlider Position="0" Max="100" />
+            <MetroSlider Position="50" Max="100" CompleteColor="green" />
+          </MetroExample>
+
+          <MetroExample Id="Example2">
+            <MetroSlider Position="1" Max="10" IsVertical="True" />
+            <MetroSlider Position="0" Max="10" IsVertical="True" />
+            <MetroSlider Position="5" Max="10" IsVertical="True" />
+            <MetroSlider Position="7" Max="10" IsVertical="True" />
+            <MetroSlider Position="6" Max="10" IsVertical="True" />
+            <MetroSlider Position="0" Max="10" IsVertical="True" ShowHint="True" />
+          </MetroExample>
+        </MetroRow>
+      </MetroGrid>
+    </MetroContainer>
+  </Device>
+</Layout>

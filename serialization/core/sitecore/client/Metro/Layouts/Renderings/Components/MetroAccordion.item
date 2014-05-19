@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {74C636E7-54BA-4FB4-9D1E-DCFC9310542B}
+database: core
+path: /sitecore/client/Metro/Layouts/Renderings/Components/MetroAccordion
+parent: {F8F75F6E-7FE4-4DDD-9EBB-7EB35220C9A7}
+name: MetroAccordion
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 96
+
+/sitecore/shell/client/Metro/Layouts/Renderings/Components/MetroAccordions/MetroAccordion.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 123
+
+Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroAccordions.MetroAccordionRenderingModel,Sitecore.Speak.Metro
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{AA1BD516-5A9D-4163-B08F-267F998CA4F1}
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
+----field----
+field: {C42199F1-21A1-4993-BAC6-C4FC771B3081}
+name: Place Holders
+key: place holders
+content-length: 26
+
+$Id.Tab1,$Id.Tab2,$Id.Tab3
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 12
+
+PageSettings
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 38
+
+{AA1BD516-5A9D-4163-B08F-267F998CA4F1}
+----version----
+language: en
+version: 1
+revision: 2fb34c9f-21a1-4f80-9fb3-fab9f654d9db
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140509T082642
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2fb34c9f-21a1-4f80-9fb3-fab9f654d9db
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140514T094238:635356573586984926
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

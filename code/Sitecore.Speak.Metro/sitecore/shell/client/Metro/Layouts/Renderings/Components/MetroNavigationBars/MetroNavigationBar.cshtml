@@ -1,0 +1,133 @@
+﻿@using Sitecore
+@using Sitecore.Data
+@using Sitecore.Data.Items
+@using Sitecore.Links
+@using Sitecore.Metro
+@using Sitecore.Mvc
+@using Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroNavigationBars
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroNavigationBars.MetroNavigationBarRenderingModel
+@{
+  IEnumerable<Item> items = null;
+  Item app = null;
+  if (!string.IsNullOrEmpty(Model.ItemsDataSource))
+  {
+    items = MetroApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId);
+  }
+  else
+  {
+    app = MetroApplication.GetApplicationItem(Model.PageItem);
+    if (app != null)
+    {
+      items = app.GetChildren();
+    }
+  }
+
+  if (items == null || !items.Any())
+  {
+    return;
+  }
+
+  Model.Class = "navigation-bar";
+  Model.Class.AppendIf(Model.Theme, "Dark", "dark").
+    AppendIf(Model.Theme, "Light", "light").
+    AppendIf(Model.Theme, "White", "white").
+    AppendIf(Model.Fixed, "Top", "fixed-top").
+    AppendIf(Model.Fixed, "Bottom", "fixed-bottom");
+
+  Model.DataBind.IsVisible();
+
+  var brandText = Model.BrandText;
+  if (string.IsNullOrEmpty(brandText) && app != null)
+  {
+    brandText = app["BrandText"];
+  }
+  
+  var brandLink = Model.BrandLink;
+  if (string.IsNullOrEmpty(brandLink) && app != null)
+  {
+    brandLink = app["BrandLink"];
+  }
+
+  if (ID.IsID(brandLink))
+  {
+    var brandItem = Model.Rendering.RenderingItem.Database.GetItem(brandLink);
+    if (brandItem != null)
+    {
+      brandLink = LinkManager.GetItemUrl(brandItem);
+      if (string.IsNullOrEmpty(brandText))
+      {
+        brandText = brandItem.DisplayName;
+      }
+    }
+  }
+
+  var className = Model.HasContainer ? "navigation-bar-content container" : "navigation-bar-content";
+}
+<div @Model.HtmlAttributes role="navigation">
+  <div @Html.Sitecore().ClassAttribute(className)>
+    @if (!string.IsNullOrEmpty(brandText))
+    {
+      <a class="element" href="@brandLink">@brandText</a>
+    }
+
+    @Html.Sitecore().Placeholder(Model.ControlId + ".Inner")
+      @{
+        foreach (var item in items)
+        {
+          if (item.Is(MetroApplication.DropDownMenu))
+          {
+            @RenderDropDownMenu(Model, item)
+          }
+          else if (item.Is(MetroApplication.TileGroup))
+          {
+            @RenderDropDownMenu(Model, item)
+          }
+          else if (item.Is(MetroApplication.Button))
+          {
+            @RenderButton(Model, item)
+          }
+          else if (item.Is(MetroApplication.Separator))
+          {
+            @RenderSeparator()
+          }
+          else if (item.Is(MetroApplication.Link))
+          {
+            @RenderLink(Model, item)
+          }
+        }
+      }
+
+    @Html.Sitecore().Placeholder(Model.ControlId + ".Right")
+  </div>
+</div>
+@helper RenderLink([NotNull] MetroNavigationBarRenderingModel model, [NotNull] Item item)
+{
+  <a class="element brand" @Html.Sitecore().HrefAttribute(item, Model.LinkFieldName)>@Html.Sitecore().Icon(item, Model.IconFieldName)@Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)</a>
+}
+@helper RenderButton([NotNull] MetroNavigationBarRenderingModel model, [NotNull] Item item)
+{
+  <button type="button" class="element" @Html.Sitecore().ClickFieldAttribute(item, Model.ClickFieldName)>
+    @Html.Sitecore().Icon(item, Model.IconFieldName)
+    @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+  </button>
+}
+@helper RenderSeparator()
+{
+  <span class="element-divider"></span>
+}
+@helper RenderDropDownMenu([NotNull] MetroNavigationBarRenderingModel model, [NotNull] Item item)
+{
+  <div class="element">
+    <a class="dropdown-toggle" href="#">@Html.Sitecore().Icon(item, Model.IconFieldName)@Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)</a>
+    @{var menuItemId = item["ItemsDataSource"];
+    if (string.IsNullOrEmpty(menuItemId))
+    {
+    menuItemId = item.ID.ToString();
+    }
+
+    var items = MetroApplication.GetMenuItems(Model, menuItemId, Model.ControlId);
+
+    <ul class="dropdown-menu" data-role="dropdown" role="menu">@Html.Sitecore().Menu(items, Model.DisplayFieldName, Model.IconFieldName, Model.ClickFieldName)</ul>
+    }
+  </div>
+}

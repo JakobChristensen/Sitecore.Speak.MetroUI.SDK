@@ -1,0 +1,16 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Forms.MetroRadios.MetroRadioRenderingModel
+@{
+  Model.Class = "input-control radio";
+  Model.DataBind.IsVisible();
+}              
+<div @Model.HtmlAttributes>
+  <label>
+    <input type="radio" value="@Model.Value" @Html.Sitecore().AttributeIf(Model.IsChecked, "checked", "checked") @Html.Sitecore().Attribute("name", Model.Name) @Html.Raw(Model.DataBindAttribute().IsEnabled().IsChecked())>
+    <span class="check"></span>
+    <span data-bind="text: Text">
+      @Model.Text
+    </span>
+  </label>
+</div>

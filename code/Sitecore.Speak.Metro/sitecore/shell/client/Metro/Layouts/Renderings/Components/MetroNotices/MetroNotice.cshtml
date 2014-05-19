@@ -1,0 +1,25 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroNotices.MetroNoticeRenderingModel
+@{   
+  Model.Class = "notice";
+  Model.Class.AppendIf(Model.MarkerPosition, "Top", "marker-on-top").
+    AppendIf(Model.MarkerPosition, "Bottom", "marker-on-bottom").
+    AppendIf(Model.MarkerPosition, "Left", "marker-on-left").
+    AppendIf(Model.MarkerPosition, "Right", "marker-on-right");
+  Model.DataBind.IsVisible();
+  Model.HasNestedControls = true;
+
+  if (!string.IsNullOrEmpty(Model.Foreground))
+  {
+    Model.Class.Append("fg-" + Model.Foreground);
+  }
+  
+  if (!string.IsNullOrEmpty(Model.Background))
+  {
+    Model.Class.Append("bg-" + Model.Background);
+  }
+}      
+<div @Model.HtmlAttributes>
+  @Html.Sitecore().Placeholder(Model.ControlId + ".Content")
+  @Html.Sitecore().Translate(Model.Text)
+</div>

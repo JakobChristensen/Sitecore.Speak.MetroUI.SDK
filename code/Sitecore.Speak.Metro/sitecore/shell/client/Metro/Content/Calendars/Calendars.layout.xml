@@ -1,0 +1,35 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{63EC2055-781D-420A-9B2F-3D38A9319BD1}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Placeholder="Page.Body" Id="Container1">
+      <MetroGrid Id="Grid1">
+        <MetroRow Columns="12" Id="Row1">
+          <MetroHeading1 Text="Calendars" />
+
+          <MetroExample Id="Example1">
+            <MetroGrid Id="Grid2" IsFluid="True">
+              <MetroRow Id="Row2" Columns="4,4,4">
+                <MetroCalendar Id="Calendar1" />
+                <MetroCalendar Placeholder="Row2.Column2" Id="Calendar2" StartMode="Month" />
+                <MetroCalendar Placeholder="Row2.Column3" Id="Calendar3" StartMode="Year" />
+              </MetroRow>
+            </MetroGrid>
+          </MetroExample>
+
+          <MetroHeading2 Text="Start from Monday, display other days" />
+          <MetroExample Id="Example2">
+            <MetroGrid Id="Gri3" IsFluid="True">
+              <MetroRow Id="Row3" Columns="6,6">
+                <MetroCalendar Id="Calendar4" WeekStart="1" />
+                <MetroCalendar Placeholder="Row3.Column2" Id="Calendar5" OtherDays="True" />
+              </MetroRow>
+            </MetroGrid>
+          </MetroExample>
+
+        </MetroRow>
+      </MetroGrid>
+    </MetroContainer>
+  </Device>
+</Layout>

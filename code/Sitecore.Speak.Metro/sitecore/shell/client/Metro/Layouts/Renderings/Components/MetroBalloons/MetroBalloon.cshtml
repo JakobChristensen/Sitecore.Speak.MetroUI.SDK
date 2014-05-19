@@ -1,0 +1,15 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroBalloons.MetroBalloonRenderingModel
+@{
+  Model.Class = "balloon";
+  Model.Class.AppendIf(Model.Position, "Top", "top").
+    AppendIf(Model.Position, "Bottom", "bottom").
+    AppendIf(Model.Position, "Left", "left").
+    AppendIf(Model.Position, "Right", "right");
+  Model.DataBind.IsVisible();
+  Model.HasNestedControls = true;
+}   
+<div @Model.HtmlAttributes>
+    @Html.Sitecore().Placeholder(Model.Id + ".Content")
+    @Html.Sitecore().Translate(Model.Text)
+</div>   

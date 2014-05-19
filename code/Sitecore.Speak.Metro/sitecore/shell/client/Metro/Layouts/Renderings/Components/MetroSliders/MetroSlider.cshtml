@@ -1,0 +1,17 @@
+﻿@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroSliders.MetroSliderRenderingModel
+@{  
+  Model.Class = "slider";
+  Model.Class.AppendIf(Model.IsVertical, "vertical");
+  Model.DataBind.IsVisible();
+
+  Model.Attributes["data-role"] = "slider";
+  Model.Attributes["data-position"] = Model.Position.ToString();
+  Model.Attributes["data-color"] = Model.Color;
+  Model.Attributes["data-complete-color"] = Model.CompleteColor;
+  Model.Attributes["data-marker-color"] = Model.MarkerColor;
+  Model.Attributes["data-show-hint"] = Model.ShowHint ? "true" : "false";
+  Model.Attributes["data-min"] = Model.Min.ToString();
+  Model.Attributes["data-max"] = Model.Max.ToString();
+  Model.Attributes["data-animate"] = Model.Animate ? "true" : "false";
+}      
+<div @Model.HtmlAttributes></div>

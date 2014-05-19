@@ -1,0 +1,96 @@
+﻿@using System.Globalization
+@using System.Xml.Linq
+@using Sitecore.Data.Items
+@using Sitecore.Extensions.XElementExtensions
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Resources.Media
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Images.ImageOverlays.MetroImageOverlayRenderingModel
+@{
+  var source = Model.Source;
+  if (string.IsNullOrEmpty(source))
+  {
+    return;
+  }
+
+  // source is bound to an image field
+  if (source.StartsWith("<image"))
+  {
+    var doc = XDocument.Parse(source);
+    var root = doc.Root;
+
+    source = root.GetAttributeValue("mediaid");
+  }
+
+  var mediaItem = this.Model.Rendering.RenderingItem.Database.GetItem(source);
+  if (mediaItem == null)
+  {
+    return;
+  }
+
+  Model.Class = "image-container";
+  Model.DataBind.IsVisible().Css("selected", "IsSelected");
+
+  var width = string.Empty;
+  var height = string.Empty;
+  var style = string.Empty;
+
+  Model.Class.AppendIf(Model.IsSelected, "selected").
+    AppendIf(Model.Shape, "cycle", "cycle").
+    AppendIf(Model.Shape, "polaroid", "polaroid").
+    AppendIf(Model.Shape, "rounded", "rounded").
+    AppendIf(Model.Shape, "rounded polaroid", "rounded polaroid").
+    AppendIf(Model.Shape, "cycle polaroid", "cycle polaroid").
+    AppendIf(Model.Shape, "shadow", "shadow").
+    AppendIf(Model.Size, "Size1", "span1").
+    AppendIf(Model.Size, "Size2", "span2").
+    AppendIf(Model.Size, "Size3", "span3").
+    AppendIf(Model.Size, "Size4", "span4").
+    AppendIf(Model.Size, "Size5", "span5").
+    AppendIf(Model.Size, "Size6", "span6").
+    AppendIf(Model.Size, "Size7", "span7").
+    AppendIf(Model.Size, "Size8", "span8").
+    AppendIf(Model.Size, "Size9", "span9").
+    AppendIf(Model.Size, "Size10", "span10").
+    AppendIf(Model.Size, "Size11", "span11").
+    AppendIf(Model.Size, "Size12", "span12");
+
+  var options = new MediaUrlOptions(this.Model.Rendering.RenderingItem.Database);
+  if (Model.Width > 0)
+  {
+    width = Model.Width.ToString(CultureInfo.InvariantCulture);
+    options.Width = Model.Width;
+  }
+  else
+  {
+    style = "max-width:100%";
+  }
+
+  if (Model.Height > 0)
+  {
+    height = Model.Height.ToString(CultureInfo.InvariantCulture);
+    options.Height = Model.Height;
+  }
+
+  if (!string.IsNullOrEmpty(Model.BorderColor))
+  {
+    Model.Class.Append("bd-" + Model.BorderColor);
+  }
+
+  if (!string.IsNullOrEmpty(Model.Background))
+  {
+    Model.Class.Append("bg-" + Model.Background);
+  }
+
+  var src = MediaManager.GetMediaUrl(new MediaItem(mediaItem), options);
+}                            
+<div @Model.HtmlAttributes>
+  <img @Html.Sitecore().Attribute("src", src) @Html.Sitecore().Attribute("alt", Model.Alt) @Html.Sitecore().Attribute("width", width) @Html.Sitecore().Attribute("height", height) @Html.Sitecore().Attribute("style", style) />
+  @if (!string.IsNullOrEmpty(Model.Text))
+  {
+    var className = Model.IsFluid ? "overlay-fluid" : "overlay";
+    <div @Html.Sitecore().ClassAttribute(className) @Model.DataBindAttribute().Text().ToHtmlString()>
+      @Html.Sitecore().Translate(Model.Text)
+    </div>
+  }
+</div>

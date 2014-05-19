@@ -1,0 +1,16 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Forms.MetroSwitches.MetroSwitchRenderingModel
+@{
+  Model.Class = "input-control switch";
+  Model.DataBind.IsVisible();
+}
+<div @Model.HtmlAttributes>
+  <label>
+    <input type="checkbox" value="@Model.Value" @Html.Sitecore().AttributeIf(Model.IsChecked, "checked", "checked") @Html.Raw(@Model.DataBindAttribute().IsEnabled().IsChecked())>
+    <span class="check"></span>
+    <span data-bind="text: Text">
+      @Model.Text
+    </span>
+  </label>
+</div>

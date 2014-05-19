@@ -1,0 +1,30 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{BDD05351-B26C-45D9-BAAA-90418E636A7F}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Id="Container1" Placeholder="Page.Body">
+      <MetroGrid Id="Grid1">
+        <MetroRow Id="Row1" Columns="12">
+          <MetroHeading1 Text="Panels" />
+
+          <MetroExample Id="Example1">
+            <MetroGrid Id="Container2" IsFluid="True">
+              <MetroRow Id="Row2" Columns="4,4,4">
+                <MetroPanel Id="Panel1" Text="Lorem Ipsum">
+                  <MetroParagraph Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
+                </MetroPanel>
+                <MetroPanel Placeholder="Row2.Column2" Id="Panel2" Text="Lorem Ipsum" Background="cobalt" Foreground="white">
+                  <MetroParagraph Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
+                </MetroPanel>
+                <MetroPanel Placeholder="Row2.Column3" Id="Panel3" Text="Lorem Ipsum" IsCollapsible="True" Background="crimson" Foreground="white">
+                  <MetroParagraph Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
+                </MetroPanel>
+              </MetroRow>
+            </MetroGrid>
+          </MetroExample>
+        </MetroRow>
+      </MetroGrid>
+    </MetroContainer>
+  </Device>
+</Layout>

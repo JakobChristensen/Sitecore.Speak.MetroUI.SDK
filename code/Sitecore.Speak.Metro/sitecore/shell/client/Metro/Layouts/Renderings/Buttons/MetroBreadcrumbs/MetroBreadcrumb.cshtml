@@ -1,0 +1,49 @@
+﻿@using Sitecore.Data.Items
+@using Sitecore.Metro
+@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Buttons.MetroBreadcrumbs.MetroBreadcrumbRenderingModel
+@{
+  Model.Class = "breadcrumbs";
+  Model.Class.AppendIf(Model.Size, "Small", "small").AppendIf(Model.Size, "Mini", "mini");
+  Model.DataBind.IsVisible();
+
+  var app = MetroApplication.GetApplicationItem(Model.PageItem);
+  if (app == null)
+  {
+    return;
+  }
+  
+  var items = new List<Item>();
+  var pageItem = Model.PageItem;
+  while (pageItem != null)
+  {
+    items.Insert(0, pageItem);
+
+    if (pageItem.ID == app.ID)
+    {
+      break;
+    }
+
+    pageItem = pageItem.Parent;
+  }
+
+  var active = Model.Active;
+  if (string.IsNullOrEmpty(active))
+  {
+    active = Model.PageItem.ID.ToString();
+  }
+}      
+<nav @Model.HtmlAttributes>
+  <ul>
+    @foreach (var item in items)
+    {
+      var isSelected = string.Compare(item.Name, active, StringComparison.InvariantCultureIgnoreCase) == 0 || string.Compare(item.ID.ToString(), active, StringComparison.InvariantCultureIgnoreCase) == 0;
+      <li @Html.Sitecore().ClassAttributeIf(isSelected, "active")>
+        <a @Html.Sitecore().HrefAttribute(item, Model.LinkFieldName)>
+          @Html.Sitecore().Icon(item, Model.IconFieldName)
+          @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+        </a>
+      </li>
+    }
+  </ul>
+</nav>

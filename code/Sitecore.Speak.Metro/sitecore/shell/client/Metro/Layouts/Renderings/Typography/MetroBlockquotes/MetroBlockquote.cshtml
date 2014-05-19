@@ -1,0 +1,16 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Typography.MetroBlockquotes.MetroBlockquoteRenderingModel
+@{                             
+  Model.Class.AppendIf(Model.IsReverse, "place-right");
+
+  Model.DataBind.IsVisible().Css("place-right", "IsReverse");
+}            
+<blockquote @Model.HtmlAttributes>
+  @Html.Sitecore().Placeholder(Model.ControlId + ".Content") 
+  <p @Model.DataBindAttribute().Text()>@Model.Text</p>   
+  @if (!string.IsNullOrEmpty(Model.Footer))
+{
+  <small @Model.DataBindAttribute().Text("Footer")>@Model.Footer</small>
+}
+</blockquote>

@@ -1,0 +1,36 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{84344F46-0FF2-489A-BD42-ADE31D689F1C}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Id="Container1" Placeholder="Page.Body">
+      <MetroGrid Id="Grid1">
+        <MetroRow Id="Row1" Columns="12">
+          <MetroHeading1 Text="Menu" />
+          <MetroHeading2 Text="Horizontal Menu" />
+          <MetroHeading4 Text="Default" />
+          <MetroExample Id="Example1">
+            <MetroMenu ItemsDataSource="{1D51F4A3-4F82-43D3-9BFF-7F513981CBF8}"/>
+          </MetroExample>
+
+          <MetroHeading4 Text="Compact" />
+          <MetroExample Id="Example2">
+            <MetroMenu ItemsDataSource="{1D51F4A3-4F82-43D3-9BFF-7F513981CBF8}" IsCompact="True"/>
+          </MetroExample>
+
+          <MetroHeading2 Text="Vertical Menu" />
+          <MetroHeading4 Text="Default" />
+          <MetroExample Id="Example3">
+            <MetroMenu ItemsDataSource="{1D51F4A3-4F82-43D3-9BFF-7F513981CBF8}" Orientation="Vertical" />
+          </MetroExample>
+
+          <MetroHeading4 Text="Compact" />
+          <MetroExample Id="Example4">
+            <MetroMenu ItemsDataSource="{1D51F4A3-4F82-43D3-9BFF-7F513981CBF8}" IsCompact="True" Orientation="Vertical"/>
+          </MetroExample>
+
+        </MetroRow>
+      </MetroGrid>
+    </MetroContainer>
+  </Device>
+</Layout>

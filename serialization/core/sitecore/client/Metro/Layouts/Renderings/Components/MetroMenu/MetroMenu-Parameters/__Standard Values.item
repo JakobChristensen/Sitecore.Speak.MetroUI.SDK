@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {24386CDC-B0B7-42B5-ACCD-9A552CA46C40}
+database: core
+path: /sitecore/client/Metro/Layouts/Renderings/Components/MetroMenu/MetroMenu-Parameters/__Standard Values
+parent: {129D8D3A-0594-4ABE-B6F3-96F33371D60F}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {129D8D3A-0594-4ABE-B6F3-96F33371D60F}
+templatekey: MetroMenu-Parameters
+
+----version----
+language: en
+version: 1
+revision: f28c529c-9d0b-459d-8335-f2950cea0f14
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140508T100017
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f28c529c-9d0b-459d-8335-f2950cea0f14
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140508T100017:635351400178975919
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,70 @@
+----item----
+version: 1
+id: {EB685903-3193-4FDF-8ADF-48F196C35C7E}
+database: core
+path: /sitecore/client/Metro
+parent: {31056D46-2FAA-4EA2-8759-BE93EAE10001}
+name: Metro
+master: {00000000-0000-0000-0000-000000000000}
+template: {4D83536E-C5E0-4309-972D-DA868BB496F4}
+templatekey: MetroPage
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 40
+
+Applications/16x16/text_rich_colored.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 415
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
+    <r id="{5C7850C8-F56A-4A34-92D4-B0DFE582DE9B}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;Text=Metro%20UI&amp;DisplayFieldName=BrowserTitle&amp;IconFieldName=%24icon48x48" ph="Page.Stylesheets" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 13e1d59c-808d-42e4-9765-979ecec3810d
+
+----field----
+field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
+name: BrowserTitle
+key: browsertitle
+content-length: 8
+
+Metro UI
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140409T105418
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+13e1d59c-808d-42e4-9765-979ecec3810d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140513T144710:635355892308703350
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

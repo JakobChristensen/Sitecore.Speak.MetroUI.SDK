@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <Site Server="Sitecore.Speak.7.2" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroSidebars\MetroSidebar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{77EE2147-1CB2-4012-BFDC-02D90E47A1B0}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroSwitches\MetroSwitch.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{DC2FE210-43A5-459F-BD82-042F16457FFF}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroTags\MetroTag.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{326D7764-E240-4F6D-9FFB-047BF21F6207}</Item>
+      <Item DatabaseName="core">{F8C6EAB3-E950-4E21-8C0B-2F9952A5F088}</Item>
+      <Item DatabaseName="core">{1B3D2A5B-3AE6-4092-8795-6C0F431B56E9}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroTexts\MetroText.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{63170104-6223-4AE8-BE64-07DC3A347832}</Item>
+      <Item DatabaseName="core">{09C3430C-C61C-4120-80CD-21DFF8744483}</Item>
+      <Item DatabaseName="core">{2BD61E78-7DA1-4CF3-85F7-2C9F4D2DCEB6}</Item>
+      <Item DatabaseName="core">{3D1F05A1-60E5-423F-9D00-3FF7DA18EA08}</Item>
+      <Item DatabaseName="core">{0D82D3D6-2DC1-47F4-8117-494009D4F19B}</Item>
+      <Item DatabaseName="core">{C2259F84-EB2C-44FB-B00E-73901DC0B1E2}</Item>
+      <Item DatabaseName="core">{E319FA74-CBD1-4C59-B5FF-73A4F6672881}</Item>
+      <Item DatabaseName="core">{B756C59D-01B5-4567-AE2C-74CF3FAC3D3C}</Item>
+      <Item DatabaseName="core">{C5B304CF-17EC-4A50-A229-85CDEFB8552D}</Item>
+      <Item DatabaseName="core">{5EC61A07-6EEA-4D8C-81C4-8D406B7201B8}</Item>
+      <Item DatabaseName="core">{A1ADFB5A-1F00-4830-91F2-8F646E94763A}</Item>
+      <Item DatabaseName="core">{D40E3CCC-AA1C-488B-B8EE-9D7EDA3A8072}</Item>
+      <Item DatabaseName="core">{20B75EDA-CE11-4440-B390-AA94594FE83C}</Item>
+      <Item DatabaseName="core">{8D1BD13B-08A9-4699-AE5A-B46EBDD34907}</Item>
+      <Item DatabaseName="core">{9CFE7382-1B05-482E-AFB3-C38B8E94AE97}</Item>
+      <Item DatabaseName="core">{51367460-E5C0-4ED6-87B4-CD6280E2BC5A}</Item>
+      <Item DatabaseName="core">{479330A9-968D-47AD-9832-D1F86E553994}</Item>
+      <Item DatabaseName="core">{462C8D95-CE4A-4FA9-808D-F4061458A043}</Item>
+      <Item DatabaseName="core">{D747E396-4781-457F-B135-FB9248719F49}</Item>
+      <Item DatabaseName="core">{EDD44117-196C-4983-A68F-FEC8207B0320}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\ControlBlocks\ForEach.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{09C8BB94-98A1-4C91-9F22-0A31546C8D32}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroIcons\MetroIcon.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroInputs\MetroInput.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{83FC9E97-880D-4DB9-BEE8-3111826A7B41}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroCarousels\MetroCarousel.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{97BBE39D-0B1C-45B6-A101-32247DDD37E4}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroBreadcrumbs\MetroBreadcrumb.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{EC0E4061-2B6E-48A2-B489-3E701BE62FFC}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroSliders\MetroSlider.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroDatePickers\MetroDatePicker.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{1078C7AA-980D-4FE8-97D4-5138921C3FEC}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroBalloons\MetroBalloon.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{74060E33-0A5F-46DD-BFCD-539A033CF754}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroForms\MetroForm.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{19781A62-D0EE-426A-B8BC-5D31E3EA8C3C}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroLists\MetroList.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{1D2F94D1-0D03-43DD-8974-5FC282AE6473}</Item>
+      <Item DatabaseName="core">{96ED27CB-80D2-47FE-9D60-7E3766928BA4}</Item>
+      <Item DatabaseName="core">{2EDCFDD2-5538-4730-A0EC-9F256A43A888}</Item>
+      <Item DatabaseName="core">{FAEE956E-E058-4AFB-A850-F2BD1F134FD9}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Grids\MetroRows\MetroRow.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroMenus\MetroMenu.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{9AFF4048-6D21-450D-80EB-6B56BA56C7A4}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroProgressBars\MetroProgressBar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{11708B4E-FFFF-4105-AE05-7767FD4CB393}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroScrollbars\MetroScrollbar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{AA21BEA1-E26C-4C62-BA24-77C8602D7BB0}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroNotices\MetroNotice.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{E444DCA5-FE38-4298-A380-7B7176268114}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\ImageOverlays\MetroImageOverlay.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{DEF379E7-46D3-48A7-96C0-7BA42011B8E0}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Layouts\MetroLayout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{1FA1011C-030A-4501-B4F6-7C9E25507972}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroRatings\MetroRating.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{9B49BF9E-F84B-4251-B313-857EA1EF84B5}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroTables\MetroTable.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroRadios\MetroRadio.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{F9D9FF0E-ACC5-4A26-B72D-9865C2ACEBA1}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroCommandButtons\MetroCommandButton.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{92770B09-EB58-4ADA-A3A1-A25D17559D5D}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroListsDescriptions\MetroListDescription.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{2032E050-7AE9-4162-AE21-AD4847C8BC41}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroHints\MetroHint.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{651569B3-88C9-4124-BBB4-AEE479D53241}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroTiles\MetroTiles.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{5C7850C8-F56A-4A34-92D4-B0DFE582DE9B}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroTabs\MetroTab.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{55B45A8C-2DD0-44FD-BC19-C56FE620EF85}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroButtonGroups\MetroButtonGroup.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{6808D0D2-0D71-4AE1-A187-C7D4848169FB}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroSteppers\MetroStepper.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{2B187A0E-8EBA-42A2-8A02-CFF2AC4B9620}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroToolbars\MetroToolbar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{98009B57-AE68-496B-83FD-D09DC33DCC4E}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroShortcuts\MetroShortcut.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroPanels\MetroPanel.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{8F1C1C04-0BB2-4C39-BD4C-D880EDEBC411}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroButtonSets\MetroButtonSet.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{FA8880D2-1BF1-40B3-9EEF-D921BEB8CFE1}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroNavigationBars\MetroNavigationBar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{F96C8F5F-C2B0-409B-BB06-D98A04608C59}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroCheckboxes\MetroCheckbox.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{DF222B95-9207-438B-A84A-DB5D9D805451}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroAccordions\MetroAccordion.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{74C636E7-54BA-4FB4-9D1E-DCFC9310542B}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroButtons\MetroButton.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{476A5C49-A301-4107-9F75-DD136841CDAE}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroListviews\MetroListview.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{41CF7A33-1FEB-4D72-8F4A-E18E5CBC5393}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroSelects\MetroSelect.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{2D6B3688-5C65-44E1-9E0E-E4186B8EA53F}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroCalendars\MetroCalendar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{3F842E14-F095-4BF7-BC64-E5F1E3A3BCF7}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroTextAreas\MetroTextArea.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{1E53BF85-6246-4DA2-A252-E69B7D4FFDA6}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Grids\MetroGrids\MetroGrid.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroBlockquotes\MetroBlockquote.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{BEEB6F56-F392-4B86-8A47-FEDF61A07C6C}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Metro.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{EB685903-3193-4FDF-8ADF-48F196C35C7E}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Typography\Typopgraphy.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{42C753C0-F36E-495C-BA93-A3A9C6E67E29}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Icons\Icons.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{DBE58A70-C766-4E13-9873-E3B186ECDFC3}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Images\Images.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{27109550-34B3-451C-A5A9-DEC597EF293B}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Tables\Tables.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{3A594369-4562-432F-ACE8-19AD6E1E255A}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\NavigationBars\NavigationBar.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{DDD1EE70-C31C-4123-BF49-FBE557F59CC3}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Menus\Menus.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{84344F46-0FF2-489A-BD42-ADE31D689F1C}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Sidebars\Sidebars.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{45F9486A-2D77-4D95-A13A-BF85D3F88BB7}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Accordions\Accordions.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{E2202349-5EFE-4E8F-9C1E-458F66AA5872}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Balloons\Balloons.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{2ED403B0-665C-4C52-9991-4DDB59423CDF}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Carousels\Carousels.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{4B18A5DE-EEB7-4531-8A16-6EE380EC3636}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Hints\Hints.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{8817245E-1F10-4DDD-8DF2-3E4B1EC4DE23}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Listviews\Listviews.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{2AD582CF-CAF3-4FC5-86EF-1EFBD1C7AC45}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Notices\Notices.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{DD8E5FDE-7CB4-47A7-9C4D-DBB2B2C34DBD}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Panels\Panels.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{BDD05351-B26C-45D9-BAAA-90418E636A7F}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\ProgressBars\ProgressBars.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{3EC6B045-0939-4CBE-A4B4-9DE1129526C8}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Ratings\Ratings.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{3ED04984-A6D3-4755-B051-606222BC0279}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Scrollbars\Scrollbars.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{89369B50-E816-4206-9D4A-702CA79D71D7}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Sliders\Sliders.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{0E667078-23EC-48E8-BA2B-26E0FEE60E28}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Steppers\Steppers.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{285AB020-7542-42FD-B1CF-38633E66090A}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Tabs\Tabs.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{D99108EE-E37D-4C64-B76F-AAFB4FAB20E6}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Buttons\Buttons.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{43520819-11AC-41B5-AB8B-82C7A5ABD284}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Tables\Forms.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{649A6115-F59A-47E8-AFEE-66F492343DA2}</Item>
+      <Item DatabaseName="core">{0C0DA832-6F9A-4880-B985-38E368738BBD}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\Calendars\Calendars.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{63EC2055-781D-420A-9B2F-3D38A9319BD1}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Metro\Content\DatePickers\DatePickers.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{1F4A80F6-50ED-4988-B550-461E221D19DF}</Item>
+    </File>
+  </ItemGroup>
+</Project>

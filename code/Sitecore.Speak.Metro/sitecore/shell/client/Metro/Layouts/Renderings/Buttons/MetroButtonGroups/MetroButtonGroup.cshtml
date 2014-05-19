@@ -1,0 +1,33 @@
+﻿@using Sitecore.Data.Items
+@using Sitecore.Metro
+@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Buttons.MetroButtonGroups.MetroButtonGroupRenderingModel
+@{ 
+  var items = MetroApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId);
+  if (!items.Any())
+  {
+    return;
+  }
+
+  Model.Class = "button-set";
+  Model.DataBind.IsVisible();
+
+  var clickFieldName = Model.ClickFieldName;
+  if (string.IsNullOrEmpty(clickFieldName))
+  {
+    clickFieldName = "Click";
+  }
+}      
+<div @Model.HtmlAttributes data-role="button-group">
+  @{
+    foreach (var item in items)
+    {
+      if (item.Is(MetroApplication.Button) || item.Is(MetroApplication.Link))
+      {
+        var isSelected = string.Compare(item.Name, Model.Active, StringComparison.InvariantCultureIgnoreCase) == 0 || string.Compare(item.ID.ToString(), Model.Active, StringComparison.InvariantCultureIgnoreCase) == 0;
+
+        <button @Html.Sitecore().ClassAttributeIf(isSelected, "active") @Html.Sitecore().ClickFieldAttribute(item, clickFieldName)>@Html.Sitecore().Icon(item, Model.IconFieldName) @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)</button>
+      }
+    }
+  }
+</div>

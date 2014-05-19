@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {74060E33-0A5F-46DD-BFCD-539A033CF754}
+database: core
+path: /sitecore/client/Metro/Layouts/Renderings/Components/MetroBalloon
+parent: {F8F75F6E-7FE4-4DDD-9EBB-7EB35220C9A7}
+name: MetroBalloon
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 92
+
+/sitecore/shell/client/Metro/Layouts/Renderings/Components/MetroBalloons/MetroBalloon.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 119
+
+Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroBalloons.MetroBalloonRenderingModel,Sitecore.Speak.Metro
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{0728458E-4181-4E3D-B117-F07B116CF1E9}
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 12
+
+PageSettings
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 38
+
+{0728458E-4181-4E3D-B117-F07B116CF1E9}
+----version----
+language: en
+version: 1
+revision: 5800c120-7347-48d6-bd29-898dfc666c18
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140511T080544
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5800c120-7347-48d6-bd29-898dfc666c18
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140514T094238:635356573587054915
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

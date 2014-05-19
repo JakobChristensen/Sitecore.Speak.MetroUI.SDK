@@ -1,0 +1,83 @@
+﻿@using Sitecore.Data.Items
+@using Sitecore.Metro
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroListviews.MetroListviewRenderingModel
+@{
+  var items = MetroApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId);
+  if (!items.Any())
+  {
+    return;
+  }
+
+  if (string.Compare(Model.Type, "Outlook", StringComparison.InvariantCultureIgnoreCase) == 0)
+  {
+    Model.Class = "listview-outlook";
+  }
+  else if (string.Compare(Model.Type, "Small", StringComparison.InvariantCultureIgnoreCase) == 0)
+  {
+    Model.Class = "listview small";
+  }
+  else
+  {
+    Model.Class = "listview";
+  }
+
+  if (Model.IsGrouped)
+  {
+    Model.Attributes["data-role"] = "listview";
+  }
+}
+<div @Model.HtmlAttributes>
+  @{
+    if (Model.IsGrouped)
+    {
+      @Html.Raw(this.RenderGroups(items))
+    }
+    else
+    {
+      foreach (var item in items)
+      {
+        @Html.Raw(this.RenderItem(item))
+      }
+    }
+  }
+</div>
+@helper RenderGroups(IEnumerable<Item> items)
+{
+  foreach (var item in items)
+  {
+    <div class="list-group">
+      <a href="" class="group-title">@Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)</a>
+      <div class="group-content">
+        @foreach (Item child in item.Children)
+        {
+          if (child == null)
+          {
+            continue;
+          }
+          
+          @Html.Raw(this.RenderItem(child))
+        }
+      </div>
+    </div>
+  }
+}
+@helper RenderItem(Item item)
+{
+  var isSelected = string.Compare(item.Name, Model.Selected, StringComparison.InvariantCultureIgnoreCase) == 0 || string.Compare(item.ID.ToString(), Model.Selected, StringComparison.InvariantCultureIgnoreCase) == 0;
+  var className = new ClassBuilder("list").AppendIf(isSelected, "selected");
+  
+  <a @Html.Sitecore().ClassAttribute(className) @Html.Sitecore().HrefAttribute(item, Model.ClickFieldName)>
+    <div class="list-content">
+      @Html.Sitecore().Icon(item, Model.IconFieldName, "icon")
+      <div class="data">
+        <span class="list-title">@Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)</span>
+        @using (new ContextItemSwitcher(item))
+        {
+          <span class="list-remark">@Html.Sitecore().Placeholder(Model.ControlId + ".Remark")</span>
+        }
+      </div>
+    </div>
+  </a>
+}

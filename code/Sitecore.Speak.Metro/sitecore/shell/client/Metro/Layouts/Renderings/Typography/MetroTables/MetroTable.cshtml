@@ -1,0 +1,18 @@
+﻿@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Typography.MetroTables.MetroTableRenderingModel
+@{
+  Model.Class = "table";
+  Model.Class.AppendIf(Model.IsStriped, "striped").
+    AppendIf(Model.IsBordered, "bordered").
+    AppendIf(Model.Hover, "hovered");
+
+  Model.DataBind.IsVisible();
+
+  Model.Properties["Data"] = "[]";
+}              
+<table @Model.HtmlAttributes>
+  <tbody data-bind="foreach: Data">
+    <tr data-bind="foreach: $data">
+      <td data-bind="text: $data"></td>
+    </tr>  
+  </tbody>
+</table>

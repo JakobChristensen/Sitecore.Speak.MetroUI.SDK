@@ -1,0 +1,28 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{285AB020-7542-42FD-B1CF-38633E66090A}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Id="Container1" Placeholder="Page.Body">
+      <MetroGrid Id="Grid1">
+        <MetroRow Id="Row1" Columns="12">
+          <MetroHeading1 Text="Steppers" />
+
+          <MetroExample Id="Example1">
+            <MetroStepper Steps="5" />
+            <MetroStepper Steps="5" Start="3" Type="Rounded" />
+            <MetroStepper Steps="5" Start="2" Type="Diamond" />
+          </MetroExample>                
+        
+          <MetroExample Id="Example2">
+            <MetroStepper Id="Stepper1" Steps="5" Start="1" />
+            <MetroButton Text="First" Click="trigger:Stepper1:first" />
+            <MetroButton Text="Previous" Click="trigger:Stepper1:previous" />
+            <MetroButton Text="Next" Click="trigger:Stepper1:next" />
+            <MetroButton Text="Last" Click="trigger:Stepper1:last" />
+          </MetroExample>
+        </MetroRow>
+      </MetroGrid>                          
+    </MetroContainer>
+  </Device>
+</Layout>

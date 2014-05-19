@@ -1,0 +1,137 @@
+----item----
+version: 1
+id: {0C0DA832-6F9A-4880-B985-38E368738BBD}
+database: core
+path: /sitecore/client/Metro/Content/Forms/Forms
+parent: {649A6115-F59A-47E8-AFEE-66F492343DA2}
+name: Forms
+master: {00000000-0000-0000-0000-000000000000}
+template: {4D83536E-C5E0-4309-972D-DA868BB496F4}
+templatekey: MetroPage
+
+----field----
+field: {6876E6A1-1195-4BE3-8F39-07DAA9E010F8}
+name: TileBackground
+key: tilebackground
+content-length: 5
+
+amber
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 8120
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Forms" ph="Row1.Column1" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Default%20styles" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Individual%20form%20controls%20receive%20styling%2C%20but%20without%20any%20required%20base%20class%20on%20the%20form%20or%20large%20changes%20in%20markup.%20Results%20in%20stacked%2C%20left-aligned%20labels%20on%20top%20of%20form%20controls." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Form1Example" ph="Row1.Column1" />
+    <r id="{19781A62-D0EE-426A-B8BC-5D31E3EA8C3C}" par="FormDataSource=%2Fsitecore%2Fclient%2FMetro%2FContent%2FForms%2FPageSettings%2FDefaultForm" ph="Form1Example.Content" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Optional%20layouts" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Included%20with%20Bootstrap%20are%20three%20optional%20form%20layouts%20for%20common%20use%20cases." ph="Row1.Column1" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Horizontal%20form" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Right%20%20align%20labels%20and%20float%20them%20to%20the%20left%20to%20make%20them%20appear%20on%20the%20same%20line%20as%20controls." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Form2Example" ph="Row1.Column1" />
+    <r id="{19781A62-D0EE-426A-B8BC-5D31E3EA8C3C}" par="FormDataSource=%2Fsitecore%2Fclient%2FMetro%2FContent%2FForms%2FPageSettings%2FHorizontalForm" ph="Form2Example.Content" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Supported%20form%20controls" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Examples%20of%20standard%20form%20controls%20supported%20in%20an%20example%20form%20layout." ph="Row1.Column1" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Inputs" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Most%20common%20form%20control%2C%20text-based%20input%20fields.%20Includes%20support%20for%20all%20HTML5%20types%3A%20text%2C%20password%2C%20datetime%2C%20datetime-local%2C%20date%2C%20month%2C%20time%2C%20week%2C%20number%2C%20email%2C%20url%2C%20search%2C%20tel%2C%20and%20color." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Input1Example" ph="Row1.Column1" />
+    <r id="{83FC9E97-880D-4DB9-BEE8-3111826A7B41}" par="Watermark=Text%20input" ph="Input1Example.Content" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Textarea" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Form%20control%20which%20supports%20multiple%20lines%20of%20text.%20Change%20rows%20attribute%20as%20necessary." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=TextAreaExample" ph="Row1.Column1" />
+    <r id="{1E53BF85-6246-4DA2-A252-E69B7D4FFDA6}" par="Watermark=Text%20area" ph="TextAreaExample.Content" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Checkboxes%20and%20radios" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Checkboxes%20are%20for%20selecting%20one%20or%20several%20options%20in%20a%20list%20while%20radios%20are%20for%20selecting%20one%20option%20from%20many." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=CheckboxExample" ph="Row1.Column1" />
+    <r id="{DF222B95-9207-438B-A84A-DB5D9D805451}" par="Text=Option%20one%20is%20this%20and%20that%E2%80%94be%20sure%20to%20include%20why%20it%27s%20great" ph="CheckboxExample.Content" />
+    <r id="{F9D9FF0E-ACC5-4A26-B72D-9865C2ACEBA1}" par="IsChecked=1&amp;Name=RadioGroup1&amp;Text=Option%20one%20is%20this%20and%20that%E2%80%94be%20sure%20to%20include%20why%20it%27s%20great" ph="CheckboxExample.Content" />
+    <r id="{F9D9FF0E-ACC5-4A26-B72D-9865C2ACEBA1}" par="Name=RadioGroup1&amp;Text=Option%20two%20can%20be%20something%20else%20and%20selecting%20it%20will%20deselect%20option%20one" ph="CheckboxExample.Content" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Checkbox2Example" ph="Row1.Column1" />
+    <r id="{DF222B95-9207-438B-A84A-DB5D9D805451}" par="Text=1&amp;IsChecked=1" ph="Checkbox2Example.Content" />
+    <r id="{DF222B95-9207-438B-A84A-DB5D9D805451}" par="Text=2" ph="Checkbox2Example.Content" />
+    <r id="{DF222B95-9207-438B-A84A-DB5D9D805451}" par="Text=3" ph="Checkbox2Example.Content" />
+    <r id="{F9D9FF0E-ACC5-4A26-B72D-9865C2ACEBA1}" par="Text=4&amp;Name=Radio1&amp;IsChecked=1" ph="Checkbox2Example.Content" />
+    <r id="{F9D9FF0E-ACC5-4A26-B72D-9865C2ACEBA1}" par="Text=5&amp;Name=Radio1" ph="Checkbox2Example.Content" />
+    <r id="{F9D9FF0E-ACC5-4A26-B72D-9865C2ACEBA1}" par="Text=6&amp;Name=Radio1" ph="Checkbox2Example.Content" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Switch%20control" ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=SwitchExample" ph="Row1.Column1" />
+    <r id="{DC2FE210-43A5-459F-BD82-042F16457FFF}" par="Text=1" ph="SwitchExample.Content" />
+    <r id="{DC2FE210-43A5-459F-BD82-042F16457FFF}" par="IsChecked=1&amp;Text=2" ph="SwitchExample.Content" />
+    <r id="{DC2FE210-43A5-459F-BD82-042F16457FFF}" par="Text=3" ph="SwitchExample.Content" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Selects" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Use%20the%20default%20option%20or%20specify%20a%20multiple%3D%22multiple%22%20to%20show%20multiple%20options%20at%20once." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=SelectExample" ph="Row1.Column1" />
+    <r id="{2D6B3688-5C65-44E1-9E0E-E4186B8EA53F}" par="DisplayFieldName=%24itemName&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;ValueFieldName=%24itemId&amp;Id=Sel" ph="SelectExample.Content" />
+    <r id="{2D6B3688-5C65-44E1-9E0E-E4186B8EA53F}" par="DisplayFieldName=%24itemName&amp;IsMultiple=1&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;ValueFieldName=%24itemId" ph="SelectExample.Content" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Extending%20form%20controls" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Adding%20on%20top%20of%20existing%20browser%20controls%2C%20Bootstrap%20includes%20other%20useful%20form%20components." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Select2Example" ph="Row1.Column1" />
+    <r id="{2D6B3688-5C65-44E1-9E0E-E4186B8EA53F}" par="DisplayFieldName=%24itemName&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;ValueFieldName=%24itemId&amp;Size=Size1" ph="Select2Example.Content" />
+    <r id="{2D6B3688-5C65-44E1-9E0E-E4186B8EA53F}" par="DisplayFieldName=%24itemName&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;ValueFieldName=%24itemId&amp;Size=Size6" ph="Select2Example.Content" />
+    <r id="{2D6B3688-5C65-44E1-9E0E-E4186B8EA53F}" par="DisplayFieldName=%24itemName&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;ValueFieldName=%24itemId" ph="Select2Example.Content" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 5a9bb9a5-6958-4e95-8f5d-14efdef6b054
+
+----field----
+field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
+name: BrowserTitle
+key: browsertitle
+content-length: 5
+
+Forms
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140413T102937
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5a9bb9a5-6958-4e95-8f5d-14efdef6b054
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140513T152553:635355915531244187
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,26 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{8817245E-1F10-4DDD-8DF2-3E4B1EC4DE23}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Id="Container1" Placeholder="Page.Body">
+      <MetroGrid Id="Grid1">
+        <MetroRow Id="Row1" Columns="12">
+          <MetroHeading1 Text="Hints" />
+          <MetroParagraph Text="Metro UI CSS provides plugin to the ability to create tooltips for any elements. Positioned as a replacement attribute title. This method required plugin metro-hint.js" />
+
+          <MetroExample Id="Example1">
+            <MetroContainer Id="Container2">
+              <MetroRow Id="Row2" Columns="3,3,3,3">
+                <MetroHint Text="Hint on bottom" Hint="Title|This is a hint for the element. Hint can be written as Html." />
+                <MetroHint Placeholder="Row2.Column2" Text="Hint on top" Hint="Title|This is a hint for the element. Hint can be written as Html." Position="Top" />
+                <MetroHint Placeholder="Row2.Column3" Text="Hint on left" Hint="Title|This is a hint for the element. Hint can be written as Html." Position="Left" />
+                <MetroHint Placeholder="Row2.Column4" Text="Hint on right" Hint="Title|This is a hint for the element. Hint can be written as Html." Position="Right" />
+              </MetroRow>
+            </MetroContainer>
+          </MetroExample>
+        </MetroRow>
+      </MetroGrid>
+    </MetroContainer>
+  </Device>
+</Layout>

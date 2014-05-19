@@ -1,0 +1,73 @@
+﻿@using Sitecore.Data.Items
+@using Sitecore.Metro
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroTiles.MetroTilesRenderingModel
+@{
+  var items = MetroApplication.GetMenuItems(Model, Model.ItemsDataSource).ToList();
+  if (!items.Any())
+  {
+    return;
+  }
+
+  Model.Class = "tile-area tile-area-dark";
+  Model.DataBind.IsVisible();
+}
+<div @Model.HtmlAttributes>
+  <h1 class="tile-area-title fg-white">@Html.Sitecore().Translate(Model.Text)</h1>
+
+  @foreach (var groupItem in items)
+  {
+    if (groupItem.Name == "PageSettings")
+    {
+      continue;
+    }
+    
+    var span = groupItem["Span"];
+    var groupClassName = new ClassBuilder("tile-group").AppendIf(span, "1", "one").AppendIf(span, "2", "two").AppendIf(span, "3", "three").AppendIf(span, "4", "four").AppendIf(span, "5", "five").AppendIf(span, "6", "six").AppendIf(span, "7", "seven");
+    var header = groupItem["Header"];
+      
+    <div @Html.Sitecore().ClassAttribute(groupClassName)>
+      @if (!string.IsNullOrEmpty(header))
+      {
+        <div class="tile-group-title">@Html.Sitecore().Translate(header)</div>
+      }
+      @foreach (Item tileItem in groupItem.Children)
+      {
+        var horizontalSize = tileItem["TileHorizontalSize"];
+        var verticalSize = tileItem["TileVerticalSize"];
+        var background = tileItem["TileBackground"];
+        if (string.IsNullOrEmpty(background))
+        {
+          background = "blue";
+        }
+        
+        var foreground = tileItem["TileForeground"];
+        var badge = Html.Sitecore().Icon(tileItem, Model.BadgeFieldName);
+
+        var tileClassName = new ClassBuilder("tile");
+        tileClassName.AppendIf(!string.IsNullOrEmpty(background), "bg-" + background);
+        tileClassName.AppendIf(!string.IsNullOrEmpty(foreground), "fg-" + foreground);
+        tileClassName.AppendIf(horizontalSize, "Half", "half").AppendIf(horizontalSize, "Double", "double").AppendIf(horizontalSize, "Triple", "triple").AppendIf(horizontalSize, "Quadro", "quadro");
+        tileClassName.AppendIf(verticalSize, "Double", "double-vertical").AppendIf(verticalSize, "Triple", "triple-vertical").AppendIf(verticalSize, "Quadro", "quadro-vertical");
+
+        <a @Html.Sitecore().ClassAttribute(tileClassName) @Html.Sitecore().HrefAttribute(tileItem, Model.ClickFieldName) data-click="transform">
+          <div class="tile-content icon">
+            @Html.Sitecore().Icon(tileItem, Model.IconFieldName)
+          </div>
+          <div class="tile-status">
+            @using (new ContextItemSwitcher(tileItem))
+            {
+              <div class="label">@Html.Sitecore().Placeholder(Model.ControlId + ".Tile")@Html.Sitecore().DisplayName(tileItem, Model.DisplayFieldName)</div>
+            }                                
+              
+            @if (!string.IsNullOrEmpty(badge.ToString()))
+            {
+              <div class="badge">@badge</div>
+            }
+          </div>
+        </a>
+      }
+    </div>
+  }
+</div>

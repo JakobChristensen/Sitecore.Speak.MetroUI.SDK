@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {70EE1673-4B38-4DEA-8527-372523181A9F}
+database: core
+path: /sitecore/client/Metro/Content/PageSettings/Menu/Divider
+parent: {1D51F4A3-4F82-43D3-9BFF-7F513981CBF8}
+name: Divider
+master: {00000000-0000-0000-0000-000000000000}
+template: {57266F82-727B-46CD-A4F2-6A08B183C50C}
+templatekey: MetroSeparator
+
+----version----
+language: en
+version: 1
+revision: fcda19e3-5e99-41e0-b369-c710d0c51f34
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140407T164504
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fcda19e3-5e99-41e0-b369-c710d0c51f34
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140409T153755:635326546756043057
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

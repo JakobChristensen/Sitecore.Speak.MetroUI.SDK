@@ -1,0 +1,27 @@
+﻿@using Sitecore.Data
+@using Sitecore.Metro
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Typography.MetroListsDescriptions.MetroListDescriptionRenderingModel
+@{
+  Model.Class.AppendIf(Model.IsHorizontal, "horizontal");
+  var items = MetroApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId);
+}              
+<dl @Model.HtmlAttributes>
+  @{
+    foreach (var item in items)
+    {
+      if (string.Compare(item.Name, "PageSettings", StringComparison.InvariantCultureIgnoreCase) == 0)
+      {
+        continue;
+      }
+
+      var term = item.GetField(Model.TermFieldName, item.DisplayName);
+      var description = item.GetField(Model.DescriptionFieldName, item.DisplayName);
+      <dt>
+        @term
+      </dt>
+      <dd>
+        @description
+      </dd>
+      }
+    }
+</dl>

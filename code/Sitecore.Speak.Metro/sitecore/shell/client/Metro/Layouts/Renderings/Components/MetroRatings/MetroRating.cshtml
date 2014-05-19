@@ -1,0 +1,12 @@
+﻿@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroRatings.MetroRatingRenderingModel
+@{
+  Model.Class = "rating";
+  Model.Class.AppendIf(Model.Size, "Small", "small").AppendIf(Model.Size, "Large", "large");
+  Model.DataBind.IsVisible();
+
+  if (!string.IsNullOrEmpty(Model.Foreground))
+  {
+    Model.Class.Append("fg-" + Model.Foreground);
+  }
+}
+<div @Model.HtmlAttributes></div>

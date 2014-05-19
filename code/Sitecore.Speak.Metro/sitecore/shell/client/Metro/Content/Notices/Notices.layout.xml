@@ -1,0 +1,26 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{DD8E5FDE-7CB4-47A7-9C4D-DBB2B2C34DBD}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Id="Container1" Placeholder="Page.Body">
+      <MetroGrid Id="Grid1">
+        <MetroRow Id="Row1" Columns="12">
+          <MetroHeading1 Text="Notices" />
+          <MetroParagraph Text="Metro UI CSS provides plugin to the ability to create tooltips for any elements. Positioned as a replacement attribute title. This method required plugin metro-hint.js" />
+
+          <MetroExample Id="Example1">
+            <MetroGrid Id="Container2" IsFluid="True">
+              <MetroRow Id="Row2" Columns="3,3,3,3">
+                <MetroNotice Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." Foreground="white"  />
+                <MetroNotice Placeholder="Row2.Column2" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." MarkerPosition="Top" Background="amber" Foreground="white"/>
+                <MetroNotice Placeholder="Row2.Column3" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." MarkerPosition="Bottom" Background="mauve" Foreground="white"/>
+                <MetroNotice Placeholder="Row2.Column4" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." MarkerPosition="Right" Background="crimson" Foreground="white"/>
+              </MetroRow>
+            </MetroGrid>
+          </MetroExample>
+        </MetroRow>
+      </MetroGrid>
+    </MetroContainer>
+  </Device>
+</Layout>

@@ -1,0 +1,166 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{42C753C0-F36E-495C-BA93-A3A9C6E67E29}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Id="Container1" Placeholder="Page.Body">
+      <MetroGrid Id="Grid1">
+        <MetroRow Id="Row1" Columns="12">
+          <MetroHeading1 Text="Typography" />
+
+          <MetroHeading2 Text="Headings" />
+          <MetroParagraph Text="All HTML heading, h1-h6 are available." />
+          <MetroExample Id="HeadingsExample">
+            <MetroHeading1 Text="h1. Header 1" />
+            <MetroHeading2 Text="h2. Header 2" />
+            <MetroHeading3 Text="h3. Header 3" />
+            <MetroHeading4 Text="h4. Header 4" />
+            <MetroHeading5 Text="h5. Header 5" />
+            <MetroHeading6 Text="h6. Header 6" />
+            <MetroHeader Text="Header" />
+            <MetroSubheader Text="Subheader" />
+            <MetroSubheaderSecondary Text="Subheader secondary" />
+            <MetroItemTitle Text="Item title" />
+            <MetroItemTitleSecondary Text="Item title secondary" />
+          </MetroExample>
+
+          <MetroHeading2 Text="Text" />
+          <MetroHeading3 Text="Paragraph Text" />
+          <MetroParagraph Text="Metro UI CSS global default font-size is 11pt, with a line-height of 15pt. This is applied to the &lt; div>, &lt; span> and all paragraphs. In addition, &lt; p> (paragraphs) receive a bottom margin 7pt." />
+          <MetroExample Id="ParagraphTextExample">
+            <MetroParagraph Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus lectus sit amet odio ullamcorper malesuada dignissim justo gravida. Pellentesque sagittis, tellus id sagittis accumsan, augue velit pretium urna, ac interdum dui nibh et orci. Quisque dapibus elit ut metus varius ac bibendum sem luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis lorem. Praesent ac eros quam." />
+            <MetroParagraph Text="Praesent molestie bibendum consequat. Suspendisse a felis eu augue venenatis egestas nec ac lectus. Nam nec felis lorem. Maecenas luctus est et nulla cursus vestibulum. Curabitur suscipit adipiscing dui eget sollicitudin. Sed accumsan tincidunt enim, in feugiat ligula ornare et." />
+            <MetroParagraph Text="Nullam libero odio, lacinia vel dignissim sed, consequat ac nisi. Ut at mauris sit amet sem dapibus pretium sit amet sed orci. Quisque tincidunt sodales sollicitudin. Ut purus odio, imperdiet ut laoreet ac, placerat vel ante. Nulla tincidunt sapien in metus tincidunt imperdiet. Vestibulum a dui nisi. Morbi vestibulum nulla lacinia enim tempus ullamcorper." />
+          </MetroExample>
+
+          <MetroHeading3 Text="Readable Text" />
+          <MetroParagraph Text="For big text you can use .readable-text class." />
+          <MetroExample Id="ReadableTextExample">
+            <MetroReadableText Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus lectus sit amet odio ullamcorper malesuada dignissim justo gravida. Pellentesque sagittis, tellus id sagittis accumsan, augue velit pretium urna, ac interdum dui nibh et orci. Quisque dapibus elit ut metus varius ac bibendum sem luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis lorem. Praesent ac eros quam." />
+            <MetroReadableText Text="Praesent molestie bibendum consequat. Suspendisse a felis eu augue venenatis egestas nec ac lectus. Nam nec felis lorem. Maecenas luctus est et nulla cursus vestibulum. Curabitur suscipit adipiscing dui eget sollicitudin. Sed accumsan tincidunt enim, in feugiat ligula ornare et." />
+          </MetroExample>
+
+          <MetroHeading3 Text="Tertiary and tertiary secondary text" />
+          <MetroParagraph Text="For tertiary text you can set class .tertiary-text and .tertiary-text-secondary." />
+          <MetroExample Id="TertiaryTextExample">
+            <MetroTertiaryText Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus lectus sit amet odio ullamcorper malesuada dignissim justo gravida. Pellentesque sagittis, tellus id sagittis accumsan, augue velit pretium urna, ac interdum dui nibh et orci. Quisque dapibus elit ut metus varius ac bibendum sem luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis lorem. Praesent ac eros quam." />
+            <MetroTertiaryTextSecondary Text="Praesent molestie bibendum consequat. Suspendisse a felis eu augue venenatis egestas nec ac lectus. Nam nec felis lorem. Maecenas luctus est et nulla cursus vestibulum. Curabitur suscipit adipiscing dui eget sollicitudin. Sed accumsan tincidunt enim, in feugiat ligula ornare et." />
+          </MetroExample>
+
+          <MetroHeading3 Text="Code text" />
+          <MetroParagraph Text="For code text you can set class .code-text. This class use mono fonts." />
+          <MetroExample Id="CodeTextExample">
+            <MetroCodeText Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus lectus sit amet odio ullamcorper malesuada dignissim justo gravida. Pellentesque sagittis, tellus id sagittis accumsan, augue velit pretium urna, ac interdum dui nibh et orci. Quisque dapibus elit ut metus varius ac bibendum sem luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis lorem. Praesent ac eros quam." />
+          </MetroExample>
+
+          <MetroHeading3 Text="Emphasis" />
+          <MetroParagraph Text="Make use of HTML's default emphasis tags with lightweight styles." />
+
+          <MetroHeading4 Text="Small" />
+          <MetroParagraph Text="For de-emphasizing inline or blocks of text, use the &lt; small> tag." />
+          <MetroExample Id="SmallExample">
+            <MetroSmall Text="The text is reduced." />
+          </MetroExample>
+
+          <MetroHeading4 Text="Bold" />
+          <MetroParagraph Text="For emphasizing inline or blocks of text, use the &lt; strong> tag." />
+          <MetroExample Id="BoldExample">
+            <MetroBold Text="The text is strong." />
+          </MetroExample>
+
+          <MetroHeading4 Text="Italic" />
+          <MetroParagraph Text="For emphasizing a snippet of text with italics use &lt; em> tag." />
+          <MetroExample Id="ItalicExample">
+            <MetroItalic Text="The text is italics." />
+          </MetroExample>
+
+          <MetroHeading2 Text="Alignment classes" />
+          <MetroParagraph Text="Easily realign text to components with text alignment classes." />
+          <MetroExample Id="AlignmentClassesExample">
+            <MetroParagraph Text="Left aligned text." Alignment="Left" />
+            <MetroParagraph Text="Center aligned text." Alignment="Center" />
+            <MetroParagraph Text="Right aligned text." Alignment="Right" />
+            <MetroParagraph Text="Justified text." Alignment="Justify" />
+          </MetroExample>
+
+          <MetroHeading2 Text="Emphasis classes" />
+          <MetroParagraph Text="Convey meaning through color with a handful of emphasis utility classes." />
+          <MetroExample Id="EmphasisClassesExample">
+            <MetroParagraph Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit (muted)." Emphasis="Muted" />
+            <MetroParagraph Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit (info)." Emphasis="Info" />
+            <MetroParagraph Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit (alert)." Emphasis="Alert" />
+            <MetroParagraph Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit (warning)." Emphasis="Warning" />
+            <MetroParagraph Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit (success)." Emphasis="Success" />
+          </MetroExample>
+
+          <MetroHeading2 Text="Abbreviations" />
+          <MetroParagraph Text="Stylized implementation of HTML's &lt; abbr> element for abbreviations and acronyms to show the expanded version on hover. Abbreviations with a title attribute have a light dotted bottom border and a help cursor on hover, providing additional context on hover." />
+          <MetroExample Id="AbbreviationsExample">
+            <MetroAbbreviation Text="An abbreviation of the word attribute is attr." Tooltip="Abbreviation" />
+          </MetroExample>
+
+          <MetroHeading2 Text="Addresses" />
+          <MetroParagraph Text="Present contact information for the nearest ancestor or the entire body of work." />
+          <MetroExample Id="AddressExample">
+            <MetroAddress Text="Sitecore A/S, Vester Farigmagsgade 3,5 Copehagen V, Denmark." />
+          </MetroExample>
+
+          <MetroHeading2 Text="Blockquotes" />
+          <MetroParagraph Text="For quoting blocks of content from another source within your document." />
+          <MetroHeading4 Text="Default blockquote" />
+          <MetroParagraph Text="Wrap &lt; blockquote> around any HTML as the quote. For straight quotes we recommend a &lt; p>." />
+          <MetroExample Id="Blockquote1Example">
+            <MetroBlockquote Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante." />
+          </MetroExample>
+          <MetroHeading4 Text="Naming a source" />
+          <MetroParagraph Text="Add &lt; small> tag for identifying the source. Wrap the name of the source work in lt; cite>." />
+          <MetroExample Id="Blockquote2Example">
+            <MetroBlockquote Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante." Footer="Someone famous Source Title" />
+          </MetroExample>
+          <MetroHeading4 Text="Alternate displays" />
+          <MetroParagraph Text="Use .place-right for a floated, right-aligned blockquote." />
+          <MetroExample Id="Blockquote3Example">
+            <MetroBlockquote Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante." Footer="Someone famous Source Title" IsReverse="True" />
+          </MetroExample>
+
+          <MetroHeading2 Text="Lists" />
+          <MetroHeading4 Text="Unordered" />
+          <MetroParagraph Text="A list of items in which the order does not explicitly matter." />
+          <MetroExample Id="List1Example">
+            <MetroListUnordered ItemsDataSource="/sitecore/client" MaxDepth="2" />
+          </MetroExample>
+
+          <MetroHeading4 Text="Ordered" />
+          <MetroParagraph Text="A list of items in which the order explicitly matter." />
+          <MetroExample Id="List2Example">
+            <MetroListOrdered ItemsDataSource="/sitecore/client" MaxDepth="2"  />
+          </MetroExample>
+
+          <MetroHeading4 Text="Unstyled" />
+          <MetroParagraph Text="Remove the default list-style and left padding on list items (immediate children only)." />
+          <MetroExample Id="List3Example">
+            <MetroListUnstyled ItemsDataSource="/sitecore/client" MaxDepth="2" />
+          </MetroExample>
+
+          <MetroHeading4 Text="Inline" />
+          <MetroParagraph Text="Place all list items on a single line with inline-block and some light padding." />
+          <MetroExample Id="List4Example">
+            <MetroListInline ItemsDataSource="/sitecore/client" MaxDepth="2"  />
+          </MetroExample>
+
+          <MetroHeading2 Text="Description" />
+          <MetroParagraph Text="A list of terms with their associated descriptions." />
+          <MetroExample Id="Description1Example">
+            <MetroListDescription ItemsDataSource="/sitecore/client" />
+          </MetroExample>
+
+          <MetroHeading4 Text="Horizontal description" />
+          <MetroParagraph Text="Make terms and descriptions in &lt; dl> line up side-by-side." />
+          <MetroExample Id="Description2Example">
+            <MetroListDescription ItemsDataSource="/sitecore/client" IsHorizontal="True" />
+          </MetroExample>
+        </MetroRow>
+      </MetroGrid>
+    </MetroContainer>
+  </Device>
+</Layout>

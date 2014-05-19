@@ -1,0 +1,12 @@
+﻿@using System.Globalization
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroSteppers.MetroStepperRenderingModel
+@{      
+  Model.Class = "stepper";
+  Model.Class.AppendIf(Model.Type, "Diamond", "diamond").AppendIf(Model.Type, "Rounded", "rounded");
+  Model.DataBind.IsVisible();
+
+  Model.Attributes["data-role"] = "stepper";
+  Model.Attributes["data-steps"] = Model.Steps.ToString(CultureInfo.InvariantCulture);
+  Model.Attributes["data-start"] = Model.Start.ToString(CultureInfo.InvariantCulture);
+}      
+<div @Model.HtmlAttributes></div>

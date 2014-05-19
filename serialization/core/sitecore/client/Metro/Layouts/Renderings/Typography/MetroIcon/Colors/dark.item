@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {62BBAC0D-6EDD-4152-A9C5-C1ED68B07E52}
+database: core
+path: /sitecore/client/Metro/Layouts/Renderings/Typography/MetroIcon/Colors/dark
+parent: {D65D1D7D-0F35-4C23-A924-78573535EC89}
+name: dark
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----version----
+language: en
+version: 1
+revision: ce0ea662-9d5d-4c4d-b1c6-8111f7c05c9b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140414T081408
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ce0ea662-9d5d-4c4d-b1c6-8111f7c05c9b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140414T081408:635330600484874503
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

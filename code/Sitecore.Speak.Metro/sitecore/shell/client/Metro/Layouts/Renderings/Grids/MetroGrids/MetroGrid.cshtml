@@ -1,0 +1,11 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Grid.Grids.MetroGridRenderingModel
+@{
+  Model.Class = "grid";
+  Model.Class.AppendIf(Model.IsFluid, "fluid");
+  Model.IsScriptEnabled = false;
+  Model.HasNestedControls = true;
+}        
+<div @Model.HtmlAttributes>
+  @Html.Sitecore().Placeholder(Model.ControlId + ".Content")
+</div>

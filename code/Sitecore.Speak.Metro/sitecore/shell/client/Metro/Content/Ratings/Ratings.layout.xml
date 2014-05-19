@@ -1,0 +1,21 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{3ED04984-A6D3-4755-B051-606222BC0279}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Id="Container1" Placeholder="Page.Body">
+      <MetroGrid Id="Grid1">
+        <MetroRow Id="Row1" Columns="12">
+          <MetroHeading1 Text="Ratings" />
+          <MetroParagraph Text="Rating is a component that generates a customizable star rating. This component required metro-rating.js." />
+
+          <MetroExample Id="Example1">
+            <MetroRating Score="3" Size="Large" ShowScore="True" Text="Rating: "/>
+            <MetroRating Score="2" ShowScore="True" Text="Current Score: " Foreground="green"/>
+            <MetroRating Score="4" Size="Small" ShowScore="True" Text="Value: " Foreground="red"/>
+          </MetroExample>
+        </MetroRow>
+      </MetroGrid>
+    </MetroContainer>
+  </Device>
+</Layout>

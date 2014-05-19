@@ -1,0 +1,48 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Forms.MetroInputs.MetroInputRenderingModel
+@{
+  Model.Class = "input-control text";
+  Model.Class.AppendIf(Model.Size, "Size1", "size1").
+    AppendIf(Model.Size, "Size2", "size2").
+    AppendIf(Model.Size, "Size3", "size3").
+    AppendIf(Model.Size, "Size4", "size4").
+    AppendIf(Model.Size, "Size5", "size5").
+    AppendIf(Model.Size, "Size6", "size6").
+    AppendIf(Model.Size, "Size7", "size7").
+    AppendIf(Model.Size, "Size8", "size8").
+    AppendIf(Model.Size, "Size9", "size9").
+    AppendIf(Model.Size, "Size10", "size10").
+    AppendIf(Model.Size, "Size11", "size11").
+    AppendIf(Model.Size, "Size12", "size12");
+    
+  Model.DataBind.IsVisible().
+    Css("size1", "Size", "Size1").
+    Css("size2", "Size", "Size2").
+    Css("size3", "Size", "Size3").
+    Css("size4", "Size", "Size4").
+    Css("size5", "Size", "Size5").
+    Css("size6", "Size", "Size6").
+    Css("size7", "Size", "Size7").
+    Css("size8", "Size", "Size8").
+    Css("size9", "Size", "Size9").
+    Css("size10", "Size", "Size10").
+    Css("size11", "Size", "Size11").
+    Css("size12", "Size", "Size12");
+
+  var type = Model.Type;
+  if (string.IsNullOrEmpty(type))
+  {
+    type = "text";
+  }
+}                                                   
+<div @Model.HtmlAttributes>
+  @if (!string.IsNullOrEmpty(Model.Label))
+  {
+    var id = Model.ControlId + "input";
+    Model.Attributes[HtmlTextWriterAttribute.Id] = id;
+
+    <label for="@id">@Model.Label</label>
+  }
+  <input @Html.Sitecore().Attribute("placeholder", Model.Watermark) @Html.Sitecore().Attribute("type", type) @Html.Raw(Model.DataBindAttribute().IsEnabled().Value()) value="@Model.Text" />
+</div>

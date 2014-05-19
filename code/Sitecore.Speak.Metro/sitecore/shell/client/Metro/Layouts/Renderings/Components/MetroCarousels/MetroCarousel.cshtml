@@ -1,0 +1,31 @@
+﻿@using Sitecore.Data.Items
+@using Sitecore.Metro
+@using Sitecore.Mvc
+@using Sitecore.Resources.Media
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroCarousels.MetroCarouselRenderingModel
+@{  
+  var items = MetroApplication.GetMenuItems(Model, Model.ItemsDataSource).ToArray();
+  if (!items.Any())
+  {
+    return;
+  }
+
+  Model.Class = "carousel";
+  Model.DataBind.IsVisible();
+
+  var options = new MediaUrlOptions(Model.Rendering.Item.Database);
+}      
+<div @Model.HtmlAttributes>
+  @foreach (var item in items)
+  {
+    var mediaItem = new MediaItem(item);
+    var displayName = this.Html.Sitecore().DisplayName(item, this.Model.DisplayFieldName);
+    var url = MediaManager.GetMediaUrl(mediaItem, options);
+
+    <div class="slide">
+      <img src="@url" alt="@displayName">
+    </div>
+  } 
+  <a class="controls left"><i class="icon-arrow-left-3"></i></a>
+  <a class="controls right"><i class="icon-arrow-right-3"></i></a>
+</div>

@@ -1,0 +1,77 @@
+﻿@using Sitecore.Data
+@using Sitecore.Data.Items
+@using Sitecore.Metro
+@using Sitecore.Mvc
+@using Sitecore.Shell.Client.Metro.Layouts.Renderings.Buttons.MetroToolbars
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Buttons.MetroToolbars.MetroToolbarRenderingModel
+@{
+  Model.Class = "toolbar";
+  Model.Class.AppendIf(Model.IsTransparent, "transparent").AppendIf(Model.IsNoSpaces, "no-spaces");
+
+  Model.DataBind.IsVisible();
+
+  if (!string.IsNullOrEmpty(Model.Foreground))
+  {
+    Model.Class.Append("fg-" + Model.Foreground);
+  }
+
+  var groupId = new ID("{AB5A9000-12DB-40F4-BED3-6483CC587C8D}");
+  var items = MetroApplication.GetMenuItems(Model, Model.ItemsDataSource);
+}      
+<div @Model.HtmlAttributes>
+  @{
+    foreach (var item in items)
+    {
+      if (item.TemplateID == MetroApplication.Button || item.TemplateID == MetroApplication.Link)
+      {
+        @RenderButton(Model, item)
+      }
+      else if (item.TemplateID == MetroApplication.Separator)
+      {
+        <span class="divider"></span>
+      }
+      else if (item.TemplateID == groupId)
+      {
+        @RenderGroup(Model, item)
+      }
+    }
+  }
+</div>
+@helper RenderButton(MetroToolbarRenderingModel model, Item item) {
+  <button @Html.Sitecore().ClickFieldAttribute(item, Model.ClickFieldName)>
+    @MetroApplication.GetIcon(item, Model.IconFieldName)
+    @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+  </button>
+}
+@helper RenderGroup(MetroToolbarRenderingModel model, Item parent) {
+  var className = "toolbar-group";
+
+  var foreground = parent["Foreground"];
+  if (!string.IsNullOrEmpty(foreground))
+  {
+    className += " fg-" + foreground;
+  }
+
+  var isTransparent = parent["IsTransparent"] == "1";
+  if (isTransparent)
+  {
+    className += " transparent";
+  }
+
+  <div @Html.Sitecore().ClassAttribute(className)>
+    @{
+      foreach (Item item in parent.Children)
+      {
+        if (item.TemplateID == MetroApplication.Button || item.TemplateID == MetroApplication.Link)
+        {
+          @RenderButton(Model, item)
+        }
+        else if (item.TemplateID == MetroApplication.Separator)
+        {
+          <span class="divider"></span>
+        }
+      }
+    }
+
+  </div>
+}

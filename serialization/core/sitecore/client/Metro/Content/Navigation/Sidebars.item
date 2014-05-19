@@ -1,0 +1,103 @@
+----item----
+version: 1
+id: {45F9486A-2D77-4D95-A13A-BF85D3F88BB7}
+database: core
+path: /sitecore/client/Metro/Content/Navigation/Sidebars
+parent: {C246B767-F1A1-4379-8AC8-00C82F871417}
+name: Sidebars
+master: {00000000-0000-0000-0000-000000000000}
+template: {4D83536E-C5E0-4309-972D-DA868BB496F4}
+templatekey: MetroPage
+
+----field----
+field: {6876E6A1-1195-4BE3-8F39-07DAA9E010F8}
+name: TileBackground
+key: tilebackground
+content-length: 6
+
+violet
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 32
+
+Control/16x16/popup_menu_b_d.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1997
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Sidebars" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro%20UI%20CSS%20provides%20SideBar%20component.%20This%20component%20is%20great%20to%20create%20side%20menu.%20For%20dropdown%20you%20must%20include%20metro-dropdown.js.%20See%20code%20below%20for%20definition%20details." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Container2&amp;IsFluid=1" ph="Example1.Content" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Example1Row&amp;Columns=6%2C6" ph="Container2.Content" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Default" ph="Example1Row.Column1" />
+    <r id="{77EE2147-1CB2-4012-BFDC-02D90E47A1B0}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D&amp;Active=Above" ph="Example1Row.Column1" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Light" ph="Example1Row.Column2" />
+    <r id="{77EE2147-1CB2-4012-BFDC-02D90E47A1B0}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D&amp;Theme=Light&amp;Active=Below" ph="Example1Row.Column2" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: e6b7348a-b0c2-4ff7-a642-e442f46d9592
+
+----field----
+field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
+name: BrowserTitle
+key: browsertitle
+content-length: 8
+
+Sidebars
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140508T135854
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e6b7348a-b0c2-4ff7-a642-e442f46d9592
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140513T152536:635355915361320198
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

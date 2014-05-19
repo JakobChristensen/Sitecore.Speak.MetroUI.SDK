@@ -1,0 +1,22 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{E2202349-5EFE-4E8F-9C1E-458F66AA5872}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Id="Container1" Placeholder="Page.Body">
+      <MetroGrid Id="Grid1">
+        <MetroRow Id="Row1" Columns="12">
+          <MetroHeading1 Text="Accordions" />
+          <MetroParagraph Text="This component required metro-accordion.js." />
+
+          <MetroExample Id="Example1">
+            <MetroAccordion Id="Accordion1" ItemsDataSource="{1D51F4A3-4F82-43D3-9BFF-7F513981CBF8}" Active="Above">
+              <MetroParagraph Placeholder="Accordion1.Tab1" Text="Tab 1" />
+              <MetroParagraph Placeholder="Accordion1.Tab2" Text="Tab 2" />
+            </MetroAccordion>
+          </MetroExample>
+        </MetroRow>
+      </MetroGrid>
+    </MetroContainer>
+  </Device>
+</Layout>

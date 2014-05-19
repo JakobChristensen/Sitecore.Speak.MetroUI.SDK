@@ -1,0 +1,8 @@
+﻿@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroProgressBars.MetroProgressBarRenderingModel
+@{ 
+  Model.Class = "progress-bar";
+  Model.Class.AppendIf(Model.Size, "Small", "small").AppendIf(Model.Size, "Large", "large");
+  Model.DataBind.IsVisible();
+}      
+<div @Model.HtmlAttributes></div>
+

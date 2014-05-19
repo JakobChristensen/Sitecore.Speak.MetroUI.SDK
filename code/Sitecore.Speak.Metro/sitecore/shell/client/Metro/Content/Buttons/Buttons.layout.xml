@@ -1,0 +1,107 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{43520819-11AC-41B5-AB8B-82C7A5ABD284}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
+    <PageCode Placeholder="Page.Code" />
+    <MetroNavigationBar ItemsDataSource="/sitecore/client/Metro/Content" ClickFieldName="$itemid" Placeholder="Page.Body" BrandText="Metro UI" BrandLink="/sitecore/client/Metro" HasContainer="True" />
+
+    <MetroContainer Placeholder="Page.Body" Id="Container1">
+      <MetroGrid Id="Grid1">
+        <MetroRow Columns="12" Id="Row1">
+          <MetroHeading1 Text="Buttons" />
+          <MetroParagraph Text="With the Metro UI CSS you can easily create different types of buttons, stylized to Windows 8. Button styles can be applied to anything with the .button class applied. However, typically you'll want to apply these to only &lt; a&gt; and &lt; button&gt; elements for the best rendering." />
+          <MetroExample Id="Example1">
+            <MetroButton Size="Large" Text="Large" Type="Primary" />
+            <MetroButton Text="Default" Type="Default" />
+            <MetroButton Size="Small" Text="Small" Type="Success" />
+            <MetroButton Size="Mini" Text="Mini" Type="Danger" />
+          </MetroExample>
+          
+          <MetroParagraph Text="For additional styling button you can use predefined button subclasses: .default, .primary, .info, .success, .warning, .danger, .inverse and .link or build-in color classes for background and foreground." />
+          <MetroExample Id="Example2">
+            <MetroButton Text="Default" />
+            <MetroButton Text="Primary" Type="Primary" />
+            <MetroButton Text="Info" Type="Info" />
+            <MetroButton Text="Success" Type="Success" />
+            <MetroButton Text="Warning" Type="Warning" />
+            <MetroButton Text="Danger" Type="Danger" />
+            <MetroButton Text="Inverse" Type="Inverse" />
+            <MetroButton Text="Link" Type="Link" />
+          </MetroExample>
+          
+          <MetroHeading2 Id="Heading2" Text="Command button">
+            <MetroIcon Icon="icon-accessibility" />
+          </MetroHeading2>
+          <MetroParagraph Text="A command button is the extension of a push button." />
+          <MetroExample Id="Example3">
+            <MetroCommandButton Icon="icon-share-2" SmallText="Use this option for home or work" Text="Share and connect" />
+            <MetroCommandButton Icon="icon-share-3" IconAlignment="Right" SmallText="Use this option for home or work" Text="Share and connect" />
+          </MetroExample>
+          
+          <MetroParagraph Text="For additional styling button you can use predefined button subclasses: .default, .primary, .info, .success, .warning, .danger, .inverse and .link or build-in color classes for background and foreground." />
+          <MetroExample Id="Example4">
+            <MetroCommandButton Icon="icon-share-2" SmallText="Use this option for home or work" Text="Share and connect" Type="Primary" />
+            <MetroCommandButton Icon="icon-share-3" IconAlignment="Right" SmallText="Use this option for home or work" Text="Share and connect" Type="Danger" />
+          </MetroExample>
+          
+          <MetroHeading2 Id="Heading3" Text="Toolbar">
+            <MetroIcon Icon="icon-accessibility" />
+          </MetroHeading2>
+          <MetroHeading3 Text="Default Toolbar" />
+          <MetroExample Id="Example5">
+            <MetroToolbar IconFieldName="Icon" ItemsDataSource="/sitecore/client/Metro/Content/PageSettings/Menu" />
+            <MetroToolbar IconFieldName="Icon" IsNoSpaces="True" ItemsDataSource="/sitecore/client/Metro/Content/PageSettings/Menu" />
+          </MetroExample>
+          
+          <MetroHeading3 Text="Transparent Toolbar" />
+          <MetroExample Id="Example6">
+            <MetroToolbar IconFieldName="Icon" IsTransparent="True" ItemsDataSource="/sitecore/client/Metro/Content/PageSettings/Menu" />
+          </MetroExample>
+          
+          <MetroHeading3 Text="Colorize icon &amp; captions" />
+          <MetroExample Id="Example7">
+            <MetroToolbar Foreground="red" IconFieldName="Icon" IsTransparent="True" ItemsDataSource="/sitecore/client/Metro/Content/PageSettings/Menu" />
+          </MetroExample>
+          
+          <MetroHeading2 Id="Heading4" Text="Shortcuts">
+            <MetroIcon Icon="icon-accessibility" />
+          </MetroHeading2>
+          <MetroExample Id="Example8">
+            <MetroShortcut Icon="icon-rocket" Text="Rocket" />
+            <MetroShortcut Icon="icon-rocket" SmallText="10" SmallTextBackground="cobalt" SmallTextForeground="white" Text="Rocket" />
+          </MetroExample>
+          <MetroParagraph Text="Also you can use build-in classes for button to additional quick styling: .primary, .info, .success, .warning, .danger, .inverse, .link." />
+          <MetroExample Id="Example9">
+            <MetroShortcut Icon="icon-rocket" SmallText="10" SmallTextBackground="lightBlue" SmallTextForeground="white" Text="Rocket" Type="Primary" />
+            <MetroShortcut Icon="icon-rocket" SmallText="10" SmallTextBackground="red" SmallTextForeground="white" Text="Rocket" Type="Danger" />
+            <MetroShortcut Icon="icon-rocket" SmallText="10" SmallTextBackground="cobalt" SmallTextForeground="white" Text="Rocket" Type="Link" />
+          </MetroExample>
+
+          <MetroHeading2 Id="Heading5" Text="Button Set">
+            <MetroIcon Icon="icon-accessibility" />
+          </MetroHeading2>
+          <MetroParagraph Text="This component required metro-button-set.js." />
+          <MetroExample Id="Example10">
+            <MetroButtonSet ItemsDataSource="{1D51F4A3-4F82-43D3-9BFF-7F513981CBF8}" Active="Above" />
+          </MetroExample>
+
+          <MetroHeading2 Id="Heading6" Text="Button Groups">
+            <MetroIcon Icon="icon-accessibility" />
+          </MetroHeading2>
+          <MetroParagraph Text="This component required metro-button-set.js." />
+          <MetroExample Id="Example11">
+            <MetroButtonGroup ItemsDataSource="{1D51F4A3-4F82-43D3-9BFF-7F513981CBF8}" Active="Above" />
+          </MetroExample>
+
+          <MetroHeading2 Id="Heading7" Text="Breadcrumbs">
+            <MetroIcon Icon="icon-accessibility" />
+          </MetroHeading2>
+          <MetroExample Id="Example12">
+            <MetroBreadcrumb  />
+            <MetroBreadcrumb Size="Small" />
+            <MetroBreadcrumb Size="Mini" />
+          </MetroExample>
+
+        </MetroRow>
+      </MetroGrid>
+    </MetroContainer>
+  </Device>
+</Layout>

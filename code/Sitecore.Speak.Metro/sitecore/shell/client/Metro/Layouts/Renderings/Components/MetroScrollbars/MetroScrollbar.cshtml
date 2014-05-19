@@ -1,0 +1,35 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Metro.Layouts.Renderings.Components.MetroScrollbars.MetroScrollbarRenderingModel
+@{
+  var scrollbar = string.Empty;
+
+  if (Model.Scrollbars == "Both")
+  {
+    scrollbar = "both";
+  }
+  else if (Model.Scrollbars == "Vertical")
+  {
+    scrollbar = "vertical";
+  }
+  else if (Model.Scrollbars == "Horizontal")
+  {
+    scrollbar = "horizontal";
+  }
+
+  var style = string.Empty;
+  
+  if (Model.Width > 0)
+  {
+    style += "width:" + Model.Width + "px";
+  }
+
+  if (Model.Height > 0)
+  {
+    style += ";height:" + Model.Height + "px";
+  }
+
+  Model.DataBind.IsVisible();
+}      
+<div @Model.HtmlAttributes data-role="scrollbox" @Html.Sitecore().Attribute("data-scroll", scrollbar) @Html.Sitecore().Attribute("style", style)>
+  @Html.Sitecore().Placeholder(Model.ControlId + ".Content")
+</div>

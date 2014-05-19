@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{03D0732C-E523-4E48-A085-C33358645EDA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sitecore</RootNamespace>
+    <AssemblyName>Sitecore.Speak.Metro</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\Components\Sitecore.Kernel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Mvc">
+      <HintPath>..\Components\Sitecore.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Speak.Client">
+      <HintPath>..\Components\Sitecore.Speak.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.1.2\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.1.2\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Metro\MetroApplication.cs" />
+    <Compile Include="Metro\SitecoreHelperExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroBreadcrumbs\MetroBreadcrumbRenderingModel.cs">
+      <DependentUpon>MetroBreadcrumb.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroButtonGroups\MetroButtonGroupRenderingModel.cs">
+      <DependentUpon>MetroButtonGroup.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroButtonSets\MetroButtonSetRenderingModel.cs">
+      <DependentUpon>MetroButtonSet.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroButtons\MetroButtonRenderingModel.cs">
+      <DependentUpon>MetroButton.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroCommandButtons\MetroCommandButtonRenderingModel.cs">
+      <DependentUpon>MetroCommandButton.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroShortcuts\MetroShortcutRenderingModel.cs">
+      <DependentUpon>MetroShortcut.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroToolbars\MetroToolbarRenderingModel.cs">
+      <DependentUpon>MetroToolbar.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroAccordions\MetroAccordionRenderingModel.cs">
+      <DependentUpon>MetroAccordion.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroBalloons\MetroBalloonRenderingModel.cs">
+      <DependentUpon>MetroBalloon.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroCalendars\MetroCalendarRenderingModel.cs">
+      <DependentUpon>MetroCalendar.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroCarousels\MetroCarouselRenderingModel.cs">
+      <DependentUpon>MetroCarousel.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroDatePickers\MetroDatePickerRenderingModel.cs">
+      <DependentUpon>MetroDatePicker.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroHints\MetroHintRenderingModel.cs">
+      <DependentUpon>MetroHint.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroListviews\MetroListviewRenderingModel.cs">
+      <DependentUpon>MetroListview.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroMenus\MetroMenuRenderingModel.cs">
+      <DependentUpon>MetroMenu.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroNavigationBars\MetroNavigationBarRenderingModel.cs">
+      <DependentUpon>MetroNavigationBar.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroNotices\MetroNoticeRenderingModel.cs">
+      <DependentUpon>MetroNotice.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroPanels\MetroPanelRenderingModel.cs">
+      <DependentUpon>MetroPanel.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroProgressBars\MetroProgressBarRenderingModel.cs">
+      <DependentUpon>MetroProgressBar.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroRatings\MetroRatingRenderingModel.cs">
+      <DependentUpon>MetroRating.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroScrollbars\MetroScrollbarRenderingModel.cs">
+      <DependentUpon>MetroScrollbar.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroSidebars\MetroSidebarRenderingModel.cs">
+      <DependentUpon>MetroSidebar.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroSliders\MetroSliderRenderingModel.cs">
+      <DependentUpon>MetroSlider.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroSteppers\MetroStepperRenderingModel.cs">
+      <DependentUpon>MetroStepper.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroTabs\MetroTabRenderingModel.cs">
+      <DependentUpon>MetroTab.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroTiles\MetroTilesRenderingModel.cs">
+      <DependentUpon>MetroTiles.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\ControlBlocks\ForEachRenderingModel.cs">
+      <DependentUpon>ForEach.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroCheckboxes\MetroCheckboxRenderingModel.cs">
+      <DependentUpon>MetroCheckbox.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroForms\MetroFormRenderingModel.cs">
+      <DependentUpon>MetroForm.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroInputs\MetroInputRenderingModel.cs">
+      <DependentUpon>MetroInput.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroRadios\MetroRadioRenderingModel.cs">
+      <DependentUpon>MetroRadio.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroSelects\MetroSelectRenderingModel.cs">
+      <DependentUpon>MetroSelect.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroSwitches\MetroSwitchRenderingModel.cs">
+      <DependentUpon>MetroSwitch.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroTextAreas\MetroTextAreaRenderingModel.cs">
+      <DependentUpon>MetroTextArea.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Grids\MetroGrids\MetroGridRenderingModel.cs">
+      <DependentUpon>MetroGrid.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Grids\MetroRows\MetroRowRenderingModel.cs">
+      <DependentUpon>MetroRow.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\ImageOverlays\MetroImageOverlayRenderingModel.cs">
+      <DependentUpon>MetroImageOverlay.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\Images\MetroImageRenderingModel.cs">
+      <DependentUpon>MetroImage.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroBlockquotes\MetroBlockquoteRenderingModel.cs">
+      <DependentUpon>MetroBlockquote.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroIcons\MetroIconRenderingModel.cs">
+      <DependentUpon>MetroIcon.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroListsDescriptions\MetroListDescriptionRenderingModel.cs">
+      <DependentUpon>MetroListDescription.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroLists\MetroListInlineRenderingModel.cs">
+      <DependentUpon>MetroList.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroTables\MetroTableRenderingModel.cs">
+      <DependentUpon>MetroTable.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroTags\MetroHeading1RenderingModel.cs">
+      <DependentUpon>MetroTag.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroTexts\MetroHeading1RenderingModel.cs">
+      <DependentUpon>MetroText.cshtml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\css\iconFont.min.css" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\css\metro-bootstrap-responsive.css" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\css\metro-bootstrap-responsive.min.css" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\css\metro-bootstrap.css" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\css\metro-bootstrap.min.css" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\iconFont.dev.svg" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\iconFont.svg" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\metroSysIcons.svg" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\jquery.widget.min.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro.min.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-accordion.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-button-set.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-calendar.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-carousel.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-core.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-countdown.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-date-format.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-datepicker.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-dialog.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-drag-tile.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-dropdown.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-fluentmenu.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-global.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-hint.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-initiator.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-input-control.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-listview.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-live-tile.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-loader.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-locale.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-notify.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-panel.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-plugin-template.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-progressbar.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-pull.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-rating.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-scroll.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-slider.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-stepper.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-streamer.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-tab-control.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-table.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-tile-transform.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-times.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-touch-handler.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-treeview.js" />
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-wizard.js" />
+    <Content Include="sitecore\shell\client\Metro\Content\Accordions\Accordions.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\Balloons\Balloons.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\Buttons\Buttons.layout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore\shell\client\Metro\Content\Calendars\Calendars.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\Carousels\Carousels.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\DatePickers\DatePickers.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\Hints\Hints.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\Icons\Icons.layout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore\shell\client\Metro\Content\Images\Images.layout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore\shell\client\Metro\Content\Listviews\Listviews.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\Menus\Menus.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\NavigationBars\NavigationBar.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\Notices\Notices.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\Panels\Panels.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\ProgressBars\ProgressBars.layout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore\shell\client\Metro\Content\Ratings\Ratings.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\Scrollbars\Scrollbars.layout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore\shell\client\Metro\Content\Sidebars\Sidebars.layout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore\shell\client\Metro\Content\Sliders\Sliders.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\Steppers\Steppers.layout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore\shell\client\Metro\Content\Tables\Forms.layout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore\shell\client\Metro\Content\Tables\Tables.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\Tabs\Tabs.layout.xml" />
+    <Content Include="sitecore\shell\client\Metro\Content\Typography\Typopgraphy.layout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Layouts\MetroLayout.js" />
+    <Content Include="sitecore\shell\client\Metro\Metro.layout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore\shell\client\Speak\Assets\lib\core\1.2\SitecoreSpeak.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\glyphicons-halflings-regular.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\glyphicons-halflings-regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\glyphicons-halflings-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\iconFont.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\iconFont.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\iconFont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\iconFont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\metroSysIcons.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\fonts\metroSysIcons.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\accordion.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\balloon.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\breadcrumbs.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\buttons.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\calendar.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\carousel.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\colors.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\countdown.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\dataTables.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\fluent-menu.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\forms.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\funcs.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\grid.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\hint.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\iconFont-content.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\iconFont.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\icons.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\images.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\layout.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\lists.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\menus.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\metro-bootstrap-responsive.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\metro-bootstrap.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\misc.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\navigation-bar.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\notice.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\notify.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\pagination.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\panels.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\progress-bar.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\rating.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\reset.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\scroll.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\sidebar.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\slider.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\stepper.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\streamer.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\tab-control.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\tables.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\tiles.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\transform.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\treeview.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\typography.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\utils.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\variables.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\window.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\less\wizard.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Layouts\MetroLayout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroBreadcrumbs\MetroBreadcrumb.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroButtonGroups\MetroButtonGroup.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroButtons\MetroButton.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\typings\bootstrap\bootstrap.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\requirejs\require.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\underscore\underscore.d.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroButtonSets\MetroButtonSet.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroButtons\MetroButton.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroCommandButtons\MetroCommandButton.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroShortcuts\MetroShortcut.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroAccordions\MetroAccordion.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroCalendars\MetroCalendar.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroCarousels\MetroCarousel.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroDatePickers\MetroDatePicker.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroHints\MetroHint.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroListviews\MetroListview.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroMenus\MetroMenu.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroNavigationBars\MetroNavigationBar.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroPanels\MetroPanel.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroProgressBars\MetroProgressBar.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroRatings\MetroRating.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroScrollbars\MetroScrollbar.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroSliders\MetroSlider.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroSteppers\MetroStepper.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroTabs\MetroTab.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroSelects\MetroSelect.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Speak\Assets\lib\core\1.2\Sitecore.Speak.d.ts" />
+    <TypeScriptCompile Include="sitecore\shell\client\Speak\Assets\lib\core\1.2\SitecoreSpeak.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroButtonSets\MetroButtonSet.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroCommandButtons\MetroCommandButton.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroShortcuts\MetroShortcut.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Buttons\MetroToolbars\MetroToolbar.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroAccordions\MetroAccordion.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroBalloons\MetroBalloon.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroCalendars\MetroCalendar.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroCarousels\MetroCarousel.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroDatePickers\MetroDatePicker.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroHints\MetroHint.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroListviews\MetroListview.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroMenus\MetroMenu.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroNavigationBars\MetroNavigationBar.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroNotices\MetroNotice.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroPanels\MetroPanel.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroProgressBars\MetroProgressBar.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroRatings\MetroRating.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroScrollbars\MetroScrollbar.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroSidebars\MetroSidebar.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroSliders\MetroSlider.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroSteppers\MetroStepper.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroTabs\MetroTab.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroTiles\MetroTiles.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\ControlBlocks\ForEach.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroCheckboxes\MetroCheckbox.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroForms\MetroForm.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroInputs\MetroInput.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroRadios\MetroRadio.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroSelects\MetroSelect.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroSwitches\MetroSwitch.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroTextAreas\MetroTextArea.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Grids\MetroGrids\MetroGrid.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Grids\MetroRows\MetroRow.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\ImageOverlays\MetroImageOverlay.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\Images\MetroImage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroBlockquotes\MetroBlockquote.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroIcons\MetroIcon.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroLists\MetroList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroListsDescriptions\MetroListDescription.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroTables\MetroTable.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroTags\MetroTag.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroTexts\MetroText.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptModuleKind>amd</TypeScriptModuleKind>
+    <TypeScriptSourceMap>False</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51234</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51234/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

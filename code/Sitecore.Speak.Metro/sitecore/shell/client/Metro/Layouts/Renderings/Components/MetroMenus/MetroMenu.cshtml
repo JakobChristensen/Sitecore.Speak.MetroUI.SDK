@@ -1,0 +1,96 @@
+﻿@using Sitecore
+@using Sitecore.Data.Items
+@using Sitecore.Metro
+@using Sitecore.Mvc
+@using Sitecore.Shell.Client.Metro.Layouts.Renderings.Menus.MetroMenus
+@model MetroMenuRenderingModel
+@{
+  if (Model.Orientation == "Vertical")
+  {
+    Model.Class = "vertical-menu";
+  }
+  else
+  {
+    Model.Class = "horizontal-menu";
+  }
+
+  Model.Class.AppendIf(Model.IsCompact, "compact");
+  Model.DataBind.IsVisible();
+
+  IEnumerable<Item> items = null;
+  Item app = null;
+  if (!string.IsNullOrEmpty(Model.ItemsDataSource))
+  {
+    items = MetroApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId);
+  }
+  else
+  {
+    app = MetroApplication.GetApplicationItem(Model.PageItem);
+    if (app != null)
+    {
+      items = app.GetChildren();
+    }
+  }
+
+  if (items == null)
+  {
+    items = Enumerable.Empty<Item>();
+  }
+}      
+<nav @Model.HtmlAttributes>
+  <ul>
+    @{
+      foreach (var item in items)
+      {
+        if (item.Name == "PageSettings")
+        {
+          continue;
+        }
+
+        if (item.Is(MetroApplication.Header))
+        {
+          @RenderHeader(Model, item)
+        }
+        else if (item.Is(MetroApplication.DropDownMenu))
+        {
+          @RenderDropDownMenu(Model, item)
+        }
+        else if (item.Is(MetroApplication.Link))
+        {
+          @RenderLink(Model, item)
+        }
+      }
+    }
+  </ul>
+</nav>
+@helper RenderHeader([NotNull] MetroMenuRenderingModel model, [NotNull] Item item)
+{
+  <li class="title">
+    @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+  </li>
+}
+@helper RenderLink([NotNull] MetroMenuRenderingModel model, [NotNull] Item item)
+{
+  <li>
+    <a @Html.Sitecore().HrefAttribute(item, Model.LinkFieldName)>@Html.Sitecore().Icon(item, Model.IconFieldName)@Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)</a>
+  </li>
+}
+@helper RenderDropDownMenu([NotNull] MetroMenuRenderingModel model, [NotNull] Item item)
+{
+  <li>
+    <a class="dropdown-toggle" href="#">@Html.Sitecore().Icon(item, Model.IconFieldName)@Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)</a>
+    @{
+      var menuItemId = item["ItemsDataSource"];
+      if (string.IsNullOrEmpty(menuItemId))
+      {
+        menuItemId = item.ID.ToString();
+      }
+
+      var items = MetroApplication.GetMenuItems(Model, menuItemId, Model.ControlId);
+
+      <ul class="dropdown-menu" data-role="dropdown">
+        @Html.Sitecore().Menu(items, Model.DisplayFieldName, Model.IconFieldName, Model.ClickFieldName)
+      </ul>
+    }
+  </li>
+}

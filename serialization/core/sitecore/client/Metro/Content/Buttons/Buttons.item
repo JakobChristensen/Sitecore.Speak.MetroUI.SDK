@@ -1,0 +1,159 @@
+----item----
+version: 1
+id: {43520819-11AC-41B5-AB8B-82C7A5ABD284}
+database: core
+path: /sitecore/client/Metro/Content/Buttons/Buttons
+parent: {FB68B413-2DE6-405A-9312-1E8EA106B81C}
+name: Buttons
+master: {00000000-0000-0000-0000-000000000000}
+template: {4D83536E-C5E0-4309-972D-DA868BB496F4}
+templatekey: MetroPage
+
+----field----
+field: {03BE64A3-C32E-4E81-87C3-5D75B83E44B5}
+name: TileHorizontalSize
+key: tilehorizontalsize
+content-length: 6
+
+Double
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 28
+
+Control/16x16/button_b_d.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 9914
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Columns=12&amp;Id=Row1" ph="Grid1.Content" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Buttons" ph="Row1.Column1" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=With%20the%20Metro%20UI%20CSS%20you%20can%20easily%20create%20different%20types%20of%20buttons%2C%20stylized%20to%20Windows%208.%20Button%20styles%20can%20be%20applied%20to%20anything%20with%20the%20.button%20class%20applied.%20However%2C%20typically%20you%27ll%20want%20to%20apply%20these%20to%20only%20%3C%20a%3E%20and%20%3C%20button%3E%20elements%20for%20the%20best%20rendering." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Size=Large&amp;Text=Large&amp;Type=Primary" ph="Example1.Content" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Default&amp;Type=Default" ph="Example1.Content" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Size=Small&amp;Text=Small&amp;Type=Success" ph="Example1.Content" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Size=Mini&amp;Text=Mini&amp;Type=Danger" ph="Example1.Content" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For%20additional%20styling%20button%20you%20can%20use%20predefined%20button%20subclasses%3A%20.default%2C%20.primary%2C%20.info%2C%20.success%2C%20.warning%2C%20.danger%2C%20.inverse%20and%20.link%20or%20build-in%20color%20classes%20for%20background%20and%20foreground." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Default" ph="Example2.Content" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Primary&amp;Type=Primary" ph="Example2.Content" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Info&amp;Type=Info" ph="Example2.Content" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Success&amp;Type=Success" ph="Example2.Content" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Warning&amp;Type=Warning" ph="Example2.Content" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Danger&amp;Type=Danger" ph="Example2.Content" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Inverse&amp;Type=Inverse" ph="Example2.Content" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Link&amp;Type=Link" ph="Example2.Content" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=Heading2&amp;Text=Command%20button" ph="Row1.Column1" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading2.Content" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=A%20command%20button%20is%20the%20extension%20of%20a%20push%20button." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example3" ph="Row1.Column1" />
+    <r id="{92770B09-EB58-4ADA-A3A1-A25D17559D5D}" par="Icon=icon-share-2&amp;SmallText=Use%20this%20option%20for%20home%20or%20work&amp;Text=Share%20and%20connect" ph="Example3.Content" />
+    <r id="{92770B09-EB58-4ADA-A3A1-A25D17559D5D}" par="Icon=icon-share-3&amp;IconAlignment=Right&amp;SmallText=Use%20this%20option%20for%20home%20or%20work&amp;Text=Share%20and%20connect" ph="Example3.Content" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For%20additional%20styling%20button%20you%20can%20use%20predefined%20button%20subclasses%3A%20.default%2C%20.primary%2C%20.info%2C%20.success%2C%20.warning%2C%20.danger%2C%20.inverse%20and%20.link%20or%20build-in%20color%20classes%20for%20background%20and%20foreground." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example4" ph="Row1.Column1" />
+    <r id="{92770B09-EB58-4ADA-A3A1-A25D17559D5D}" par="Icon=icon-share-2&amp;SmallText=Use%20this%20option%20for%20home%20or%20work&amp;Text=Share%20and%20connect&amp;Type=Primary" ph="Example4.Content" />
+    <r id="{92770B09-EB58-4ADA-A3A1-A25D17559D5D}" par="Icon=icon-share-3&amp;IconAlignment=Right&amp;SmallText=Use%20this%20option%20for%20home%20or%20work&amp;Text=Share%20and%20connect&amp;Type=Danger" ph="Example4.Content" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=Heading3&amp;Text=Toolbar" ph="Row1.Column1" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading3.Content" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Default%20Toolbar" ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example5" ph="Row1.Column1" />
+    <r id="{98009B57-AE68-496B-83FD-D09DC33DCC4E}" par="IconFieldName=Icon&amp;ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D" ph="Example5.Content" />
+    <r id="{98009B57-AE68-496B-83FD-D09DC33DCC4E}" par="IconFieldName=Icon&amp;IsNoSpaces=1&amp;ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D" ph="Example5.Content" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Transparent%20Toolbar" ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example6" ph="Row1.Column1" />
+    <r id="{98009B57-AE68-496B-83FD-D09DC33DCC4E}" par="IconFieldName=Icon&amp;IsTransparent=1&amp;ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D" ph="Example6.Content" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Colorize%20icon%20%26%20captions" ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example7" ph="Row1.Column1" />
+    <r id="{98009B57-AE68-496B-83FD-D09DC33DCC4E}" par="Foreground=red&amp;IconFieldName=Icon&amp;IsTransparent=1&amp;ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D" ph="Example7.Content" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=Heading4&amp;Text=Shortcuts" ph="Row1.Column1" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading4.Content" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example8" ph="Row1.Column1" />
+    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Icon=icon-rocket&amp;Text=Rocket" ph="Example8.Content" />
+    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Icon=icon-rocket&amp;SmallText=10&amp;SmallTextBackground=cobalt&amp;SmallTextForeground=white&amp;Text=Rocket" ph="Example8.Content" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Also%20you%20can%20use%20build-in%20classes%20for%20button%20to%20additional%20quick%20styling%3A%20.primary%2C%20.info%2C%20.success%2C%20.warning%2C%20.danger%2C%20.inverse%2C%20.link." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example9" ph="Row1.Column1" />
+    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Icon=icon-rocket&amp;SmallText=10&amp;SmallTextBackground=lightBlue&amp;SmallTextForeground=white&amp;Text=Rocket&amp;Type=Primary" ph="Example9.Content" />
+    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Icon=icon-rocket&amp;SmallText=10&amp;SmallTextBackground=red&amp;SmallTextForeground=white&amp;Text=Rocket&amp;Type=Danger" ph="Example9.Content" />
+    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Icon=icon-rocket&amp;SmallText=10&amp;SmallTextBackground=cobalt&amp;SmallTextForeground=white&amp;Text=Rocket&amp;Type=Link" ph="Example9.Content" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=Heading5&amp;Text=Button%20Set" ph="Row1.Column1" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading5.Content" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=This%20component%20required%20metro-button-set.js." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example10" ph="Row1.Column1" />
+    <r id="{FA8880D2-1BF1-40B3-9EEF-D921BEB8CFE1}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D&amp;Active=Above" ph="Example10.Content" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=Heading6&amp;Text=Button%20Groups" ph="Row1.Column1" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading6.Content" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=This%20component%20required%20metro-button-set.js." ph="Row1.Column1" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example11" ph="Row1.Column1" />
+    <r id="{6808D0D2-0D71-4AE1-A187-C7D4848169FB}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D&amp;Active=Above" ph="Example11.Content" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=Heading7&amp;Text=Breadcrumbs" ph="Row1.Column1" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading7.Content" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example12" ph="Row1.Column1" />
+    <r id="{EC0E4061-2B6E-48A2-B489-3E701BE62FFC}" par="" ph="Example12.Content" />
+    <r id="{EC0E4061-2B6E-48A2-B489-3E701BE62FFC}" par="Size=Small" ph="Example12.Content" />
+    <r id="{EC0E4061-2B6E-48A2-B489-3E701BE62FFC}" par="Size=Mini" ph="Example12.Content" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 6b9b58e6-954f-4c94-800e-ef760d3c4edd
+
+----field----
+field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
+name: BrowserTitle
+key: browsertitle
+content-length: 7
+
+Buttons
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140413T143149
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6b9b58e6-954f-4c94-800e-ef760d3c4edd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140515T140551:635357595514286774
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
