@@ -27,12 +27,6 @@
               <MetroIcon Icon="icon-rocket" Alignment="Left" Foreground="cyan" />
             </MetroHeading3>
           </MetroExample>
-
-          <MetroHeading2 Text="Icons" />
-          <ForEach Id="IconsList" ChildrenOf="/sitecore/client/Metro/Layouts/Renderings/Typography/MetroIcon/Icons">
-            <MetroIcon Icon="{Binding DefaultValue={XPath @@name}}" />
-            <MetroParagraph Text="{Binding DefaultValue={XPath @@name}}" />
-          </ForEach>
         </MetroRow>
       </MetroGrid>
     </MetroContainer>

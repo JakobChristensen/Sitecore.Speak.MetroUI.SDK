@@ -13,9 +13,9 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 97
+content-length: 102
 
-/sitecore/shell/client/Metro/Layouts/Renderings/Typography/ImageOverlays/MetroImageOverlay.cshtml
+/sitecore/shell/client/Metro/Layouts/Renderings/Typography/MetroImageOverlays/MetroImageOverlay.cshtml
 ----field----
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
@@ -30,6 +30,13 @@ key: parameters template
 content-length: 38
 
 {704C8E1C-E868-4947-A146-57BA79379B23}
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----field----
 field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
 name: Datasource Location
@@ -47,7 +54,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 39575a9e-fcb5-44bb-b9f5-cc39ea95a19a
+revision: 7db080e0-6251-43d2-afe4-7a84968f9487
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -62,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-39575a9e-fcb5-44bb-b9f5-cc39ea95a19a
+7db080e0-6251-43d2-afe4-7a84968f9487
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20140514T094239:635356573590680805
+20140522T144250:635363665706761318
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

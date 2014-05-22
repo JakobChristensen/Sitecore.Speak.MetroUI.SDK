@@ -85,7 +85,7 @@
     <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroNotices\MetroNotice.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="core">{E444DCA5-FE38-4298-A380-7B7176268114}</Item>
     </File>
-    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\ImageOverlays\MetroImageOverlay.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroImageOverlays\MetroImageOverlay.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="core">{DEF379E7-46D3-48A7-96C0-7BA42011B8E0}</Item>
     </File>
     <File Include="sitecore\shell\client\Metro\Layouts\Layouts\MetroLayout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">

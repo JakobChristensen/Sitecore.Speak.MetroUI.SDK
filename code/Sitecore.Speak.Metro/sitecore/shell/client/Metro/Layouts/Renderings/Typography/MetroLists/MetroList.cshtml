@@ -1,8 +1,8 @@
 ﻿@using Sitecore
-@using Sitecore.Bootstrap
 @using Sitecore.Data
 @using Sitecore.Data.Items
 @using Sitecore.Diagnostics
+@using Sitecore.Metro
 @using Sitecore.Mvc.Presentation
 @using Sitecore.Text
 @model Sitecore.Shell.Client.Metro.Layouts.Renderings.Typography.MetroLists.MetroListRenderingModel
@@ -19,7 +19,7 @@
   var startTag = "<" + tag + " " + Model.HtmlAttributes + ">";
   var endTag = "</" + tag + ">";
 
-  var items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId);
+  var items = MetroApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId);
 }              
 @Html.Raw(startTag)
 @Html.Raw(RenderItems(tag, items, Model.DisplayFieldName, maxDepth, 0))

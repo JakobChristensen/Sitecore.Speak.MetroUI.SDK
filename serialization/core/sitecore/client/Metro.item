@@ -6,8 +6,8 @@ path: /sitecore/client/Metro
 parent: {31056D46-2FAA-4EA2-8759-BE93EAE10001}
 name: Metro
 master: {00000000-0000-0000-0000-000000000000}
-template: {4D83536E-C5E0-4309-972D-DA868BB496F4}
-templatekey: MetroPage
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
@@ -31,15 +31,8 @@ content-length: 415
 ----version----
 language: en
 version: 1
-revision: 13e1d59c-808d-42e4-9765-979ecec3810d
+revision: f20af2e4-4e4f-4df4-bac9-2ac962ab15de
 
-----field----
-field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
-name: BrowserTitle
-key: browsertitle
-content-length: 8
-
-Metro UI
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -53,14 +46,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-13e1d59c-808d-42e4-9765-979ecec3810d
+f20af2e4-4e4f-4df4-bac9-2ac962ab15de
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20140513T144710:635355892308703350
+20140519T114451:635360966910562049
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

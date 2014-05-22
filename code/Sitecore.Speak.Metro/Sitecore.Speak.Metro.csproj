@@ -181,9 +181,6 @@
     <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroTiles\MetroTilesRenderingModel.cs">
       <DependentUpon>MetroTiles.cshtml</DependentUpon>
     </Compile>
-    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\ControlBlocks\ForEachRenderingModel.cs">
-      <DependentUpon>ForEach.cshtml</DependentUpon>
-    </Compile>
     <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroCheckboxes\MetroCheckboxRenderingModel.cs">
       <DependentUpon>MetroCheckbox.cshtml</DependentUpon>
     </Compile>
@@ -211,10 +208,10 @@
     <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Grids\MetroRows\MetroRowRenderingModel.cs">
       <DependentUpon>MetroRow.cshtml</DependentUpon>
     </Compile>
-    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\ImageOverlays\MetroImageOverlayRenderingModel.cs">
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroImageOverlays\MetroImageOverlayRenderingModel.cs">
       <DependentUpon>MetroImageOverlay.cshtml</DependentUpon>
     </Compile>
-    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\Images\MetroImageRenderingModel.cs">
+    <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroImages\MetroImageRenderingModel.cs">
       <DependentUpon>MetroImage.cshtml</DependentUpon>
     </Compile>
     <Compile Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroBlockquotes\MetroBlockquoteRenderingModel.cs">
@@ -614,9 +611,6 @@
     <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Components\MetroTiles\MetroTiles.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\ControlBlocks\ForEach.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Forms\MetroCheckboxes\MetroCheckbox.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -644,10 +638,10 @@
     <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Grids\MetroRows\MetroRow.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\ImageOverlays\MetroImageOverlay.cshtml" />
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroImageOverlays\MetroImageOverlay.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\Images\MetroImage.cshtml" />
+    <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroImages\MetroImage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroBlockquotes\MetroBlockquote.cshtml" />
@@ -672,6 +666,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
