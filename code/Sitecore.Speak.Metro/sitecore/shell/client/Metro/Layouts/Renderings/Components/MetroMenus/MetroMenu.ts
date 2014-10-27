@@ -11,4 +11,4 @@ class MetroMenu extends Speak.ControlBase {
   }
 }
 
-Sitecore.component(["metro"], MetroMenu, "MetroMenu");
+Sitecore.Speak.component(["metro"], MetroMenu, "MetroMenu");

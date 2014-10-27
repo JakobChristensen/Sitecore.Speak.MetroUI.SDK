@@ -27,33 +27,33 @@ Control/16x16/progress_bar_b_d.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 2049
+content-length: 2855
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Progress%20Bars" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=This%20component%20require%20metro-progressbar.js." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Value=10" ph="Example1.Content" />
-    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Value=30&amp;Foreground=green" ph="Example1.Content" />
-    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Value=50&amp;Foreground=red" ph="Example1.Content" />
-    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Value=70&amp;Foreground=pink" ph="Example1.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Any%20size%20for%20progress%20bar" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" />
-    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Value=10&amp;Size=Large" ph="Example2.Content" />
-    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Value=30&amp;Foreground=green" ph="Example2.Content" />
-    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Value=50&amp;Foreground=red&amp;Size=Small" ph="Example2.Content" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{329D3711-93D4-44BB-B387-36D8ECBBD5A3}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{657B3575-D0E9-4DD2-A56A-C4CA14877FCD}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{64DF279D-703B-4808-A2AE-0E108B889FFA}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{4ED42150-C5FE-4A87-8D5B-3A6D7CEF575E}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{623C4D74-E6D4-4801-A5B1-C31B9382DBAC}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Progress+Bars" ph="Row1.Column1" uid="{4D0EDEB1-AE92-4858-BE10-B914B7A438E4}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=This+component+require+metro-progressbar.js." ph="Row1.Column1" uid="{37A364D8-CA1E-4A43-AC7E-C2E770ABD343}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{08E5820E-A781-4417-AD58-EEC88DF4B9DB}" />
+    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Value=10" ph="Example1.Content" uid="{21EAC66E-2A9E-4C60-A8BC-3F4A5DAE7821}" />
+    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Value=30&amp;Foreground=green" ph="Example1.Content" uid="{E648F293-F622-42DD-A6B9-B2C9BACF18FD}" />
+    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Value=50&amp;Foreground=red" ph="Example1.Content" uid="{0CC13334-331F-48DC-84AA-A95415D6DCD7}" />
+    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Value=70&amp;Foreground=pink" ph="Example1.Content" uid="{C7E9D3B5-F41B-4AD9-A152-E9D3F3D03838}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Any+size+for+progress+bar" ph="Row1.Column1" uid="{16A8F9E6-9B0B-44C6-9F17-991C73ED0F37}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" uid="{89E30ED4-9460-4749-AE69-E8D5BDE93F74}" />
+    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Size=Large&amp;Value=10" ph="Example2.Content" uid="{81E952A2-38C9-4F2C-9971-BD6C7B2A87FA}" />
+    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Value=30&amp;Foreground=green" ph="Example2.Content" uid="{0049F9A8-BEFD-4160-BC30-FC901B9675CB}" />
+    <r id="{11708B4E-FFFF-4105-AE05-7767FD4CB393}" par="Size=Small&amp;Value=50&amp;Foreground=red" ph="Example2.Content" uid="{BB7FD0A4-C707-4341-8B6C-47AA12E4E68E}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: dbec86f1-c8bd-419c-a42a-c541b09f9c91
+revision: 18d931c7-1cd3-4ad5-aa1f-fe78336d057a
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -89,14 +89,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dbec86f1-c8bd-419c-a42a-c541b09f9c91
+18d931c7-1cd3-4ad5-aa1f-fe78336d057a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152520:635355915200841360
+20141027T123844:635500103247915441Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,6 +1,0 @@
-﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{EB685903-3193-4FDF-8ADF-48F196C35C7E}">
-  <Device Name="Internet Explorer" Layout="/sitecore/client/Metro/Layouts/Layouts/MetroLayout">
-    <PageCode Placeholder="Page.Code" />
-    <MetroTiles ItemsDataSource="/sitecore/client/Metro/Content" Text="Metro UI" DisplayFieldName="BrowserTitle" IconFieldName="$icon48x48"></MetroTiles>
-  </Device>
-</Layout>

@@ -27,37 +27,37 @@ Control/16x16/listview_b_d.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 2898
+content-length: 3892
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Columns=12&amp;Id=Row1" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Listviews" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid2&amp;IsFluid=1" ph="Example1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row2&amp;Columns=6%2C6" ph="Grid2.Content" />
-    <r id="{41CF7A33-1FEB-4D72-8F4A-E18E5CBC5393}" par="Id=ListView1&amp;IconFieldName=%24icon48x48&amp;ItemsDataSource=%7B31056D46-2FAA-4EA2-8759-BE93EAE10001%7D&amp;Selected=Metro" ph="Row2.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=%7B%40%40TemplateName%7D" ph="ListView1.Remark" />
-    <r id="{41CF7A33-1FEB-4D72-8F4A-E18E5CBC5393}" par="Id=ListView2&amp;IconFieldName=%24icon48x48&amp;ItemsDataSource=%7B31056D46-2FAA-4EA2-8759-BE93EAE10001%7D&amp;Selected=Metro&amp;Type=Small" ph="Row2.Column2" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=%7B%40%40TemplateName%7D" ph="ListView2.Remark" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=List%20with%20Outlook%202013%20style" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid3&amp;IsFluid=1" ph="Example2.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row3&amp;Columns=6%2C6" ph="Grid3.Content" />
-    <r id="{41CF7A33-1FEB-4D72-8F4A-E18E5CBC5393}" par="Id=ListView3&amp;IconFieldName=%24icon48x48&amp;ItemsDataSource=%7B31056D46-2FAA-4EA2-8759-BE93EAE10001%7D&amp;Selected=Metro&amp;Type=Outlook" ph="Row3.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=%7B%40%40TemplateName%7D" ph="ListView3.Remark" />
-    <r id="{41CF7A33-1FEB-4D72-8F4A-E18E5CBC5393}" par="Id=ListView4&amp;IconFieldName=%24icon48x48&amp;ItemsDataSource=%7B31056D46-2FAA-4EA2-8759-BE93EAE10001%7D&amp;Selected=Metro&amp;Type=Outlook&amp;IsGrouped=1" ph="Row3.Column2" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=%7B%40%40TemplateName%7D" ph="ListView4.Remark" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{815DA0A8-8D19-4F74-98E0-3663E79DBDB2}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{83E86380-8179-4E11-B3B6-ECAA415B414E}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{7135F672-DD87-4E75-ACA1-B51BDE00C7F0}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{2D279667-A6BF-4CB5-9418-3EE8A265BE9B}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{891161D8-3685-4403-9573-C4CCD772F0CC}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Listviews" ph="Row1.Column1" uid="{5C863B18-724A-4CB8-8C04-F17682E08090}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{AB960DD3-2453-4644-980D-00CCF9D6F97C}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid2&amp;IsFluid=1" ph="Example1.Content" uid="{EAFE5BCF-03D3-4D48-B82D-7A8B80A84637}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row2&amp;Columns=6%2c6" ph="Grid2.Content" uid="{BB736190-5DA6-4AAB-87F5-14B1FA295792}" />
+    <r id="{41CF7A33-1FEB-4D72-8F4A-E18E5CBC5393}" par="Id=ListView1&amp;ItemsDataSource=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;IconFieldName=%24icon48x48&amp;Selected=Metro" ph="Row2.Column1" uid="{47211D29-6DF6-4C40-83CC-6CF561B97630}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=%7b%40%40TemplateName%7d" ph="ListView1.Remark" uid="{17B50EC4-3C02-423B-8BE4-D3017E0D536D}" />
+    <r id="{41CF7A33-1FEB-4D72-8F4A-E18E5CBC5393}" par="Id=ListView2&amp;ItemsDataSource=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;IconFieldName=%24icon48x48&amp;Selected=Metro&amp;Type=Small" ph="Row2.Column2" uid="{AE7B0578-DB85-4C0D-8A27-255D18B6FA61}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=%7b%40%40TemplateName%7d" ph="ListView2.Remark" uid="{27CFE21D-0778-4DC5-AB24-0D9222DDF337}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=List+with+Outlook+2013+style" ph="Row1.Column1" uid="{CE18BA25-8560-48A9-A7D7-16B0CFDED438}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" uid="{3A11FE68-CB5B-45E6-8D79-847C74FD8AE4}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid3&amp;IsFluid=1" ph="Example2.Content" uid="{AE7DDC53-F54D-49C7-B1D8-55EB32B4CCBB}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row3&amp;Columns=6%2c6" ph="Grid3.Content" uid="{C7BC033F-7775-4D95-9B61-9EE2B64149CD}" />
+    <r id="{41CF7A33-1FEB-4D72-8F4A-E18E5CBC5393}" par="Id=ListView3&amp;ItemsDataSource=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;IconFieldName=%24icon48x48&amp;Selected=Metro&amp;Type=Outlook" ph="Row3.Column1" uid="{68FB91AB-21BC-422F-A6DF-92684CEF653B}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=%7b%40%40TemplateName%7d" ph="ListView3.Remark" uid="{CFC7E25D-F539-4885-839F-C963508C272E}" />
+    <r id="{41CF7A33-1FEB-4D72-8F4A-E18E5CBC5393}" par="Id=ListView4&amp;ItemsDataSource=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;IsGrouped=1&amp;IconFieldName=%24icon48x48&amp;Selected=Metro&amp;Type=Outlook" ph="Row3.Column2" uid="{8ECE4683-B45D-4539-81D2-AF8AB556A53D}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=%7b%40%40TemplateName%7d" ph="ListView4.Remark" uid="{B35E7C5E-71BA-4879-A6B8-27904B7E0BFA}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: afbd7e0f-e466-460b-bdbb-d25122ba554b
+revision: 31c22278-1d63-4550-8c19-7081400c6a4b
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -93,14 +93,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-afbd7e0f-e466-460b-bdbb-d25122ba554b
+31c22278-1d63-4550-8c19-7081400c6a4b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152444:635355914847568887
+20141027T123821:635500103010405629Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

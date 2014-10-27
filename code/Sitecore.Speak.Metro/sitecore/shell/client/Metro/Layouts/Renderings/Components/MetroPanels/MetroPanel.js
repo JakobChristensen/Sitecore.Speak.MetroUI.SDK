@@ -13,5 +13,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroPanel;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroPanel, "MetroPanel");
+    Sitecore.Speak.component(["metro"], MetroPanel, "MetroPanel");
 });

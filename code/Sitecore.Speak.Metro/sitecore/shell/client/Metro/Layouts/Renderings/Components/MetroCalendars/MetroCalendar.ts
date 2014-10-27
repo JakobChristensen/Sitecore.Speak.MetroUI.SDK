@@ -33,4 +33,4 @@ class MetroCalendar extends Speak.ControlBase {
   }
 }
 
-Sitecore.component(["metro"], MetroCalendar, "MetroCalendar");
+Sitecore.Speak.component(["metro"], MetroCalendar, "MetroCalendar");

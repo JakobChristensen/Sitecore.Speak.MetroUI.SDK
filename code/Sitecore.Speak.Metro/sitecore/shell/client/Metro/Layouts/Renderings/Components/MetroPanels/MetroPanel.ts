@@ -8,4 +8,4 @@ class MetroPanel extends Speak.ControlBase {
   // #endregion
 }
 
-Sitecore.component(["metro"], MetroPanel, "MetroPanel");
+Sitecore.Speak.component(["metro"], MetroPanel, "MetroPanel");

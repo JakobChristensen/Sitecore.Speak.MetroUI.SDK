@@ -30,4 +30,4 @@ class MetroProgressBar extends Speak.ControlBase {
   }
 }
 
-Sitecore.component(["metro"], MetroProgressBar, "MetroProgressBar");
+Sitecore.Speak.component(["metro"], MetroProgressBar, "MetroProgressBar");

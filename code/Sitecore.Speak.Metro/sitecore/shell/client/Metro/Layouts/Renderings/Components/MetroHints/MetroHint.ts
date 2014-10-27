@@ -10,4 +10,4 @@ class MetroHint extends Speak.ControlBase {
   // #endregion
 }
 
-Sitecore.component(["metro"], MetroHint, "MetroHint");
+Sitecore.Speak.component(["metro"], MetroHint, "MetroHint");

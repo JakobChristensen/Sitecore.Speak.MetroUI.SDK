@@ -8,4 +8,4 @@ class MetroAccordion extends Speak.ControlBase {
   // #endregion
 }
 
-Sitecore.component(["metro"], MetroAccordion, "MetroAccordion");
+Sitecore.Speak.component(["metro"], MetroAccordion, "MetroAccordion");

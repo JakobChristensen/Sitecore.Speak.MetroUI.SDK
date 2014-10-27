@@ -27,86 +27,86 @@ Control/16x16/button_b_d.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 9914
+content-length: 12770
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Columns=12&amp;Id=Row1" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Buttons" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=With%20the%20Metro%20UI%20CSS%20you%20can%20easily%20create%20different%20types%20of%20buttons%2C%20stylized%20to%20Windows%208.%20Button%20styles%20can%20be%20applied%20to%20anything%20with%20the%20.button%20class%20applied.%20However%2C%20typically%20you%27ll%20want%20to%20apply%20these%20to%20only%20%3C%20a%3E%20and%20%3C%20button%3E%20elements%20for%20the%20best%20rendering." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Size=Large&amp;Text=Large&amp;Type=Primary" ph="Example1.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Default&amp;Type=Default" ph="Example1.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Size=Small&amp;Text=Small&amp;Type=Success" ph="Example1.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Size=Mini&amp;Text=Mini&amp;Type=Danger" ph="Example1.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For%20additional%20styling%20button%20you%20can%20use%20predefined%20button%20subclasses%3A%20.default%2C%20.primary%2C%20.info%2C%20.success%2C%20.warning%2C%20.danger%2C%20.inverse%20and%20.link%20or%20build-in%20color%20classes%20for%20background%20and%20foreground." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Default" ph="Example2.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Primary&amp;Type=Primary" ph="Example2.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Info&amp;Type=Info" ph="Example2.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Success&amp;Type=Success" ph="Example2.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Warning&amp;Type=Warning" ph="Example2.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Danger&amp;Type=Danger" ph="Example2.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Inverse&amp;Type=Inverse" ph="Example2.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Link&amp;Type=Link" ph="Example2.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=Heading2&amp;Text=Command%20button" ph="Row1.Column1" />
-    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading2.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=A%20command%20button%20is%20the%20extension%20of%20a%20push%20button." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example3" ph="Row1.Column1" />
-    <r id="{92770B09-EB58-4ADA-A3A1-A25D17559D5D}" par="Icon=icon-share-2&amp;SmallText=Use%20this%20option%20for%20home%20or%20work&amp;Text=Share%20and%20connect" ph="Example3.Content" />
-    <r id="{92770B09-EB58-4ADA-A3A1-A25D17559D5D}" par="Icon=icon-share-3&amp;IconAlignment=Right&amp;SmallText=Use%20this%20option%20for%20home%20or%20work&amp;Text=Share%20and%20connect" ph="Example3.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For%20additional%20styling%20button%20you%20can%20use%20predefined%20button%20subclasses%3A%20.default%2C%20.primary%2C%20.info%2C%20.success%2C%20.warning%2C%20.danger%2C%20.inverse%20and%20.link%20or%20build-in%20color%20classes%20for%20background%20and%20foreground." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example4" ph="Row1.Column1" />
-    <r id="{92770B09-EB58-4ADA-A3A1-A25D17559D5D}" par="Icon=icon-share-2&amp;SmallText=Use%20this%20option%20for%20home%20or%20work&amp;Text=Share%20and%20connect&amp;Type=Primary" ph="Example4.Content" />
-    <r id="{92770B09-EB58-4ADA-A3A1-A25D17559D5D}" par="Icon=icon-share-3&amp;IconAlignment=Right&amp;SmallText=Use%20this%20option%20for%20home%20or%20work&amp;Text=Share%20and%20connect&amp;Type=Danger" ph="Example4.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=Heading3&amp;Text=Toolbar" ph="Row1.Column1" />
-    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading3.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Default%20Toolbar" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example5" ph="Row1.Column1" />
-    <r id="{98009B57-AE68-496B-83FD-D09DC33DCC4E}" par="IconFieldName=Icon&amp;ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D" ph="Example5.Content" />
-    <r id="{98009B57-AE68-496B-83FD-D09DC33DCC4E}" par="IconFieldName=Icon&amp;IsNoSpaces=1&amp;ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D" ph="Example5.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Transparent%20Toolbar" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example6" ph="Row1.Column1" />
-    <r id="{98009B57-AE68-496B-83FD-D09DC33DCC4E}" par="IconFieldName=Icon&amp;IsTransparent=1&amp;ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D" ph="Example6.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Colorize%20icon%20%26%20captions" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example7" ph="Row1.Column1" />
-    <r id="{98009B57-AE68-496B-83FD-D09DC33DCC4E}" par="Foreground=red&amp;IconFieldName=Icon&amp;IsTransparent=1&amp;ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D" ph="Example7.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=Heading4&amp;Text=Shortcuts" ph="Row1.Column1" />
-    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading4.Content" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example8" ph="Row1.Column1" />
-    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Icon=icon-rocket&amp;Text=Rocket" ph="Example8.Content" />
-    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Icon=icon-rocket&amp;SmallText=10&amp;SmallTextBackground=cobalt&amp;SmallTextForeground=white&amp;Text=Rocket" ph="Example8.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Also%20you%20can%20use%20build-in%20classes%20for%20button%20to%20additional%20quick%20styling%3A%20.primary%2C%20.info%2C%20.success%2C%20.warning%2C%20.danger%2C%20.inverse%2C%20.link." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example9" ph="Row1.Column1" />
-    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Icon=icon-rocket&amp;SmallText=10&amp;SmallTextBackground=lightBlue&amp;SmallTextForeground=white&amp;Text=Rocket&amp;Type=Primary" ph="Example9.Content" />
-    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Icon=icon-rocket&amp;SmallText=10&amp;SmallTextBackground=red&amp;SmallTextForeground=white&amp;Text=Rocket&amp;Type=Danger" ph="Example9.Content" />
-    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Icon=icon-rocket&amp;SmallText=10&amp;SmallTextBackground=cobalt&amp;SmallTextForeground=white&amp;Text=Rocket&amp;Type=Link" ph="Example9.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=Heading5&amp;Text=Button%20Set" ph="Row1.Column1" />
-    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading5.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=This%20component%20required%20metro-button-set.js." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example10" ph="Row1.Column1" />
-    <r id="{FA8880D2-1BF1-40B3-9EEF-D921BEB8CFE1}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D&amp;Active=Above" ph="Example10.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=Heading6&amp;Text=Button%20Groups" ph="Row1.Column1" />
-    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading6.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=This%20component%20required%20metro-button-set.js." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example11" ph="Row1.Column1" />
-    <r id="{6808D0D2-0D71-4AE1-A187-C7D4848169FB}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D&amp;Active=Above" ph="Example11.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=Heading7&amp;Text=Breadcrumbs" ph="Row1.Column1" />
-    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading7.Content" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example12" ph="Row1.Column1" />
-    <r id="{EC0E4061-2B6E-48A2-B489-3E701BE62FFC}" par="" ph="Example12.Content" />
-    <r id="{EC0E4061-2B6E-48A2-B489-3E701BE62FFC}" par="Size=Small" ph="Example12.Content" />
-    <r id="{EC0E4061-2B6E-48A2-B489-3E701BE62FFC}" par="Size=Mini" ph="Example12.Content" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{F693BC22-F9B2-4732-B735-81A0861650B0}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{E7A799F6-63B6-44FB-AC5F-D57C2BA148B7}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{D1F49737-E4D9-4EC6-B751-BF3B734AC263}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{3BE916C5-1EF1-4C98-B6B7-AEC0DA5A1216}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{86235E2E-9016-4449-BAE4-B87EAD76882E}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Buttons" ph="Row1.Column1" uid="{1185CA60-804C-4423-95F6-CCA08AFB5F11}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=With+the+Metro+UI+CSS+you+can+easily+create+different+types+of+buttons%2c+stylized+to+Windows+8.+Button+styles+can+be+applied+to+anything+with+the+.button+class+applied.+However%2c+typically+you%27ll+want+to+apply+these+to+only+%3c+a%3e+and+%3c+button%3e+elements+for+the+best+rendering." ph="Row1.Column1" uid="{01E5DA2B-822E-46A3-8931-CA039F697501}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{A1E058C4-3393-4990-A2ED-B21736F0389C}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Size=Large&amp;Type=Primary&amp;Text=Large" ph="Example1.Content" uid="{F86AF52C-464B-4B92-8646-513BDE7F33D7}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Type=Default&amp;Text=Default" ph="Example1.Content" uid="{2BED3F12-29AD-4DFC-855C-4A5FCD0028CB}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Size=Small&amp;Type=Success&amp;Text=Small" ph="Example1.Content" uid="{38C027F7-E7AD-408F-9891-BDB65BD70C4C}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Size=Mini&amp;Type=Danger&amp;Text=Mini" ph="Example1.Content" uid="{11898BF0-DDDB-4E6B-B0C6-870734591C55}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For+additional+styling+button+you+can+use+predefined+button+subclasses%3a+.default%2c+.primary%2c+.info%2c+.success%2c+.warning%2c+.danger%2c+.inverse+and+.link+or+build-in+color+classes+for+background+and+foreground." ph="Row1.Column1" uid="{02165EAD-61DD-43D6-B8E7-4B1078A2F4F8}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" uid="{45B50204-4CA3-4041-B54C-53BC7D2AAEEB}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Default" ph="Example2.Content" uid="{3BCC03C9-2882-48EC-8B78-C42E5A91130E}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Type=Primary&amp;Text=Primary" ph="Example2.Content" uid="{0592BD93-B691-43AC-BA42-B214BE3E44B9}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Type=Info&amp;Text=Info" ph="Example2.Content" uid="{917F9738-9EF4-4EAB-B8E1-8F5597E1D58C}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Type=Success&amp;Text=Success" ph="Example2.Content" uid="{FAD78402-B52D-49D1-8D16-E9D21B3881F4}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Type=Warning&amp;Text=Warning" ph="Example2.Content" uid="{E1C553F7-515B-40C8-9421-7EBC37E7F537}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Type=Danger&amp;Text=Danger" ph="Example2.Content" uid="{E839AD59-AEDC-47A8-AA96-19739C54CFC5}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Type=Inverse&amp;Text=Inverse" ph="Example2.Content" uid="{528556C1-2D25-4304-A81D-BD8DDB98971F}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Type=Link&amp;Text=Link" ph="Example2.Content" uid="{B74AB173-6AA9-44BD-9E93-8E66F40E25AB}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Command+button&amp;Id=Heading2" ph="Row1.Column1" uid="{5C9A27C3-8255-4980-B6C7-F51AFAEB01D8}" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading2.Content" uid="{4A90BF32-D67F-4EBF-A01A-CDEB1A9AFFD9}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=A+command+button+is+the+extension+of+a+push+button." ph="Row1.Column1" uid="{94D0FFAC-38B3-4FA1-96B9-D716D6F3D676}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example3" ph="Row1.Column1" uid="{0D77776E-1331-4B60-81CE-55B992EF970A}" />
+    <r id="{92770B09-EB58-4ADA-A3A1-A25D17559D5D}" par="Text=Share+and+connect&amp;SmallText=Use+this+option+for+home+or+work&amp;Icon=icon-share-2" ph="Example3.Content" uid="{41099F5B-9975-4411-BD62-8EADDA8138E6}" />
+    <r id="{92770B09-EB58-4ADA-A3A1-A25D17559D5D}" par="Text=Share+and+connect&amp;SmallText=Use+this+option+for+home+or+work&amp;Icon=icon-share-3&amp;IconAlignment=Right" ph="Example3.Content" uid="{7E178CAB-3AE6-4918-9DF6-A3F8212F0EF8}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For+additional+styling+button+you+can+use+predefined+button+subclasses%3a+.default%2c+.primary%2c+.info%2c+.success%2c+.warning%2c+.danger%2c+.inverse+and+.link+or+build-in+color+classes+for+background+and+foreground." ph="Row1.Column1" uid="{FAE23590-7B00-48F7-998A-047525D61F35}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example4" ph="Row1.Column1" uid="{CA45AB84-3137-42E4-86B2-FA59F5470942}" />
+    <r id="{92770B09-EB58-4ADA-A3A1-A25D17559D5D}" par="Text=Share+and+connect&amp;SmallText=Use+this+option+for+home+or+work&amp;Icon=icon-share-2&amp;Type=Primary" ph="Example4.Content" uid="{10821C30-3FA8-424A-9839-01D9A1A47B39}" />
+    <r id="{92770B09-EB58-4ADA-A3A1-A25D17559D5D}" par="Text=Share+and+connect&amp;SmallText=Use+this+option+for+home+or+work&amp;Icon=icon-share-3&amp;IconAlignment=Right&amp;Type=Danger" ph="Example4.Content" uid="{F9E89E24-79E1-40CE-AE6E-E7F0C8C43B86}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Toolbar&amp;Id=Heading3" ph="Row1.Column1" uid="{5E857B82-2646-4732-9F04-4C70D56EBA40}" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading3.Content" uid="{48CFE34E-30EF-4B43-9D5D-AEDC832CF9E5}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Default+Toolbar" ph="Row1.Column1" uid="{D310D8AC-6972-4781-B58D-EA08E904754C}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example5" ph="Row1.Column1" uid="{3992E244-318C-4783-A83E-0499E3E7D8C6}" />
+    <r id="{98009B57-AE68-496B-83FD-D09DC33DCC4E}" par="IconFieldName=Icon&amp;ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d" ph="Example5.Content" uid="{F08E5393-615C-4DA0-A1C9-55C1392E4751}" />
+    <r id="{98009B57-AE68-496B-83FD-D09DC33DCC4E}" par="IsNoSpaces=1&amp;IconFieldName=Icon&amp;ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d" ph="Example5.Content" uid="{C2A69291-7813-4C4A-8E01-8E5FB655A786}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Transparent+Toolbar" ph="Row1.Column1" uid="{2A6CC736-7EB3-45CB-A878-5DF4181E9650}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example6" ph="Row1.Column1" uid="{831304AE-D01C-4E14-A5FF-48F41B9674F0}" />
+    <r id="{98009B57-AE68-496B-83FD-D09DC33DCC4E}" par="IsTransparent=1&amp;IconFieldName=Icon&amp;ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d" ph="Example6.Content" uid="{1286887F-79F1-4179-8A9B-E0CE61AAD67A}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Colorize+icon+%26+captions" ph="Row1.Column1" uid="{F4C74EE8-8ECE-4D2C-BD26-2BC1383AAC5E}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example7" ph="Row1.Column1" uid="{D7BD5D21-E0A6-4FC7-9F7C-AEC4E02B9C31}" />
+    <r id="{98009B57-AE68-496B-83FD-D09DC33DCC4E}" par="Foreground=red&amp;IsTransparent=1&amp;IconFieldName=Icon&amp;ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d" ph="Example7.Content" uid="{E3CF7120-3546-4C32-9E57-951AEB06F80F}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Shortcuts&amp;Id=Heading4" ph="Row1.Column1" uid="{CD41B082-E5FE-4444-9E83-ADCFEC168502}" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading4.Content" uid="{9E370505-1CA9-4861-AA30-EB04C6234545}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example8" ph="Row1.Column1" uid="{3E2E2FA7-69C1-48D6-8A4B-AF7DE6906573}" />
+    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Text=Rocket&amp;Icon=icon-rocket" ph="Example8.Content" uid="{4BBDDF2E-1DDB-45B0-BB67-EE8BF5D9A4C1}" />
+    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Text=Rocket&amp;SmallTextForeground=white&amp;Icon=icon-rocket&amp;SmallTextBackground=cobalt&amp;SmallText=10" ph="Example8.Content" uid="{18432013-5135-4FA5-B2A8-1C679A678EF7}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Also+you+can+use+build-in+classes+for+button+to+additional+quick+styling%3a+.primary%2c+.info%2c+.success%2c+.warning%2c+.danger%2c+.inverse%2c+.link." ph="Row1.Column1" uid="{DF6A8196-1F29-4D98-8855-8B27C92EFCBA}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example9" ph="Row1.Column1" uid="{CC22B4B5-4D83-4934-8FC6-F547C4AFF3C2}" />
+    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Text=Rocket&amp;SmallTextForeground=white&amp;Icon=icon-rocket&amp;Type=Primary&amp;SmallTextBackground=lightBlue&amp;SmallText=10" ph="Example9.Content" uid="{4F7C0C82-F829-4ED1-9892-1FE0329FFF05}" />
+    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Text=Rocket&amp;SmallTextForeground=white&amp;Icon=icon-rocket&amp;Type=Danger&amp;SmallTextBackground=red&amp;SmallText=10" ph="Example9.Content" uid="{72EDCF2D-1CF5-4FC3-959F-8F7250144215}" />
+    <r id="{E17D0FC4-09FF-4834-9766-D6BFDC3BC118}" par="Text=Rocket&amp;SmallTextForeground=white&amp;Icon=icon-rocket&amp;Type=Link&amp;SmallTextBackground=cobalt&amp;SmallText=10" ph="Example9.Content" uid="{9543EEF7-AB6B-4759-937A-667C7EC1103D}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Button+Set&amp;Id=Heading5" ph="Row1.Column1" uid="{30C7E04B-B0C9-4ED6-AADF-7B5AE8C35D68}" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading5.Content" uid="{A78E520A-B3C6-4F82-A9B8-D5A760B63BA2}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=This+component+required+metro-button-set.js." ph="Row1.Column1" uid="{D80CE4C1-902C-4CF1-B25B-7D56A4567410}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example10" ph="Row1.Column1" uid="{5413E858-02F5-4C7C-B607-2492F8244E70}" />
+    <r id="{FA8880D2-1BF1-40B3-9EEF-D921BEB8CFE1}" par="ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d&amp;Active=Above" ph="Example10.Content" uid="{5CCB9668-59D3-42A5-A639-E1217F06104A}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Button+Groups&amp;Id=Heading6" ph="Row1.Column1" uid="{24FEAC6A-465D-4CE9-99B7-400360C5BC92}" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading6.Content" uid="{86F868B7-AC23-420D-9D63-1224E368C573}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=This+component+required+metro-button-set.js." ph="Row1.Column1" uid="{4F8EEE32-71C2-4CB0-B4C1-2F24F5F30387}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example11" ph="Row1.Column1" uid="{EAC92762-5DCC-4308-B1E5-E1B34FB83FCC}" />
+    <r id="{6808D0D2-0D71-4AE1-A187-C7D4848169FB}" par="ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d&amp;Active=Above" ph="Example11.Content" uid="{C4439FA7-1A0D-41BD-810B-1099809B8AA4}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Breadcrumbs&amp;Id=Heading7" ph="Row1.Column1" uid="{1D23706B-A009-4836-965F-C73B9233598A}" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-accessibility" ph="Heading7.Content" uid="{B6204775-C74F-4C98-BB1F-2FD94B5901E5}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example12" ph="Row1.Column1" uid="{1E70112F-F470-47A9-8ABA-49A4EF05BFF2}" />
+    <r id="{EC0E4061-2B6E-48A2-B489-3E701BE62FFC}" ph="Example12.Content" uid="{60CA89E7-6BA7-49F3-8A08-7451125E8395}" />
+    <r id="{EC0E4061-2B6E-48A2-B489-3E701BE62FFC}" par="Size=Small" ph="Example12.Content" uid="{CC93DBC0-088C-473A-959E-17D34B35DADB}" />
+    <r id="{EC0E4061-2B6E-48A2-B489-3E701BE62FFC}" par="Size=Mini" ph="Example12.Content" uid="{771F218F-A118-46D3-A0F3-B1A0E196FB6C}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 6b9b58e6-954f-4c94-800e-ef760d3c4edd
+revision: 9b101235-6419-49cd-baaf-cc087c4e3b10
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -142,14 +142,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6b9b58e6-954f-4c94-800e-ef760d3c4edd
+9b101235-6419-49cd-baaf-cc087c4e3b10
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140515T140551:635357595514286774
+20141027T123935:635500103750412243Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

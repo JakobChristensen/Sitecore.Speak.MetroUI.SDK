@@ -285,52 +285,7 @@
     <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-touch-handler.js" />
     <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-treeview.js" />
     <Content Include="sitecore\shell\client\Metro\Assets\metro-ui\js\metro\metro-wizard.js" />
-    <Content Include="sitecore\shell\client\Metro\Content\Accordions\Accordions.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\Balloons\Balloons.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\Buttons\Buttons.layout.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="sitecore\shell\client\Metro\Content\Calendars\Calendars.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\Carousels\Carousels.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\DatePickers\DatePickers.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\Hints\Hints.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\Icons\Icons.layout.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="sitecore\shell\client\Metro\Content\Images\Images.layout.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="sitecore\shell\client\Metro\Content\Listviews\Listviews.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\Menus\Menus.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\NavigationBars\NavigationBar.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\Notices\Notices.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\Panels\Panels.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\ProgressBars\ProgressBars.layout.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="sitecore\shell\client\Metro\Content\Ratings\Ratings.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\Scrollbars\Scrollbars.layout.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="sitecore\shell\client\Metro\Content\Sidebars\Sidebars.layout.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="sitecore\shell\client\Metro\Content\Sliders\Sliders.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\Steppers\Steppers.layout.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="sitecore\shell\client\Metro\Content\Tables\Forms.layout.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="sitecore\shell\client\Metro\Content\Tables\Tables.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\Tabs\Tabs.layout.xml" />
-    <Content Include="sitecore\shell\client\Metro\Content\Typography\Typopgraphy.layout.xml">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="sitecore\shell\client\Metro\Layouts\Layouts\MetroLayout.js" />
-    <Content Include="sitecore\shell\client\Metro\Metro.layout.xml">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="sitecore\shell\client\Speak\Assets\lib\core\1.2\SitecoreSpeak.js" />
   </ItemGroup>
   <ItemGroup>

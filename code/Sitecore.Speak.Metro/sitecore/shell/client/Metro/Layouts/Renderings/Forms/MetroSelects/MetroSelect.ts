@@ -21,4 +21,4 @@
   }
 }
 
-Sitecore.component(["jquery", "underscore"], MetroSelect, "MetroSelect");
+Sitecore.Speak.component(["jquery", "underscore"], MetroSelect, "MetroSelect");

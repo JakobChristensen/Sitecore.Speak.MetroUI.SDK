@@ -33,5 +33,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroProgressBar;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroProgressBar, "MetroProgressBar");
+    Sitecore.Speak.component(["metro"], MetroProgressBar, "MetroProgressBar");
 });

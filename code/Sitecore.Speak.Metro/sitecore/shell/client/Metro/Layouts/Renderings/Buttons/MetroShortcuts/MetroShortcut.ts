@@ -14,9 +14,9 @@ class MetroShortcut extends Speak.ControlBase {
   click() {
     var click = $(this.el).data("sc-click");
     if (click) {
-      Sitecore.Events.handleEvent(click, this);
+      Sitecore.Speak.Events.handleEvent(click, this);
     }
   }              
 }
 
-Sitecore.component(MetroShortcut, "MetroShortcut");
+Sitecore.Speak.component(MetroShortcut, "MetroShortcut");

@@ -1,10 +1,7 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="HtmlHelperExtensions.cs" company="">
-//   
+// <copyright file="SitecoreHelperExtensions.cs" company="Sitecore A/S">
+//   Copyright (C) by Sitecore A/S
 // </copyright>
-// <summary>
-//   Defines the HtmlHelperExtensions class.
-// </summary>
 // --------------------------------------------------------------------------------------------------------------------
 namespace Sitecore.Metro
 {
@@ -13,8 +10,6 @@ namespace Sitecore.Metro
   using System.IO;
   using System.Web;
   using System.Web.Mvc;
-
-  using Sitecore;
   using Sitecore.Configuration;
   using Sitecore.Data;
   using Sitecore.Data.Items;
@@ -35,9 +30,7 @@ namespace Sitecore.Metro
   {
     #region Public Methods and Operators
 
-    /// <summary>
-    /// Gets the click.
-    /// </summary>
+    /// <summary>Gets the click.</summary>
     /// <param name="htmlHelper">The HTML helper.</param>
     /// <param name="item">The item.</param>
     /// <param name="clickFieldName">Name of the click field.</param>
@@ -170,9 +163,7 @@ namespace Sitecore.Metro
       return new HtmlString("href=\"" + HttpUtility.HtmlAttributeEncode(click) + "\"");
     }
 
-    /// <summary>
-    /// Icons the specified HTML helper.
-    /// </summary>
+    /// <summary>Icons the specified HTML helper.</summary>
     /// <param name="htmlHelper">The HTML helper.</param>
     /// <param name="item">The item.</param>
     /// <param name="iconFieldName">Name of the icon field.</param>
@@ -184,6 +175,7 @@ namespace Sitecore.Metro
       Assert.ArgumentNotNull(htmlHelper, "htmlHelper");
       Assert.ArgumentNotNull(item, "item");
       Assert.ArgumentNotNull(iconFieldName, "iconFieldName");
+      Assert.ArgumentNotNull(additionalClassName, "additionalClassName");
 
       return new HtmlString(GetIconTag(item, iconFieldName, additionalClassName));
     }
@@ -260,9 +252,7 @@ namespace Sitecore.Metro
 
     #region Methods
 
-    /// <summary>
-    /// Gets the icon.
-    /// </summary>
+    /// <summary>Gets the icon.</summary>
     /// <param name="item">The item.</param>
     /// <param name="iconFieldName">Name of the field.</param>
     /// <param name="additionalClassName">Name of the addition class.</param>

@@ -64,4 +64,4 @@ class MetroCarousel extends Speak.ControlBase {
   }
 }
 
-Sitecore.component(["metro"], MetroCarousel, "MetroCarousel");
+Sitecore.Speak.component(["metro"], MetroCarousel, "MetroCarousel");

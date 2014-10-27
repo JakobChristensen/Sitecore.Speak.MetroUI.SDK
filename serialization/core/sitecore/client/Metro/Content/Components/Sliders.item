@@ -20,34 +20,34 @@ Control/16x16/trackbar_b_d.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 2260
+content-length: 3111
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Sliders" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro%20UI%20CSS%20provides%20a%20component%20for%20creating%20slider." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Position=30&amp;Max=100" ph="Example1.Content" />
-    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Position=0&amp;Max=100" ph="Example1.Content" />
-    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Position=50&amp;Max=100&amp;CompleteColor=green" ph="Example1.Content" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" />
-    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Position=1&amp;Max=10&amp;IsVertical=1" ph="Example2.Content" />
-    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Position=0&amp;Max=10&amp;IsVertical=1" ph="Example2.Content" />
-    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Position=5&amp;Max=10&amp;IsVertical=1" ph="Example2.Content" />
-    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Position=7&amp;Max=10&amp;IsVertical=1" ph="Example2.Content" />
-    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Position=6&amp;Max=10&amp;IsVertical=1" ph="Example2.Content" />
-    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Position=0&amp;Max=10&amp;IsVertical=1&amp;ShowHint=1" ph="Example2.Content" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{86529D0E-7E45-4D70-AE33-6231AFD5C7E5}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{6CAF34CA-2C50-422F-BDA3-7BB2B30E1E46}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{DA658D96-A939-4AC5-A4C9-09185DEC71A5}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{BA441C38-5211-4B71-944E-B8506E45922F}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{1C572E9A-0F8B-468D-9360-62D7C9A617D9}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Sliders" ph="Row1.Column1" uid="{8DE45728-7488-481E-9B93-737E678B42BF}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro+UI+CSS+provides+a+component+for+creating+slider." ph="Row1.Column1" uid="{101061BA-608E-4A13-9BCF-9EB01CC62DBF}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{DCE10E9B-DB5D-4BC9-BD99-701854239D2F}" />
+    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Max=100&amp;Position=30" ph="Example1.Content" uid="{9E83E562-48FE-4B31-A866-770F95B4149A}" />
+    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Max=100&amp;Position=0" ph="Example1.Content" uid="{1F8CEF1F-A4A4-40E9-8E0D-FBEF6BB04D84}" />
+    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Max=100&amp;Position=50&amp;CompleteColor=green" ph="Example1.Content" uid="{EF4651A9-D639-47E7-B1E2-C8E0C3ECB576}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" uid="{24F125F2-74CF-482B-A45F-0258DADF594A}" />
+    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Max=10&amp;Position=1&amp;IsVertical=1" ph="Example2.Content" uid="{DD2685E0-BD58-4B0E-8300-0A2759AF16C2}" />
+    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Max=10&amp;Position=0&amp;IsVertical=1" ph="Example2.Content" uid="{AF8C606C-6D75-40E7-A19A-2D853717FE3D}" />
+    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Max=10&amp;Position=5&amp;IsVertical=1" ph="Example2.Content" uid="{0F9FD3DC-1854-4BBE-9171-7874083386C6}" />
+    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Max=10&amp;Position=7&amp;IsVertical=1" ph="Example2.Content" uid="{3E114306-B007-4CA7-B737-8AC6CE6E52CB}" />
+    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Max=10&amp;Position=6&amp;IsVertical=1" ph="Example2.Content" uid="{3DF2C2D3-48C8-4805-B545-36DF2BF49CE9}" />
+    <r id="{20F135C6-AF43-4FE3-8528-4F7DA2CEF96F}" par="Max=10&amp;ShowHint=1&amp;Position=0&amp;IsVertical=1" ph="Example2.Content" uid="{3CC345AF-A5E4-4594-82CC-8F2F7DFF55C8}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 7fc5ff08-83e2-45aa-91a0-b867949d774b
+revision: 18e374e2-2335-4348-bac8-925c52c67d1c
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -83,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7fc5ff08-83e2-45aa-91a0-b867949d774b
+18e374e2-2335-4348-bac8-925c52c67d1c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152541:635355915415229370
+20141027T123907:635500103479762699Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

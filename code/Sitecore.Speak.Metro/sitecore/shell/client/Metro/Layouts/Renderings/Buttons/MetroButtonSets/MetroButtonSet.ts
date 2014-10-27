@@ -11,4 +11,4 @@ class MetroButtonSet extends Speak.ControlBase {
   }
 }
 
-Sitecore.component(["metro"], MetroButtonSet, "MetroButtonSet");
+Sitecore.Speak.component(["metro"], MetroButtonSet, "MetroButtonSet");

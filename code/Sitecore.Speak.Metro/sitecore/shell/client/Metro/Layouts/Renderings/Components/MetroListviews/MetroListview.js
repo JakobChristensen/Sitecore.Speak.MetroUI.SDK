@@ -13,5 +13,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroListview;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroListview, "MetroListview");
+    Sitecore.Speak.component(["metro"], MetroListview, "MetroListview");
 });

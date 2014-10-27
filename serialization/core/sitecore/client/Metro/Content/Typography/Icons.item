@@ -20,34 +20,34 @@ People/16x16/yinyang.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 2628
+content-length: 3369
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Icons" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro%20UI%20CSS%20includes%20more%20then%20300%20icons%20in%20one%20font%20that%20can%20instantly%20be%20customized%20%E2%80%94%20size%2C%20color%2C%20drop%20shadow%2C%20and%20anything%20that%20can%20be%20done%20with%20the%20power%20of%20CSS." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Id=HeadingExample1&amp;Text=icon-rocket" ph="Example1.Content" />
-    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-rocket" ph="HeadingExample1.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=You%20can%20use%20build-in%20classes%20.on-left%2C%20.on-right%20to%20add%20margin%205px%20between%20icon%20and%20text%20and%20.on-left-more%2C%20.on-right-more%20to%20add%20margin%2010px." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Id=HeadingExample2&amp;Text=icon-rocket" ph="Example2.Content" />
-    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-rocket&amp;Alignment=Left" ph="HeadingExample2.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Also%20you%20can%20change%20color%20style%20for%20icon%20with%20build-in%20color%20classes." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example3" ph="Row1.Column1" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Id=HeadingExample3&amp;Text=icon-rocket" ph="Example3.Content" />
-    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-rocket&amp;Alignment=Left&amp;Foreground=cyan" ph="HeadingExample3.Content" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{1568A1EB-A5B4-4F4E-A474-EA7D1703D92B}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{0AF17DB5-DC46-445E-AA6E-BEB0303FFFA4}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{7271EF32-CE52-4B2A-8B25-FE1E6352F33C}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{C5685342-7A57-4C81-8B5D-7625E4FC6CD7}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{EE258AF1-80D3-4BEC-A9A9-28EBDB7FA097}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Icons" ph="Row1.Column1" uid="{3B2AB548-C878-4949-A653-9C204112CD40}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro+UI+CSS+includes+more+then+300+icons+in+one+font+that+can+instantly+be+customized+%e2%80%94+size%2c+color%2c+drop+shadow%2c+and+anything+that+can+be+done+with+the+power+of+CSS." ph="Row1.Column1" uid="{96943220-0D92-43EB-AD8D-FACD666A8A82}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{83424750-CF09-4B04-83AA-4A9140FDC6E0}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=icon-rocket&amp;Id=HeadingExample1" ph="Example1.Content" uid="{18230FEC-300A-4C8B-A6A6-BEBF847377CB}" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-rocket" ph="HeadingExample1.Content" uid="{92C63A5F-EBE5-4252-B2DF-6D8D3E71F854}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=You+can+use+build-in+classes+.on-left%2c+.on-right+to+add+margin+5px+between+icon+and+text+and+.on-left-more%2c+.on-right-more+to+add+margin+10px." ph="Row1.Column1" uid="{910AF317-A92A-4DBC-9F82-C7506B73E829}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" uid="{36393C13-B127-43BE-A658-B231451B8806}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=icon-rocket&amp;Id=HeadingExample2" ph="Example2.Content" uid="{11285126-FF76-4505-93EA-2BF9C832AB8A}" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-rocket&amp;Alignment=Left" ph="HeadingExample2.Content" uid="{E46FBB65-DA22-4134-AAC3-E92BD2FE0EE5}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Also+you+can+change+color+style+for+icon+with+build-in+color+classes." ph="Row1.Column1" uid="{ABD1994A-E456-45C2-AFD3-408F3589AE96}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example3" ph="Row1.Column1" uid="{9C55E2A7-1CC9-4526-8E17-20C6A0065E5A}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=icon-rocket&amp;Id=HeadingExample3" ph="Example3.Content" uid="{0509B584-3878-4C4F-9DA6-646BED0D6E51}" />
+    <r id="{541CA922-1E30-4D87-A11C-30EDB6BFE0A8}" par="Icon=icon-rocket&amp;Foreground=cyan&amp;Alignment=Left" ph="HeadingExample3.Content" uid="{D971C18E-29D7-4147-B232-A8E66BF0657D}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 4e36c45e-acb1-42d8-a4eb-2d579ab59d3c
+revision: 22f0c75b-bdad-4a91-ac9e-44f0f517091a
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -83,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4e36c45e-acb1-42d8-a4eb-2d579ab59d3c
+22f0c75b-bdad-4a91-ac9e-44f0f517091a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140522T144547:635363667471886832
+20141027T123650:635500102101124550Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

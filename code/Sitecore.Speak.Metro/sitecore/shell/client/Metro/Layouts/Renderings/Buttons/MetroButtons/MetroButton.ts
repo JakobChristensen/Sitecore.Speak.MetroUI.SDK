@@ -15,9 +15,9 @@ class MetroButton extends Speak.ControlBase {
   click() {
     var click = $(this.el).data("sc-click");
     if (click) {
-      Sitecore.Events.handleEvent(click, this);
+      Sitecore.Speak.Events.handleEvent(click, this);
     }
-  }              
+  }               
 }
 
-Sitecore.component(["metro"], MetroButton, "MetroButton");
+Sitecore.Speak.component(["metro"], MetroButton, "MetroButton");

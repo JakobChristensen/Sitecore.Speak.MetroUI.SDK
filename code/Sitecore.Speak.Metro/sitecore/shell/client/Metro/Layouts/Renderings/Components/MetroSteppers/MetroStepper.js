@@ -38,5 +38,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroStepper;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroStepper, "MetroStepper");
+    Sitecore.Speak.component(["metro"], MetroStepper, "MetroStepper");
 });

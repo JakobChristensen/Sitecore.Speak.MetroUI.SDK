@@ -20,18 +20,18 @@ Applications/16x16/text_rich_colored.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 415
+content-length: 562
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{5C7850C8-F56A-4A34-92D4-B0DFE582DE9B}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;Text=Metro%20UI&amp;DisplayFieldName=BrowserTitle&amp;IconFieldName=%24icon48x48" ph="Page.Stylesheets" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{55882403-07FF-4041-BD17-F91912F825F2}" />
+    <r id="{5C7850C8-F56A-4A34-92D4-B0DFE582DE9B}" par="Text=Metro+UI&amp;IconFieldName=%24icon48x48&amp;DisplayFieldName=BrowserTitle&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d" ph="Page.Stylesheets" uid="{B72FFA21-76F2-4E23-BB3C-C5DE85579E1C}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: f20af2e4-4e4f-4df4-bac9-2ac962ab15de
+revision: a4d2a090-8b00-4e15-9638-4b3da03fe1d2
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -46,14 +46,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f20af2e4-4e4f-4df4-bac9-2ac962ab15de
+a4d2a090-8b00-4e15-9638-4b3da03fe1d2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140519T114451:635360966910562049
+20141027T123507:635500101078548373Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

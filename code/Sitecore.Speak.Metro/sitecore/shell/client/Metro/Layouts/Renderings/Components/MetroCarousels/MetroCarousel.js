@@ -54,5 +54,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroCarousel;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroCarousel, "MetroCarousel");
+    Sitecore.Speak.component(["metro"], MetroCarousel, "MetroCarousel");
 });

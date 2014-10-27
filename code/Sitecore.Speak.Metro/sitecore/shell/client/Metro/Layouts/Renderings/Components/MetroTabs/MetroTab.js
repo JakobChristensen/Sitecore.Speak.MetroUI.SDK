@@ -13,5 +13,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroTab;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroTab, "MetroTab");
+    Sitecore.Speak.component(["metro"], MetroTab, "MetroTab");
 });

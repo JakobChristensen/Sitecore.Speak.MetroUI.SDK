@@ -34,31 +34,31 @@ Control/16x16/window_d.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 2851
+content-length: 3325
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Panels" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Container2&amp;IsFluid=1" ph="Example1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row2&amp;Columns=4%2C4%2C4" ph="Container2.Content" />
-    <r id="{8F1C1C04-0BB2-4C39-BD4C-D880EDEBC411}" par="Id=Panel1&amp;Text=Lorem%20Ipsum" ph="Row2.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20printing%20and%20typesetting%20industry.%20Lorem%20Ipsum%20has%20been%20the%20industry%27s%20standard%20dummy%20text%20ever%20since%20the%201500s%2C%20when%20an%20unknown%20printer%20took%20a%20galley%20of%20type%20and%20scrambled%20it%20to%20make%20a%20type%20specimen%20book." ph="Panel1.Content" />
-    <r id="{8F1C1C04-0BB2-4C39-BD4C-D880EDEBC411}" par="Id=Panel2&amp;Text=Lorem%20Ipsum&amp;Background=cobalt&amp;Foreground=white" ph="Row2.Column2" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20printing%20and%20typesetting%20industry.%20Lorem%20Ipsum%20has%20been%20the%20industry%27s%20standard%20dummy%20text%20ever%20since%20the%201500s%2C%20when%20an%20unknown%20printer%20took%20a%20galley%20of%20type%20and%20scrambled%20it%20to%20make%20a%20type%20specimen%20book." ph="Panel2.Content" />
-    <r id="{8F1C1C04-0BB2-4C39-BD4C-D880EDEBC411}" par="Id=Panel3&amp;Text=Lorem%20Ipsum&amp;IsCollapsible=1&amp;Background=crimson&amp;Foreground=white" ph="Row2.Column3" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20printing%20and%20typesetting%20industry.%20Lorem%20Ipsum%20has%20been%20the%20industry%27s%20standard%20dummy%20text%20ever%20since%20the%201500s%2C%20when%20an%20unknown%20printer%20took%20a%20galley%20of%20type%20and%20scrambled%20it%20to%20make%20a%20type%20specimen%20book." ph="Panel3.Content" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{C4B86BAD-4768-44A4-9075-E0C288292DF5}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{92C36170-20CF-42F5-9A2C-E0024C44CD83}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{D00D7E8C-05BE-4018-B3A4-64AFAA205A87}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{C7BE0AC7-1E0E-4E88-A775-96A39DEE5B59}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{57C40D1D-A13C-4A43-A40D-4EF943618899}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Panels" ph="Row1.Column1" uid="{2BA59BA3-39AE-41B8-94F1-3176D758421B}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{7EE09A02-A271-42C2-A11A-B767344655CE}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Container2&amp;IsFluid=1" ph="Example1.Content" uid="{80472B97-DAC5-431C-AAC6-7D9AB70274B1}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row2&amp;Columns=4%2c4%2c4" ph="Container2.Content" uid="{FE3BFDEC-882D-4258-9FC1-3DF850C6C793}" />
+    <r id="{8F1C1C04-0BB2-4C39-BD4C-D880EDEBC411}" par="Text=Lorem+Ipsum&amp;Id=Panel1" ph="Row2.Column1" uid="{FDEE0A6B-D1C9-4689-85AA-70B4D76FFFBE}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the+1500s%2c+when+an+unknown+printer+took+a+galley+of+type+and+scrambled+it+to+make+a+type+specimen+book." ph="Panel1.Content" uid="{615427A4-1251-4541-BD85-45D81360DFEA}" />
+    <r id="{8F1C1C04-0BB2-4C39-BD4C-D880EDEBC411}" par="Text=Lorem+Ipsum&amp;Id=Panel2&amp;Background=cobalt&amp;Foreground=white" ph="Row2.Column2" uid="{5E9E300C-4C0B-41E3-AF3A-615D583972F4}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the+1500s%2c+when+an+unknown+printer+took+a+galley+of+type+and+scrambled+it+to+make+a+type+specimen+book." ph="Panel2.Content" uid="{7F3DA0C3-6AFC-490E-9042-057F5F0E9189}" />
+    <r id="{8F1C1C04-0BB2-4C39-BD4C-D880EDEBC411}" par="Text=Lorem+Ipsum&amp;Id=Panel3&amp;IsCollapsible=1&amp;Background=crimson&amp;Foreground=white" ph="Row2.Column3" uid="{BDCD4D98-9A89-4E39-B1F3-B6BBBB5B5E29}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the+1500s%2c+when+an+unknown+printer+took+a+galley+of+type+and+scrambled+it+to+make+a+type+specimen+book." ph="Panel3.Content" uid="{C47C344F-C691-4488-8C4A-1A24FA340483}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 884f30cb-4bb6-4d07-af5f-6f1c567f7422
+revision: 5f55e0f7-4b1b-4041-adf9-f11abec2f205
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -94,14 +94,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-884f30cb-4bb6-4d07-af5f-6f1c567f7422
+5f55e0f7-4b1b-4041-adf9-f11abec2f205
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152514:635355915147647455
+20141027T123837:635500103176644498Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

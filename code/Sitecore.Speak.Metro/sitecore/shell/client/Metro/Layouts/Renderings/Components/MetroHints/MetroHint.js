@@ -13,5 +13,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroHint;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroHint, "MetroHint");
+    Sitecore.Speak.component(["metro"], MetroHint, "MetroHint");
 });

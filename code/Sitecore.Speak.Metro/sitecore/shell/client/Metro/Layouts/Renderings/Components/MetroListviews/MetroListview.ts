@@ -8,4 +8,4 @@ class MetroListview extends Speak.ControlBase {
   // #endregion
 }
 
-Sitecore.component(["metro"], MetroListview, "MetroListview");
+Sitecore.Speak.component(["metro"], MetroListview, "MetroListview");

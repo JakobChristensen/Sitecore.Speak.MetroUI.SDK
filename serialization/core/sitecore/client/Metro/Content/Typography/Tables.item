@@ -34,39 +34,39 @@ Business/16x16/table.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 3099
+content-length: 4105
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Tables" ph="Row1.Column1" />
-    <r id="{262EDE8D-941C-4A6D-A365-D2E7A377C3A6}" par="Id=StaticJsonDataSource1&amp;JsonDataSource=%7B6FD56988-5AC6-47B1-B78F-BFBDE9829733%7D&amp;JsonFieldName=Data" ph="Row1.Column1" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Default%20tables%20styles" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=All%20tables%20has%20default%20styles%3A%20width%20100%25%2C%20cell%20padding%2010px%20and%20text%20align%20left." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Table1Example" ph="Row1.Column1" />
-    <r id="{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}" par="Data=%7BBinding%20StaticJsonDataSource1.Data%7D" ph="Table1Example.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Striped%20rows" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Adds%20zebra-striping%20to%20any%20table%20row%20within%20the%20%3C%20tbody%3E%20with%20class%20.striped." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Table2Example" ph="Row1.Column1" />
-    <r id="{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}" par="Data=%7BBinding%20StaticJsonDataSource1.Data%7D&amp;IsStriped=1" ph="Table2Example.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Bordered%20table" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Adds%20borders%20to%20any%20table%20with%20class%20.bordered." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Table3Example" ph="Row1.Column1" />
-    <r id="{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}" par="Data=%7BBinding%20StaticJsonDataSource1.Data%7D&amp;IsBordered=1" ph="Table3Example.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Hovered%20table" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Enable%20a%20hover%20state%20on%20table%20rows%20within%20a%20%3C%20tbody%3E." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Table4Example" ph="Row1.Column1" />
-    <r id="{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}" par="Data=%7BBinding%20StaticJsonDataSource1.Data%7D&amp;Hover=1" ph="Table4Example.Content" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{B095846D-D741-4C0C-966D-AB0588FA140C}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{E3FB0336-2645-43FE-AD99-4CDEFB741A44}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{C03CE3DC-45ED-4E26-BA6A-00F4E8BC8789}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{628FC9E6-57D2-407E-AA6F-2FB062407874}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{615C64FC-7C6E-46E4-8CEA-9BF366BE773A}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Tables" ph="Row1.Column1" uid="{E20CD713-3C88-4AE1-8FD6-1EAEACE08F7B}" />
+    <r id="{262EDE8D-941C-4A6D-A365-D2E7A377C3A6}" par="Id=StaticJsonDataSource1&amp;JsonDataSource=%252525257B6FD56988-5AC6-47B1-B78F-BFBDE9829733%252525257D&amp;JsonFieldName=Data" ph="Row1.Column1" uid="{E7B937F6-F4A3-415F-9990-D6E49F76597C}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Default+tables+styles" ph="Row1.Column1" uid="{3D6C92EC-B4EB-4594-B3E2-05D7C445C5AE}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=All+tables+has+default+styles%3a+width+100%25%2c+cell+padding+10px+and+text+align+left." ph="Row1.Column1" uid="{6FACC1F8-0370-4802-8F56-4E5DC87D889E}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Table1Example" ph="Row1.Column1" uid="{58AFD173-119F-4843-904D-CD46D036B4E9}" />
+    <r id="{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}" par="Data=%7bBinding+StaticJsonDataSource1.Data%7d" ph="Table1Example.Content" uid="{10CA129A-38B0-4961-B3DB-30E6F829268A}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Striped+rows" ph="Row1.Column1" uid="{CE3B5F1C-68C6-4487-A171-56BE9EED9113}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Adds+zebra-striping+to+any+table+row+within+the+%3c+tbody%3e+with+class+.striped." ph="Row1.Column1" uid="{3CF23AA0-62A7-46CD-A325-CA283B74444A}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Table2Example" ph="Row1.Column1" uid="{B86E639D-1A0C-418C-9AA8-54236083987E}" />
+    <r id="{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}" par="IsStriped=1&amp;Data=%7bBinding+StaticJsonDataSource1.Data%7d" ph="Table2Example.Content" uid="{106302AD-0D4B-4CAF-B514-E163A1404ECC}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Bordered+table" ph="Row1.Column1" uid="{14640126-1C0F-4040-AB1D-A90B28153384}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Adds+borders+to+any+table+with+class+.bordered." ph="Row1.Column1" uid="{80BA7459-E816-45B8-B78B-580E56676FAD}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Table3Example" ph="Row1.Column1" uid="{10EC4FAB-DC58-439A-BCE2-40A9C6B5724B}" />
+    <r id="{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}" par="IsBordered=1&amp;Data=%7bBinding+StaticJsonDataSource1.Data%7d" ph="Table3Example.Content" uid="{41DA0763-8A49-48D6-8F01-435F5F5600D7}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Hovered+table" ph="Row1.Column1" uid="{D562EAD5-8A57-4889-BFEC-BE7546C3D829}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Enable+a+hover+state+on+table+rows+within+a+%3c+tbody%3e." ph="Row1.Column1" uid="{A93D661C-FF22-4073-812C-B27D3CC7E47F}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Table4Example" ph="Row1.Column1" uid="{47CE9D30-499C-4B9D-A1A8-29328E94E521}" />
+    <r id="{3662BE9B-E140-402A-AFF4-8D8A4063ABB9}" par="Data=%7bBinding+StaticJsonDataSource1.Data%7d&amp;Hover=1" ph="Table4Example.Content" uid="{F68452C0-BFCC-47E1-9768-07C49D0A3730}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 7286f8d3-cd21-4a6e-91fe-8e7350d2fe48
+revision: 2a7df5af-5366-4a49-b40b-79ce2f545528
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -102,14 +102,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7286f8d3-cd21-4a6e-91fe-8e7350d2fe48
+2a7df5af-5366-4a49-b40b-79ce2f545528
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152558:635355915580789784
+20141027T124507:635500107074905634Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

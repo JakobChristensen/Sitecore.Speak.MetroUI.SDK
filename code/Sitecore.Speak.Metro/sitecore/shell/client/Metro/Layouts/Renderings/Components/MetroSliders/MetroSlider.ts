@@ -35,4 +35,4 @@ class MetroSlider extends Speak.ControlBase {
   }
 }
 
-Sitecore.component(["metro"], MetroSlider, "MetroSlider");
+Sitecore.Speak.component(["metro"], MetroSlider, "MetroSlider");

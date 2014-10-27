@@ -20,30 +20,30 @@ emerald
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 2305
+content-length: 2832
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Hints" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro%20UI%20CSS%20provides%20plugin%20to%20the%20ability%20to%20create%20tooltips%20for%20any%20elements.%20Positioned%20as%20a%20replacement%20attribute%20title.%20This%20method%20required%20plugin%20metro-hint.js" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container2" ph="Example1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row2&amp;Columns=3%2C3%2C3%2C3" ph="Container2.Content" />
-    <r id="{651569B3-88C9-4124-BBB4-AEE479D53241}" par="Text=Hint%20on%20bottom&amp;Hint=Title%7CThis%20is%20a%20hint%20for%20the%20element.%20Hint%20can%20be%20written%20as%20Html." ph="Row2.Column1" />
-    <r id="{651569B3-88C9-4124-BBB4-AEE479D53241}" par="Text=Hint%20on%20top&amp;Hint=Title%7CThis%20is%20a%20hint%20for%20the%20element.%20Hint%20can%20be%20written%20as%20Html.&amp;Position=Top" ph="Row2.Column2" />
-    <r id="{651569B3-88C9-4124-BBB4-AEE479D53241}" par="Text=Hint%20on%20left&amp;Hint=Title%7CThis%20is%20a%20hint%20for%20the%20element.%20Hint%20can%20be%20written%20as%20Html.&amp;Position=Left" ph="Row2.Column3" />
-    <r id="{651569B3-88C9-4124-BBB4-AEE479D53241}" par="Text=Hint%20on%20right&amp;Hint=Title%7CThis%20is%20a%20hint%20for%20the%20element.%20Hint%20can%20be%20written%20as%20Html.&amp;Position=Right" ph="Row2.Column4" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{5F1CEE1B-4DD3-411F-9111-932AD2CF5962}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{70932746-FF7F-4733-AB79-FB5AB2B34E7E}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{B1EBDAE4-5B48-44B2-8B62-8E01CBA54BD2}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{29C18BB7-B4DB-4D01-B5B9-13A46D3D0EF3}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{0D1627BA-BD40-497E-8BB7-DC0C217DD7E0}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Hints" ph="Row1.Column1" uid="{66B56FD8-14EC-43B7-B907-9E0DB8BDD736}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro+UI+CSS+provides+plugin+to+the+ability+to+create+tooltips+for+any+elements.+Positioned+as+a+replacement+attribute+title.+This+method+required+plugin+metro-hint.js" ph="Row1.Column1" uid="{0D095C90-7844-40D2-A5B6-35895CAB6F58}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{CEB605C5-1788-4BBD-AFBD-8304AAB6721F}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container2" ph="Example1.Content" uid="{75EBEAC2-1F72-4678-9529-0A6B9A943FBA}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row2&amp;Columns=3%2c3%2c3%2c3" ph="Container2.Content" uid="{8282A877-26D6-4DCA-A06D-9F8DED033563}" />
+    <r id="{651569B3-88C9-4124-BBB4-AEE479D53241}" par="Hint=Title%7cThis+is+a+hint+for+the+element.+Hint+can+be+written+as+Html.&amp;Text=Hint+on+bottom" ph="Row2.Column1" uid="{C4F637FA-46DF-42D2-9E6F-0758903A0766}" />
+    <r id="{651569B3-88C9-4124-BBB4-AEE479D53241}" par="Hint=Title%7cThis+is+a+hint+for+the+element.+Hint+can+be+written+as+Html.&amp;Position=Top&amp;Text=Hint+on+top" ph="Row2.Column2" uid="{0547A10C-171D-4444-BF93-CB45C2436DB8}" />
+    <r id="{651569B3-88C9-4124-BBB4-AEE479D53241}" par="Hint=Title%7cThis+is+a+hint+for+the+element.+Hint+can+be+written+as+Html.&amp;Position=Left&amp;Text=Hint+on+left" ph="Row2.Column3" uid="{D440BBDE-7C6A-400A-AD6A-4629590F8628}" />
+    <r id="{651569B3-88C9-4124-BBB4-AEE479D53241}" par="Hint=Title%7cThis+is+a+hint+for+the+element.+Hint+can+be+written+as+Html.&amp;Position=Right&amp;Text=Hint+on+right" ph="Row2.Column4" uid="{E0B36033-53DB-457B-BEB5-1FA81869A993}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: f9851835-7610-458f-ae72-7de46aa4cc37
+revision: dba9d94a-dbde-4396-aaac-1b042c13c74e
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -79,14 +79,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f9851835-7610-458f-ae72-7de46aa4cc37
+dba9d94a-dbde-4396-aaac-1b042c13c74e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152423:635355914632900544
+20141027T123814:635500102945375315Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

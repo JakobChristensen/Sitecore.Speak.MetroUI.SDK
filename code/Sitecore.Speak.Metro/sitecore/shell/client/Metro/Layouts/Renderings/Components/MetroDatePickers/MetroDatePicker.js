@@ -29,5 +29,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroDatePicker;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroDatePicker, "MetroDatePicker");
+    Sitecore.Speak.component(["metro"], MetroDatePicker, "MetroDatePicker");
 });

@@ -8,4 +8,4 @@ class MetroScrollbar extends Speak.ControlBase {
   // #endregion            
 }
 
-Sitecore.component(["metro"], MetroScrollbar, "MetroScrollbar");
+Sitecore.Speak.component(["metro"], MetroScrollbar, "MetroScrollbar");

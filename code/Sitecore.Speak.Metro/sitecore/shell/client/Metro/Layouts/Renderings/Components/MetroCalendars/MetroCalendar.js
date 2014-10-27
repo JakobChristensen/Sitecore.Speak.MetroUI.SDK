@@ -29,5 +29,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroCalendar;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroCalendar, "MetroCalendar");
+    Sitecore.Speak.component(["metro"], MetroCalendar, "MetroCalendar");
 });

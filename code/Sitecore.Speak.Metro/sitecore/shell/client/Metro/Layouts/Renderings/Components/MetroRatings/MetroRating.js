@@ -35,5 +35,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroRating;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroRating, "MetroRating");
+    Sitecore.Speak.component(["metro"], MetroRating, "MetroRating");
 });

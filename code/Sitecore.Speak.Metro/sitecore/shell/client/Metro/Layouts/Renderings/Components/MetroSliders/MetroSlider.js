@@ -31,5 +31,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroSlider;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroSlider, "MetroSlider");
+    Sitecore.Speak.component(["metro"], MetroSlider, "MetroSlider");
 });

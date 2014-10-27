@@ -13,5 +13,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroNavigationBar;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroNavigationBar, "MetroNavigationBar");
+    Sitecore.Speak.component(["metro"], MetroNavigationBar, "MetroNavigationBar");
 });

@@ -27,27 +27,27 @@ Applications/16x16/star_yellow.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 1604
+content-length: 2122
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Ratings" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Rating%20is%20a%20component%20that%20generates%20a%20customizable%20star%20rating.%20This%20component%20required%20metro-rating.js." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{9B49BF9E-F84B-4251-B313-857EA1EF84B5}" par="Score=3&amp;Size=Large&amp;ShowScore=1&amp;Text=Rating%3A%20" ph="Example1.Content" />
-    <r id="{9B49BF9E-F84B-4251-B313-857EA1EF84B5}" par="Score=2&amp;ShowScore=1&amp;Text=Current%20Score%3A%20&amp;Foreground=green" ph="Example1.Content" />
-    <r id="{9B49BF9E-F84B-4251-B313-857EA1EF84B5}" par="Score=4&amp;Size=Small&amp;ShowScore=1&amp;Text=Value%3A%20&amp;Foreground=red" ph="Example1.Content" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{C59E4AFD-4748-4EC4-9DC6-314E9DC72695}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{F0CF1288-EB0C-4C70-8943-056CB4CA5725}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{A2AD33ED-F7CA-49AE-B0B1-9DE40FB1A329}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{05272B04-5BC4-4D4E-85B7-42CC96C01054}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{31B3F187-F750-4E2D-BD17-0E2200C19A3D}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Ratings" ph="Row1.Column1" uid="{65385CC5-B266-4996-A7C6-2C270EAC6FED}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Rating+is+a+component+that+generates+a+customizable+star+rating.+This+component+required+metro-rating.js." ph="Row1.Column1" uid="{AC3EA551-FA4B-4ED4-8F51-809B21965393}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{C7C80B88-09EF-4B2E-8056-256C88D81A9E}" />
+    <r id="{9B49BF9E-F84B-4251-B313-857EA1EF84B5}" par="Score=3&amp;Text=Rating%3a+&amp;Size=Large&amp;ShowScore=1" ph="Example1.Content" uid="{C989CD48-833C-4461-BF3D-69818D13F542}" />
+    <r id="{9B49BF9E-F84B-4251-B313-857EA1EF84B5}" par="Score=2&amp;Text=Current+Score%3a+&amp;Foreground=green&amp;ShowScore=1" ph="Example1.Content" uid="{A052AE82-6A53-4E1F-8605-CDCEDED2D0F3}" />
+    <r id="{9B49BF9E-F84B-4251-B313-857EA1EF84B5}" par="Score=4&amp;Text=Value%3a+&amp;Size=Small&amp;Foreground=red&amp;ShowScore=1" ph="Example1.Content" uid="{DB2FE6FA-221B-4F3A-9F1D-5BED8E8C65C8}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 805602c9-9078-4587-ade3-b648ba04942d
+revision: 4c65bf00-701d-4c35-a6e1-7a6095e45793
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -83,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-805602c9-9078-4587-ade3-b648ba04942d
+4c65bf00-701d-4c35-a6e1-7a6095e45793
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152525:635355915251068190
+20141027T123852:635500103329120692Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

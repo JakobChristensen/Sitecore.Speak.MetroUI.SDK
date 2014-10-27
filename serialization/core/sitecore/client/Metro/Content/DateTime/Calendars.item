@@ -27,34 +27,34 @@ Business/16x16/calendar_1.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 2107
+content-length: 2964
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Columns=12&amp;Id=Row1" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Calendars" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid2&amp;IsFluid=1" ph="Example1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row2&amp;Columns=4%2C4%2C4" ph="Grid2.Content" />
-    <r id="{3F842E14-F095-4BF7-BC64-E5F1E3A3BCF7}" par="Id=Calendar1" ph="Row2.Column1" />
-    <r id="{3F842E14-F095-4BF7-BC64-E5F1E3A3BCF7}" par="Id=Calendar2&amp;StartMode=Month" ph="Row2.Column2" />
-    <r id="{3F842E14-F095-4BF7-BC64-E5F1E3A3BCF7}" par="Id=Calendar3&amp;StartMode=Year" ph="Row2.Column3" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Start%20from%20Monday%2C%20display%20other%20days" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Gri3&amp;IsFluid=1" ph="Example2.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row3&amp;Columns=6%2C6" ph="Gri3.Content" />
-    <r id="{3F842E14-F095-4BF7-BC64-E5F1E3A3BCF7}" par="Id=Calendar4&amp;WeekStart=1" ph="Row3.Column1" />
-    <r id="{3F842E14-F095-4BF7-BC64-E5F1E3A3BCF7}" par="Id=Calendar5&amp;OtherDays=1" ph="Row3.Column2" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{0FA8C340-DBD1-42AB-AB79-D6E2CA2A2145}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{8992B7C7-66F9-40AC-A681-4F549905A387}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{821FA7ED-AE38-49DE-9F4B-BB86FE53DEB2}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{57DF95BF-C2A6-45EF-84B7-0F291693DD64}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{92F99F83-B27B-464E-99EE-2FB75C9DF23A}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Calendars" ph="Row1.Column1" uid="{69CDD7AE-D1A5-424F-B2A2-7238E013915D}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{DA08E7ED-ECA9-4C0D-A5D0-68EE0CF29EA4}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid2&amp;IsFluid=1" ph="Example1.Content" uid="{3FE3A9AA-2182-42FD-9A9C-705FD00F7270}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row2&amp;Columns=4%2c4%2c4" ph="Grid2.Content" uid="{5F4A3A8A-FEEB-4C4B-9313-F3BCCBFA2A16}" />
+    <r id="{3F842E14-F095-4BF7-BC64-E5F1E3A3BCF7}" par="Id=Calendar1" ph="Row2.Column1" uid="{4E2742D7-505F-4FA4-B62C-9E4887E6E55B}" />
+    <r id="{3F842E14-F095-4BF7-BC64-E5F1E3A3BCF7}" par="Id=Calendar2&amp;StartMode=Month" ph="Row2.Column2" uid="{1020DBEE-2CA4-4331-BC66-A1FF1CB56EB7}" />
+    <r id="{3F842E14-F095-4BF7-BC64-E5F1E3A3BCF7}" par="Id=Calendar3&amp;StartMode=Year" ph="Row2.Column3" uid="{AFB1453C-09FA-44C4-8A00-69F767AF7B3D}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Start+from+Monday%2c+display+other+days" ph="Row1.Column1" uid="{2A013DED-8FF2-414F-A4B4-066C2CDF7F5F}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" uid="{E7DA8F58-020A-40AA-9CBC-59D588ED906E}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Gri3&amp;IsFluid=1" ph="Example2.Content" uid="{88787A3C-98A1-415A-971F-6AAA0DBD9E9F}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row3&amp;Columns=6%2c6" ph="Gri3.Content" uid="{27C94C7D-7ED6-4AE6-9720-9A9F5A9CEB96}" />
+    <r id="{3F842E14-F095-4BF7-BC64-E5F1E3A3BCF7}" par="Id=Calendar4&amp;WeekStart=1" ph="Row3.Column1" uid="{AD5CAF24-B253-4942-B58E-03291CCCE67D}" />
+    <r id="{3F842E14-F095-4BF7-BC64-E5F1E3A3BCF7}" par="Id=Calendar5&amp;OtherDays=1" ph="Row3.Column2" uid="{2DA2B748-26B4-478B-91F5-66A214B78A7B}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 83700b19-6557-42b2-a871-4faba23ca1fe
+revision: a101ccf3-864a-4a9d-9a5d-cb4a76750bb1
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -90,14 +90,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-83700b19-6557-42b2-a871-4faba23ca1fe
+a101ccf3-864a-4a9d-9a5d-cb4a76750bb1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152406:635355914469900887
+20141027T123954:635500103946480886Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

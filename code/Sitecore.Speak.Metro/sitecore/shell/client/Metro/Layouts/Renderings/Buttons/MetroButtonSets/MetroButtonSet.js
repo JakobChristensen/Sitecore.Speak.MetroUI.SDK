@@ -16,5 +16,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroButtonSet;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroButtonSet, "MetroButtonSet");
+    Sitecore.Speak.component(["metro"], MetroButtonSet, "MetroButtonSet");
 });

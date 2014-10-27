@@ -34,35 +34,35 @@ content-length: 1
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 2455
+content-length: 3345
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Navigation%20Bar" ph="Row1.Column1" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Navigation%20Bar%20is%20represented%20navigation%20component%20for%20creating%20menu." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D" ph="Example1.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Themed%20navigation%20bar" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Default" ph="Example2.Content" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D&amp;Theme=Default" ph="Example2.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Dark" ph="Example2.Content" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D&amp;Theme=Dark" ph="Example2.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Light" ph="Example2.Content" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D&amp;Theme=Light" ph="Example2.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=White" ph="Example2.Content" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D&amp;Theme=White" ph="Example2.Content" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{8D60E778-1596-4945-9B5C-9B3BBEE8AFDA}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{49203608-BE99-4A5B-B797-D2B6F65B98E3}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{01B1DD8E-FCB8-4F07-A2B7-15778D2A04FF}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{751461DF-530F-4706-8133-5D186FA267DE}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{142AFDEC-21E2-467D-BC7B-677C57CD92DD}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Navigation+Bar" ph="Row1.Column1" uid="{4AB69B8E-106B-43C2-B8B0-873DF16D1DB6}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Navigation+Bar+is+represented+navigation+component+for+creating+menu." ph="Row1.Column1" uid="{42A7535F-5F38-48A7-9E4C-2FDC821D184E}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{6A89DE93-E3B5-4BCA-9313-DF21C848C9CC}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d" ph="Example1.Content" uid="{B7101BB4-5B23-4164-BC53-DF4619E54C71}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Themed+navigation+bar" ph="Row1.Column1" uid="{661A5A9E-0DBA-482C-B201-50478BDF1B7E}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" uid="{B9B3FD50-8E54-49F3-8E8D-4745DD098F7F}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Default" ph="Example2.Content" uid="{EE35FACA-FC85-4374-9DEE-F67BE3FD7762}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="Theme=Default&amp;ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d" ph="Example2.Content" uid="{B8919F97-4EB3-48FE-9108-3B7CD7516343}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Dark" ph="Example2.Content" uid="{9ABB276A-27FD-4AE6-8FD5-CE76040440BD}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="Theme=Dark&amp;ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d" ph="Example2.Content" uid="{7A2FAF95-53BC-40D0-90E9-5105F8D5A097}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Light" ph="Example2.Content" uid="{60E21BFD-A16F-4458-96EC-C8D4119A1B0B}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="Theme=Light&amp;ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d" ph="Example2.Content" uid="{3C993E70-307C-4F57-85F3-0FC913410520}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=White" ph="Example2.Content" uid="{BE6215F8-439E-411E-9987-82005B9151CA}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="Theme=White&amp;ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d" ph="Example2.Content" uid="{CC8B5557-723C-4387-B423-A02E28DC50D7}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 3ee56176-df3d-4f74-92f4-b6d6900b6144
+revision: 499a01b7-6464-4056-a95d-26db04d16417
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -98,14 +98,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3ee56176-df3d-4f74-92f4-b6d6900b6144
+499a01b7-6464-4056-a95d-26db04d16417
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152455:635355914957486585
+20141027T123722:635500102420721035Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -20,35 +20,35 @@ Control/16x16/bar_ver_b_d.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 5744
+content-length: 5818
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Scrollbars" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro%20UI%20CSS%20provides%20scrollbar%20component%20to%20create%20scroll%20area.%20This%20component%20required%20metro-scroll.js." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Container2&amp;IsFluid=1" ph="Example1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Example1Row&amp;Columns=4%2C4%2C4" ph="Container2.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Vertical%20scroll" ph="Example1Row.Column1" />
-    <r id="{AA21BEA1-E26C-4C62-BA24-77C8602D7BB0}" par="Id=Text1&amp;Scrollbars=Vertical&amp;Height=335" ph="Example1Row.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20printing%20and%20typesetting%20industry.%20Lorem%20Ipsum%20has%20been%20the%20industry%27s%20standard%20dummy%20text%20ever%20since%20the%201500s%2C%20when%20an%20unknown%20printer%20took%20a%20galley%20of%20type%20and%20scrambled%20it%20to%20make%20a%20type%20specimen%20book.%20It%20has%20survived%20not%20only%20five%20centuries%2C%20but%20also%20the%20leap%20into%20electronic%20typesetting%2C%20remaining%20essentially%20unchanged.%20It%20was%20popularised%20in%20the%201960s%20with%20the%20release%20of%20Letraset%20sheets%20containing%20Lorem%20Ipsum%20passages%2C%20and%20more%20recently%20with%20desktop%20publishing%20software%20like%20Aldus%20PageMaker%20including%20versions%20of%20Lorem%20Ipsum.%20Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20printing%20and%20typesetting%20industry.%20Lorem%20Ipsum%20has%20been%20the%20industry%27s%20standard%20dummy%20text%20ever%20since%20the%201500s%2C%20when%20an%20unknown%20printer%20took%20a%20galley%20of%20type%20and%20scrambled%20it%20to%20make%20a%20type%20specimen%20book.%20It%20has%20survived%20not%20only%20five%20centuries%2C%20but%20also%20the%20leap%20into%20electronic%20typesetting%2C%20remaining%20essentially%20unchanged.%20It%20was%20popularised%20in%20the%201960s%20with%20the%20release%20of%20Letraset%20sheets%20containing%20Lorem%20Ipsum%20passages%2C%20and%20more%20recently%20with%20desktop%20publishing%20software%20like%20Aldus%20PageMaker%20including%20versions%20of%20Lorem%20Ipsum." ph="Text1.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Horizontal%20scroll" ph="Example1Row.Column2" />
-    <r id="{AA21BEA1-E26C-4C62-BA24-77C8602D7BB0}" par="Id=Text2&amp;Scrollbars=Horizontal&amp;Height=335" ph="Example1Row.Column2" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20printing%20and%20typesetting%20industry.%20Lorem%20Ipsum%20has%20been%20the%20industry%27s%20standard%20dummy%20text%20ever%20since%20the%201500s%2C%20when%20an%20unknown%20printer%20took%20a%20galley%20of%20type%20and%20scrambled%20it%20to%20make%20a%20type%20specimen%20book." ph="Text2.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Both" ph="Example1Row.Column3" />
-    <r id="{AA21BEA1-E26C-4C62-BA24-77C8602D7BB0}" par="Id=Text3&amp;Scrollbars=Both&amp;Height=335" ph="Example1Row.Column3" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20printing%20and%20typesetting%20industry.%20Lorem%20Ipsum%20has%20been%20the%20industry%27s%20standard%20dummy%20text%20ever%20since%20the%201500s%2C%20when%20an%20unknown%20printer%20took%20a%20galley%20of%20type%20and%20scrambled%20it%20to%20make%20a%20type%20specimen%20book.%20It%20has%20survived%20not%20only%20five%20centuries%2C%20but%20also%20the%20leap%20into%20electronic%20typesetting%2C%20remaining%20essentially%20unchanged.%20It%20was%20popularised%20in%20the%201960s%20with%20the%20release%20of%20Letraset%20sheets%20containing%20Lorem%20Ipsum%20passages%2C%20and%20more%20recently%20with%20desktop%20publishing%20software%20like%20Aldus%20PageMaker%20including%20versions%20of%20Lorem%20Ipsum.%20Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20printing%20and%20typesetting%20industry.%20Lorem%20Ipsum%20has%20been%20the%20industry%27s%20standard%20dummy%20text%20ever%20since%20the%201500s%2C%20when%20an%20unknown%20printer%20took%20a%20galley%20of%20type%20and%20scrambled%20it%20to%20make%20a%20type%20specimen%20book.%20It%20has%20survived%20not%20only%20five%20centuries%2C%20but%20also%20the%20leap%20into%20electronic%20typesetting%2C%20remaining%20essentially%20unchanged.%20It%20was%20popularised%20in%20the%201960s%20with%20the%20release%20of%20Letraset%20sheets%20containing%20Lorem%20Ipsum%20passages%2C%20and%20more%20recently%20with%20desktop%20publishing%20software%20like%20Aldus%20PageMaker%20including%20versions%20of%20Lorem%20Ipsum." ph="Text3.Content" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{626CD5AC-8E69-4211-8D46-DC187B73ECCA}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{4A810BD9-20FD-412A-818D-6A5FDA52ABE8}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{3E2FC505-FD28-4811-A64F-8419C9783C27}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{63E175F9-EC97-4BF3-9815-1924BCDC2A84}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{EB573A85-77DA-4290-902E-6FF88E149E70}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Scrollbars" ph="Row1.Column1" uid="{5A277BD4-71F0-40DD-AC89-3FE45FC20A72}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro+UI+CSS+provides+scrollbar+component+to+create+scroll+area.+This+component+required+metro-scroll.js." ph="Row1.Column1" uid="{8B588D84-56B2-4DBB-A050-35EC16DC74D6}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{84A2AD22-27BC-43C4-A5A7-497FB501D735}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Container2&amp;IsFluid=1" ph="Example1.Content" uid="{AF9E09DE-C8D2-41B6-BCB8-93CE0A5F961D}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Example1Row&amp;Columns=4%2c4%2c4" ph="Container2.Content" uid="{FE518F7F-571E-4EB5-BF4F-0A928830A7FB}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Vertical+scroll" ph="Example1Row.Column1" uid="{6EA6913D-3857-4CA9-A4C0-3F833437E847}" />
+    <r id="{AA21BEA1-E26C-4C62-BA24-77C8602D7BB0}" par="Id=Text1&amp;Scrollbars=Vertical&amp;Height=335" ph="Example1Row.Column1" uid="{C2326D4C-B4F6-49E1-87FF-6C711BEE647D}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the+1500s%2c+when+an+unknown+printer+took+a+galley+of+type+and+scrambled+it+to+make+a+type+specimen+book.+It+has+survived+not+only+five+centuries%2c+but+also+the+leap+into+electronic+typesetting%2c+remaining+essentially+unchanged.+It+was+popularised+in+the+1960s+with+the+release+of+Letraset+sheets+containing+Lorem+Ipsum+passages%2c+and+more+recently+with+desktop+publishing+software+like+Aldus+PageMaker+including+versions+of+Lorem+Ipsum.+Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the+1500s%2c+when+an+unknown+printer+took+a+galley+of+type+and+scrambled+it+to+make+a+type+specimen+book.+It+has+survived+not+only+five+centuries%2c+but+also+the+leap+into+electronic+typesetting%2c+remaining+essentially+unchanged.+It+was+popularised+in+the+1960s+with+the+release+of+Letraset+sheets+containing+Lorem+Ipsum+passages%2c+and+more+recently+with+desktop+publishing+software+like+Aldus+PageMaker+including+versions+of+Lorem+Ipsum." ph="Text1.Content" uid="{8DC446C2-7BB8-41A3-84C1-96E4CC4B40D4}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Horizontal+scroll" ph="Example1Row.Column2" uid="{AA75A051-166E-4CAD-832B-0A1C882A79B3}" />
+    <r id="{AA21BEA1-E26C-4C62-BA24-77C8602D7BB0}" par="Id=Text2&amp;Scrollbars=Horizontal&amp;Height=335" ph="Example1Row.Column2" uid="{59781681-3E2B-4ECE-AE83-28989AD7C543}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the+1500s%2c+when+an+unknown+printer+took+a+galley+of+type+and+scrambled+it+to+make+a+type+specimen+book." ph="Text2.Content" uid="{A5C18352-A054-46BA-A0DF-F21586A64EFE}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Both" ph="Example1Row.Column3" uid="{03DDE27E-9035-4D3C-A392-3B65C6ED538F}" />
+    <r id="{AA21BEA1-E26C-4C62-BA24-77C8602D7BB0}" par="Id=Text3&amp;Scrollbars=Both&amp;Height=335" ph="Example1Row.Column3" uid="{F6099948-610C-472C-82CE-40C2A4215AB0}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the+1500s%2c+when+an+unknown+printer+took+a+galley+of+type+and+scrambled+it+to+make+a+type+specimen+book.+It+has+survived+not+only+five+centuries%2c+but+also+the+leap+into+electronic+typesetting%2c+remaining+essentially+unchanged.+It+was+popularised+in+the+1960s+with+the+release+of+Letraset+sheets+containing+Lorem+Ipsum+passages%2c+and+more+recently+with+desktop+publishing+software+like+Aldus+PageMaker+including+versions+of+Lorem+Ipsum.+Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the+1500s%2c+when+an+unknown+printer+took+a+galley+of+type+and+scrambled+it+to+make+a+type+specimen+book.+It+has+survived+not+only+five+centuries%2c+but+also+the+leap+into+electronic+typesetting%2c+remaining+essentially+unchanged.+It+was+popularised+in+the+1960s+with+the+release+of+Letraset+sheets+containing+Lorem+Ipsum+passages%2c+and+more+recently+with+desktop+publishing+software+like+Aldus+PageMaker+including+versions+of+Lorem+Ipsum." ph="Text3.Content" uid="{78C4D6CF-B6B8-4927-B8E6-88F3C328A1B2}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 3b828f6c-40e6-4f65-9ec6-25cfccbcf590
+revision: d3c0f72f-0fad-4e27-af77-a3d8ac095cba
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -84,14 +84,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3b828f6c-40e6-4f65-9ec6-25cfccbcf590
+d3c0f72f-0fad-4e27-af77-a3d8ac095cba
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152530:635355915305609109
+20141027T123900:635500103406255432Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

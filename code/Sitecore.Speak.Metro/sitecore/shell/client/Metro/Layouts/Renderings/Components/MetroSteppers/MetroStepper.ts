@@ -35,4 +35,4 @@ class MetroStepper extends Speak.ControlBase {
   }
 }
 
-Sitecore.component(["metro"], MetroStepper, "MetroStepper");
+Sitecore.Speak.component(["metro"], MetroStepper, "MetroStepper");

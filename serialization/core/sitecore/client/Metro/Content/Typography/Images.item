@@ -20,58 +20,58 @@ Applications/16x16/photo_scenery.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 6461
+content-length: 8280
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Images" ph="Row1.Column1" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=General" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Add%20classes%20to%20an%20%3C%20img%3E%20element%20to%20easily%20style%20images%20in%20any%20project." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Rounded&amp;Size=Size2" ph="Example1.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Cycle&amp;Size=Size2" ph="Example1.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Polaroid&amp;Size=Size2" ph="Example1.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Cycle%20Polaroid&amp;Size=Size2" ph="Example1.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Rounded%20Polaroid&amp;Size=Size2" ph="Example1.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Shadow&amp;Size=Size2" ph="Example1.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Border%20color" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=You%20can%20change%20border%20color%20with%20build-in%20classes%20bd-*" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Rounded&amp;Size=Size2&amp;BorderColor=amber" ph="Example2.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Cycle&amp;Size=Size2&amp;BorderColor=cobalt" ph="Example2.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Polaroid&amp;Size=Size2&amp;BorderColor=crimson" ph="Example2.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Cycle%20Polaroid&amp;Size=Size2&amp;BorderColor=darkPink" ph="Example2.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Rounded%20Polaroid&amp;Size=Size2&amp;BorderColor=darkViolet" ph="Example2.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Shadow&amp;Size=Size2&amp;BorderColor=teal" ph="Example2.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Background%20color" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=You%20can%20change%20background%20color%20for%20polaroid%20style%20with%20build-in%20classes%20bg-*" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example3" ph="Row1.Column1" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Polaroid&amp;Size=Size3&amp;Background=crimson" ph="Example3.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Cycle%20Polaroid&amp;Size=Size3&amp;Background=darkPink" ph="Example3.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Rounded%20Polaroid&amp;Size=Size3&amp;Background=darkViolet" ph="Example3.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Image%20Size" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Also%20you%20can%20set%20width%20of%20image%20with%20%3C%20span1%3E...%3C%20span12%3E%20classes." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example4" ph="Row1.Column1" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Rounded&amp;Size=Size1" ph="Example4.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Rounded&amp;Size=Size3" ph="Example4.Content" />
-    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Rounded&amp;Size=Size5" ph="Example4.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Image%20Container" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=You%20can%20use%20class%20.image-container%20to%20create%20additional%20image%20presentation." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example5" ph="Row1.Column1" />
-    <r id="{DEF379E7-46D3-48A7-96C0-7BA42011B8E0}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Size=Size3&amp;Text=Lorem%20Ipsum" ph="Example5.Content" />
-    <r id="{DEF379E7-46D3-48A7-96C0-7BA42011B8E0}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Shape=Shadow&amp;Size=Size3&amp;Text=Lorem%20Ipsum&amp;IsFluid=1" ph="Example5.Content" />
-    <r id="{DEF379E7-46D3-48A7-96C0-7BA42011B8E0}" par="Source=%7BD52E046B-BC26-4219-89DC-0BE67961764B%7D&amp;Size=Size3&amp;IsSelected=1" ph="Example5.Content" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{57827BD3-5A61-44F6-AD5D-D5679BD6C77D}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{A99D54A4-C583-4B97-B6F0-F6E2ECBBB605}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{6C8D9E03-7230-4C16-806C-85AEFC618384}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{A699A569-A4C3-4AB2-BCF5-3A43C336F08D}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{C0E771A9-49DF-4483-84A1-9808F5C48E64}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Images" ph="Row1.Column1" uid="{C0A33197-AE83-41C0-8CE5-007D9D638218}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=General" ph="Row1.Column1" uid="{058B5BC0-4BCF-4C1B-B1DC-43C360BA4243}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Add+classes+to+an+%3c+img%3e+element+to+easily+style+images+in+any+project." ph="Row1.Column1" uid="{7AE36B55-EFFA-4506-BD0E-000E073A4C6C}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{7AA78CC2-7837-4AA8-94A1-26D0D9043C22}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Size=Size2&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Rounded" ph="Example1.Content" uid="{CFDE0BDE-3F57-4980-A0CB-9D975451C492}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Size=Size2&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Cycle" ph="Example1.Content" uid="{2BBF97C8-1F46-46D8-9567-3BB2AFD8B11F}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Size=Size2&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Polaroid" ph="Example1.Content" uid="{D5C35D83-E167-4529-AD02-59DFE930B8BC}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Size=Size2&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Cycle+Polaroid" ph="Example1.Content" uid="{942A2910-245B-43D7-97CD-914E5A044ED2}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Size=Size2&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Rounded+Polaroid" ph="Example1.Content" uid="{10B3C187-D5F0-42E7-959C-F9675F0A0F2D}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Size=Size2&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Shadow" ph="Example1.Content" uid="{A4132C48-88C0-41A5-B459-C9518396CE2B}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Border+color" ph="Row1.Column1" uid="{CB610EAC-C91A-4F24-8691-B38F9D4E7E06}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=You+can+change+border+color+with+build-in+classes+bd-*" ph="Row1.Column1" uid="{061ADC0F-00CA-4E9E-B6ED-3FF99744511E}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" uid="{9340FC51-6BC3-4ECF-B6D5-3A786594BB70}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="BorderColor=amber&amp;Size=Size2&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Rounded" ph="Example2.Content" uid="{619B44C9-F7AF-4EAB-A1F8-BB4EC2212759}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="BorderColor=cobalt&amp;Size=Size2&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Cycle" ph="Example2.Content" uid="{CBF4C6EC-D9D2-42B2-9EA9-27A38EFB471D}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="BorderColor=crimson&amp;Size=Size2&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Polaroid" ph="Example2.Content" uid="{FC996BEC-1F87-4F52-8DF3-66312C204EA5}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="BorderColor=darkPink&amp;Size=Size2&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Cycle+Polaroid" ph="Example2.Content" uid="{0AD011AA-0484-404C-8EB7-DD128DE8C38E}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="BorderColor=darkViolet&amp;Size=Size2&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Rounded+Polaroid" ph="Example2.Content" uid="{47FCA74B-0B79-4A52-9EE3-F74DFDDD4149}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="BorderColor=teal&amp;Size=Size2&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Shadow" ph="Example2.Content" uid="{34DEF376-0A47-4F05-B6AE-7428B354EFFD}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Background+color" ph="Row1.Column1" uid="{5BABF1CB-1558-4B7F-8DC1-63D3FB59E9A6}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=You+can+change+background+color+for+polaroid+style+with+build-in+classes+bg-*" ph="Row1.Column1" uid="{AA11D5F5-D09F-4046-9FD6-9D33B2C2D75F}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example3" ph="Row1.Column1" uid="{DAB03C16-8727-45F1-B791-F842E6C56DFE}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Size=Size3&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Polaroid&amp;Background=crimson" ph="Example3.Content" uid="{0037B52D-D3C5-497D-B54A-E7FD625FDFDB}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Size=Size3&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Cycle+Polaroid&amp;Background=darkPink" ph="Example3.Content" uid="{747DD72C-CD5D-42A8-86D9-B7475786B725}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Size=Size3&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Rounded+Polaroid&amp;Background=darkViolet" ph="Example3.Content" uid="{4008AC6A-A368-498D-A68E-0821C88D6B08}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Image+Size" ph="Row1.Column1" uid="{EBD4E44F-15F5-491A-82A3-2091AA7E0D55}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Also+you+can+set+width+of+image+with+%3c+span1%3e...%3c+span12%3e+classes." ph="Row1.Column1" uid="{7B8C04C3-0541-4D5E-BF75-F2A75D7B990E}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example4" ph="Row1.Column1" uid="{463B8698-0A51-445D-B6A8-9B3F25B3A0CC}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Size=Size1&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Rounded" ph="Example4.Content" uid="{B39039A7-CD75-4C4A-B17D-97B4F444A353}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Size=Size3&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Rounded" ph="Example4.Content" uid="{1D1D0491-87EC-433F-8FD5-39FD4B52B622}" />
+    <r id="{F400D33D-7EBD-4FC7-889D-8A2845CC81E6}" par="Size=Size5&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d&amp;Shape=Rounded" ph="Example4.Content" uid="{D1366816-7A44-4A1D-B46E-96C1AACA2CAF}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Image+Container" ph="Row1.Column1" uid="{1795FE7F-D16D-428B-A6DE-BC437176E4DE}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=You+can+use+class+.image-container+to+create+additional+image+presentation." ph="Row1.Column1" uid="{3B52EC81-1E95-4674-9921-D54FD310ADA4}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example5" ph="Row1.Column1" uid="{A083C3C2-1C6D-4D3B-9539-F001A423CAF5}" />
+    <r id="{DEF379E7-46D3-48A7-96C0-7BA42011B8E0}" par="Text=Lorem+Ipsum&amp;Size=Size3&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d" ph="Example5.Content" uid="{A0BD5CC5-E641-406F-9A28-26EE45F8FB77}" />
+    <r id="{DEF379E7-46D3-48A7-96C0-7BA42011B8E0}" par="IsFluid=1&amp;Shape=Shadow&amp;Text=Lorem+Ipsum&amp;Size=Size3&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d" ph="Example5.Content" uid="{18EBA828-4771-4964-B6B5-CE154E171206}" />
+    <r id="{DEF379E7-46D3-48A7-96C0-7BA42011B8E0}" par="IsSelected=1&amp;Size=Size3&amp;Source=%7bD52E046B-BC26-4219-89DC-0BE67961764B%7d" ph="Example5.Content" uid="{BB2BC2BA-9AB7-4167-B49E-F14BC6640226}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 38dcc206-02cb-4a17-b1d9-ab59c1d1e49d
+revision: 52e61d45-52b3-4caa-bf0c-878feb019737
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -107,14 +107,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-38dcc206-02cb-4a17-b1d9-ab59c1d1e49d
+52e61d45-52b3-4caa-bf0c-878feb019737
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152438:635355914786513022
+20141027T123657:635500102175707021Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

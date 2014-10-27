@@ -163,9 +163,6 @@
     <File Include="sitecore\shell\client\Metro\Layouts\Renderings\Typography\MetroBlockquotes\MetroBlockquote.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="core">{BEEB6F56-F392-4B86-8A47-FEDF61A07C6C}</Item>
     </File>
-    <File Include="sitecore\shell\client\Metro\Metro.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="core">{EB685903-3193-4FDF-8ADF-48F196C35C7E}</Item>
-    </File>
     <File Include="sitecore\shell\client\Metro\Content\Typography\Typopgraphy.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="core">{42C753C0-F36E-495C-BA93-A3A9C6E67E29}</Item>
     </File>

@@ -13,5 +13,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroScrollbar;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroScrollbar, "MetroScrollbar");
+    Sitecore.Speak.component(["metro"], MetroScrollbar, "MetroScrollbar");
 });

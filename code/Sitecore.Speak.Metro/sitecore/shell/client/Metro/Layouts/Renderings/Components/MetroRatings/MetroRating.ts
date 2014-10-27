@@ -34,4 +34,4 @@ class MetroRating extends Speak.ControlBase {
   }
 }
 
-Sitecore.component(["metro"], MetroRating, "MetroRating");
+Sitecore.Speak.component(["metro"], MetroRating, "MetroRating");

@@ -27,30 +27,30 @@ Control/16x16/popup_menu_b_d.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 1997
+content-length: 2634
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Sidebars" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro%20UI%20CSS%20provides%20SideBar%20component.%20This%20component%20is%20great%20to%20create%20side%20menu.%20For%20dropdown%20you%20must%20include%20metro-dropdown.js.%20See%20code%20below%20for%20definition%20details." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Container2&amp;IsFluid=1" ph="Example1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Example1Row&amp;Columns=6%2C6" ph="Container2.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Default" ph="Example1Row.Column1" />
-    <r id="{77EE2147-1CB2-4012-BFDC-02D90E47A1B0}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D&amp;Active=Above" ph="Example1Row.Column1" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Light" ph="Example1Row.Column2" />
-    <r id="{77EE2147-1CB2-4012-BFDC-02D90E47A1B0}" par="ItemsDataSource=%7B1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7D&amp;Theme=Light&amp;Active=Below" ph="Example1Row.Column2" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{8179E5F4-A4EE-461E-A9EE-FF731D784BC0}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{49810422-7AF6-4ECB-B993-2CACB8A73C6F}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{8F856DDE-AFBF-4236-BE16-8D2C5A9807ED}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{39914B2F-E12D-48D7-B225-72009E515A6F}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{3E90A79E-6991-4011-AFC5-455269F53EA0}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Sidebars" ph="Row1.Column1" uid="{D43D0EA3-4CBE-4497-9947-C36432771421}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro+UI+CSS+provides+SideBar+component.+This+component+is+great+to+create+side+menu.+For+dropdown+you+must+include+metro-dropdown.js.+See+code+below+for+definition+details." ph="Row1.Column1" uid="{72CA1288-D700-4A84-9ED9-726F02F59192}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{45D92DB6-C5F0-41A7-A18B-84A026C61FD0}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Container2&amp;IsFluid=1" ph="Example1.Content" uid="{629182C9-6150-4370-8266-1994D68FF924}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Example1Row&amp;Columns=6%2c6" ph="Container2.Content" uid="{8A504AEB-5F98-4992-B4F1-1E21F420E6A6}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Default" ph="Example1Row.Column1" uid="{4AEFB62D-EC98-4572-A842-3B7A18A8F35A}" />
+    <r id="{77EE2147-1CB2-4012-BFDC-02D90E47A1B0}" par="Active=Above&amp;ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d" ph="Example1Row.Column1" uid="{532CB7CF-58F5-4C82-A515-5C36879B8CC6}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Light" ph="Example1Row.Column2" uid="{8341C5D8-6857-4943-9417-382AB47A6BB5}" />
+    <r id="{77EE2147-1CB2-4012-BFDC-02D90E47A1B0}" par="Active=Below&amp;ItemsDataSource=%7b1D51F4A3-4F82-43D3-9BFF-7F513981CBF8%7d&amp;Theme=Light" ph="Example1Row.Column2" uid="{A9A91F3E-0B65-4F93-AA17-9AF177E200E0}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: e6b7348a-b0c2-4ff7-a642-e442f46d9592
+revision: 1de71571-a48f-4942-8c9a-88e0755cd370
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -86,14 +86,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e6b7348a-b0c2-4ff7-a642-e442f46d9592
+1de71571-a48f-4942-8c9a-88e0755cd370
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152536:635355915361320198
+20141027T123738:635500102589784249Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

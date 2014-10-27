@@ -13,32 +13,32 @@ templatekey: MetroPage
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 1991
+content-length: 2768
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Steppers" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{2B187A0E-8EBA-42A2-8A02-CFF2AC4B9620}" par="Steps=5" ph="Example1.Content" />
-    <r id="{2B187A0E-8EBA-42A2-8A02-CFF2AC4B9620}" par="Steps=5&amp;Start=3&amp;Type=Rounded" ph="Example1.Content" />
-    <r id="{2B187A0E-8EBA-42A2-8A02-CFF2AC4B9620}" par="Steps=5&amp;Start=2&amp;Type=Diamond" ph="Example1.Content" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" />
-    <r id="{2B187A0E-8EBA-42A2-8A02-CFF2AC4B9620}" par="Id=Stepper1&amp;Steps=5&amp;Start=1" ph="Example2.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=First&amp;Click=trigger%3AStepper1%3Afirst" ph="Example2.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Previous&amp;Click=trigger%3AStepper1%3Aprevious" ph="Example2.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Next&amp;Click=trigger%3AStepper1%3Anext" ph="Example2.Content" />
-    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Text=Last&amp;Click=trigger%3AStepper1%3Alast" ph="Example2.Content" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{597FFE89-E38E-4089-9601-AD7FF4F203AD}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{E9023651-9548-473D-BECD-96D395E718F8}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{42E92CD2-E25E-420A-892F-9A09453DCD6E}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{DF3E72DE-48B4-4E8A-A3FB-863F662FDD57}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{209C0217-E618-40B7-AB53-846D0C8F59D3}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Steppers" ph="Row1.Column1" uid="{473A84E2-90B7-48F1-9654-9D1AACCDF2A1}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{E38F02F9-A7CA-43F5-8DC0-BFCD005B4684}" />
+    <r id="{2B187A0E-8EBA-42A2-8A02-CFF2AC4B9620}" par="Steps=5" ph="Example1.Content" uid="{D1EDBECA-B7C3-4595-9C3C-F70A7EE35F83}" />
+    <r id="{2B187A0E-8EBA-42A2-8A02-CFF2AC4B9620}" par="Steps=5&amp;Type=Rounded&amp;Start=3" ph="Example1.Content" uid="{2D6477FC-824D-417D-85EA-B7AD607EB7B4}" />
+    <r id="{2B187A0E-8EBA-42A2-8A02-CFF2AC4B9620}" par="Steps=5&amp;Type=Diamond&amp;Start=2" ph="Example1.Content" uid="{8A82B059-A71E-406C-8BEC-F8D7A052FACE}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example2" ph="Row1.Column1" uid="{A71FA921-8574-466C-84D6-94D0817E17F3}" />
+    <r id="{2B187A0E-8EBA-42A2-8A02-CFF2AC4B9620}" par="Id=Stepper1&amp;Steps=5&amp;Start=1" ph="Example2.Content" uid="{BC8C416E-5DBA-4881-A051-008A1D7D7E62}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Click=trigger%3aStepper1%3afirst&amp;Text=First" ph="Example2.Content" uid="{90026910-310A-433B-8B03-8A5860613CAF}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Click=trigger%3aStepper1%3aprevious&amp;Text=Previous" ph="Example2.Content" uid="{47A1BB25-4CBC-4BE1-82E5-C3A855421720}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Click=trigger%3aStepper1%3anext&amp;Text=Next" ph="Example2.Content" uid="{B1C35C22-033D-4A90-80C7-3FE4B1B7F747}" />
+    <r id="{476A5C49-A301-4107-9F75-DD136841CDAE}" par="Click=trigger%3aStepper1%3alast&amp;Text=Last" ph="Example2.Content" uid="{3DC524DA-D6F5-4ECF-B8B2-9A39D5678CE5}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 2e18d1ae-aba8-4134-8465-61d29f3fe32b
+revision: 23c36cdf-6d76-444f-b75b-41845fceb71a
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -74,14 +74,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2e18d1ae-aba8-4134-8465-61d29f3fe32b
+23c36cdf-6d76-444f-b75b-41845fceb71a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152546:635355915468587400
+20141027T123917:635500103577287202Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

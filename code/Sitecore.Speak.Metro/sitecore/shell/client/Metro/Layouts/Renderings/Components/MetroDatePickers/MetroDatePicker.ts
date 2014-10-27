@@ -33,4 +33,4 @@ class MetroDatePicker extends Speak.ControlBase {
   }
 }
 
-Sitecore.component(["metro"], MetroDatePicker, "MetroDatePicker");
+Sitecore.Speak.component(["metro"], MetroDatePicker, "MetroDatePicker");

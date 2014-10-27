@@ -41,133 +41,133 @@ content-length: 1
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 19590
+content-length: 23232
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Typography" ph="Row1.Column1" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Headings" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=All%20HTML%20heading%2C%20h1-h6%20are%20available." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=HeadingsExample" ph="Row1.Column1" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=h1.%20Header%201" ph="HeadingsExample.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=h2.%20Header%202" ph="HeadingsExample.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=h3.%20Header%203" ph="HeadingsExample.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=h4.%20Header%204" ph="HeadingsExample.Content" />
-    <r id="{51367460-E5C0-4ED6-87B4-CD6280E2BC5A}" par="Text=h5.%20Header%205" ph="HeadingsExample.Content" />
-    <r id="{20B75EDA-CE11-4440-B390-AA94594FE83C}" par="Text=h6.%20Header%206" ph="HeadingsExample.Content" />
-    <r id="{63170104-6223-4AE8-BE64-07DC3A347832}" par="Text=Header" ph="HeadingsExample.Content" />
-    <r id="{C2259F84-EB2C-44FB-B00E-73901DC0B1E2}" par="Text=Subheader" ph="HeadingsExample.Content" />
-    <r id="{2BD61E78-7DA1-4CF3-85F7-2C9F4D2DCEB6}" par="Text=Subheader%20secondary" ph="HeadingsExample.Content" />
-    <r id="{5EC61A07-6EEA-4D8C-81C4-8D406B7201B8}" par="Text=Item%20title" ph="HeadingsExample.Content" />
-    <r id="{C5B304CF-17EC-4A50-A229-85CDEFB8552D}" par="Text=Item%20title%20secondary" ph="HeadingsExample.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Text" ph="Row1.Column1" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Paragraph%20Text" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro%20UI%20CSS%20global%20default%20font-size%20is%2011pt%2C%20with%20a%20line-height%20of%2015pt.%20This%20is%20applied%20to%20the%20%3C%20div%3E%2C%20%3C%20span%3E%20and%20all%20paragraphs.%20In%20addition%2C%20%3C%20p%3E%20(paragraphs)%20receive%20a%20bottom%20margin%207pt." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=ParagraphTextExample" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Aenean%20luctus%20lectus%20sit%20amet%20odio%20ullamcorper%20malesuada%20dignissim%20justo%20gravida.%20Pellentesque%20sagittis%2C%20tellus%20id%20sagittis%20accumsan%2C%20augue%20velit%20pretium%20urna%2C%20ac%20interdum%20dui%20nibh%20et%20orci.%20Quisque%20dapibus%20elit%20ut%20metus%20varius%20ac%20bibendum%20sem%20luctus.%20Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Sed%20quis%20sagittis%20lorem.%20Praesent%20ac%20eros%20quam." ph="ParagraphTextExample.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Praesent%20molestie%20bibendum%20consequat.%20Suspendisse%20a%20felis%20eu%20augue%20venenatis%20egestas%20nec%20ac%20lectus.%20Nam%20nec%20felis%20lorem.%20Maecenas%20luctus%20est%20et%20nulla%20cursus%20vestibulum.%20Curabitur%20suscipit%20adipiscing%20dui%20eget%20sollicitudin.%20Sed%20accumsan%20tincidunt%20enim%2C%20in%20feugiat%20ligula%20ornare%20et." ph="ParagraphTextExample.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Nullam%20libero%20odio%2C%20lacinia%20vel%20dignissim%20sed%2C%20consequat%20ac%20nisi.%20Ut%20at%20mauris%20sit%20amet%20sem%20dapibus%20pretium%20sit%20amet%20sed%20orci.%20Quisque%20tincidunt%20sodales%20sollicitudin.%20Ut%20purus%20odio%2C%20imperdiet%20ut%20laoreet%20ac%2C%20placerat%20vel%20ante.%20Nulla%20tincidunt%20sapien%20in%20metus%20tincidunt%20imperdiet.%20Vestibulum%20a%20dui%20nisi.%20Morbi%20vestibulum%20nulla%20lacinia%20enim%20tempus%20ullamcorper." ph="ParagraphTextExample.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Readable%20Text" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For%20big%20text%20you%20can%20use%20.readable-text%20class." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=ReadableTextExample" ph="Row1.Column1" />
-    <r id="{D40E3CCC-AA1C-488B-B8EE-9D7EDA3A8072}" par="Text=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Aenean%20luctus%20lectus%20sit%20amet%20odio%20ullamcorper%20malesuada%20dignissim%20justo%20gravida.%20Pellentesque%20sagittis%2C%20tellus%20id%20sagittis%20accumsan%2C%20augue%20velit%20pretium%20urna%2C%20ac%20interdum%20dui%20nibh%20et%20orci.%20Quisque%20dapibus%20elit%20ut%20metus%20varius%20ac%20bibendum%20sem%20luctus.%20Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Sed%20quis%20sagittis%20lorem.%20Praesent%20ac%20eros%20quam." ph="ReadableTextExample.Content" />
-    <r id="{D40E3CCC-AA1C-488B-B8EE-9D7EDA3A8072}" par="Text=Praesent%20molestie%20bibendum%20consequat.%20Suspendisse%20a%20felis%20eu%20augue%20venenatis%20egestas%20nec%20ac%20lectus.%20Nam%20nec%20felis%20lorem.%20Maecenas%20luctus%20est%20et%20nulla%20cursus%20vestibulum.%20Curabitur%20suscipit%20adipiscing%20dui%20eget%20sollicitudin.%20Sed%20accumsan%20tincidunt%20enim%2C%20in%20feugiat%20ligula%20ornare%20et." ph="ReadableTextExample.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Tertiary%20and%20tertiary%20secondary%20text" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For%20tertiary%20text%20you%20can%20set%20class%20.tertiary-text%20and%20.tertiary-text-secondary." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=TertiaryTextExample" ph="Row1.Column1" />
-    <r id="{3D1F05A1-60E5-423F-9D00-3FF7DA18EA08}" par="Text=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Aenean%20luctus%20lectus%20sit%20amet%20odio%20ullamcorper%20malesuada%20dignissim%20justo%20gravida.%20Pellentesque%20sagittis%2C%20tellus%20id%20sagittis%20accumsan%2C%20augue%20velit%20pretium%20urna%2C%20ac%20interdum%20dui%20nibh%20et%20orci.%20Quisque%20dapibus%20elit%20ut%20metus%20varius%20ac%20bibendum%20sem%20luctus.%20Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Sed%20quis%20sagittis%20lorem.%20Praesent%20ac%20eros%20quam." ph="TertiaryTextExample.Content" />
-    <r id="{9CFE7382-1B05-482E-AFB3-C38B8E94AE97}" par="Text=Praesent%20molestie%20bibendum%20consequat.%20Suspendisse%20a%20felis%20eu%20augue%20venenatis%20egestas%20nec%20ac%20lectus.%20Nam%20nec%20felis%20lorem.%20Maecenas%20luctus%20est%20et%20nulla%20cursus%20vestibulum.%20Curabitur%20suscipit%20adipiscing%20dui%20eget%20sollicitudin.%20Sed%20accumsan%20tincidunt%20enim%2C%20in%20feugiat%20ligula%20ornare%20et." ph="TertiaryTextExample.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Code%20text" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For%20code%20text%20you%20can%20set%20class%20.code-text.%20This%20class%20use%20mono%20fonts." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=CodeTextExample" ph="Row1.Column1" />
-    <r id="{0D82D3D6-2DC1-47F4-8117-494009D4F19B}" par="Text=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Aenean%20luctus%20lectus%20sit%20amet%20odio%20ullamcorper%20malesuada%20dignissim%20justo%20gravida.%20Pellentesque%20sagittis%2C%20tellus%20id%20sagittis%20accumsan%2C%20augue%20velit%20pretium%20urna%2C%20ac%20interdum%20dui%20nibh%20et%20orci.%20Quisque%20dapibus%20elit%20ut%20metus%20varius%20ac%20bibendum%20sem%20luctus.%20Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Sed%20quis%20sagittis%20lorem.%20Praesent%20ac%20eros%20quam." ph="CodeTextExample.Content" />
-    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Emphasis" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Make%20use%20of%20HTML%27s%20default%20emphasis%20tags%20with%20lightweight%20styles." ph="Row1.Column1" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Small" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For%20de-emphasizing%20inline%20or%20blocks%20of%20text%2C%20use%20the%20%3C%20small%3E%20tag." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=SmallExample" ph="Row1.Column1" />
-    <r id="{B756C59D-01B5-4567-AE2C-74CF3FAC3D3C}" par="Text=The%20text%20is%20reduced." ph="SmallExample.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Bold" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For%20emphasizing%20inline%20or%20blocks%20of%20text%2C%20use%20the%20%3C%20strong%3E%20tag." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=BoldExample" ph="Row1.Column1" />
-    <r id="{8D1BD13B-08A9-4699-AE5A-B46EBDD34907}" par="Text=The%20text%20is%20strong." ph="BoldExample.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Italic" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For%20emphasizing%20a%20snippet%20of%20text%20with%20italics%20use%20%3C%20em%3E%20tag." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=ItalicExample" ph="Row1.Column1" />
-    <r id="{479330A9-968D-47AD-9832-D1F86E553994}" par="Text=The%20text%20is%20italics." ph="ItalicExample.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Alignment%20classes" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Easily%20realign%20text%20to%20components%20with%20text%20alignment%20classes." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=AlignmentClassesExample" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Left%20aligned%20text.&amp;Alignment=Left" ph="AlignmentClassesExample.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Center%20aligned%20text.&amp;Alignment=Center" ph="AlignmentClassesExample.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Right%20aligned%20text.&amp;Alignment=Right" ph="AlignmentClassesExample.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Justified%20text.&amp;Alignment=Justify" ph="AlignmentClassesExample.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Emphasis%20classes" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Convey%20meaning%20through%20color%20with%20a%20handful%20of%20emphasis%20utility%20classes." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=EmphasisClassesExample" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit%20(muted).&amp;Emphasis=Muted" ph="EmphasisClassesExample.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit%20(info).&amp;Emphasis=Info" ph="EmphasisClassesExample.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit%20(alert).&amp;Emphasis=Alert" ph="EmphasisClassesExample.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit%20(warning).&amp;Emphasis=Warning" ph="EmphasisClassesExample.Content" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit%20(success).&amp;Emphasis=Success" ph="EmphasisClassesExample.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Abbreviations" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Stylized%20implementation%20of%20HTML%27s%20%3C%20abbr%3E%20element%20for%20abbreviations%20and%20acronyms%20to%20show%20the%20expanded%20version%20on%20hover.%20Abbreviations%20with%20a%20title%20attribute%20have%20a%20light%20dotted%20bottom%20border%20and%20a%20help%20cursor%20on%20hover%2C%20providing%20additional%20context%20on%20hover." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=AbbreviationsExample" ph="Row1.Column1" />
-    <r id="{1B3D2A5B-3AE6-4092-8795-6C0F431B56E9}" par="Text=An%20abbreviation%20of%20the%20word%20attribute%20is%20attr.&amp;Tooltip=Abbreviation" ph="AbbreviationsExample.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Addresses" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Present%20contact%20information%20for%20the%20nearest%20ancestor%20or%20the%20entire%20body%20of%20work." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=AddressExample" ph="Row1.Column1" />
-    <r id="{F8C6EAB3-E950-4E21-8C0B-2F9952A5F088}" par="Text=Sitecore%20A%2FS%2C%20Vester%20Farigmagsgade%203%2C5%20Copehagen%20V%2C%20Denmark." ph="AddressExample.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Blockquotes" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For%20quoting%20blocks%20of%20content%20from%20another%20source%20within%20your%20document." ph="Row1.Column1" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Default%20blockquote" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Wrap%20%3C%20blockquote%3E%20around%20any%20HTML%20as%20the%20quote.%20For%20straight%20quotes%20we%20recommend%20a%20%3C%20p%3E." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Blockquote1Example" ph="Row1.Column1" />
-    <r id="{BEEB6F56-F392-4B86-8A47-FEDF61A07C6C}" par="Text=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Integer%20posuere%20erat%20a%20ante." ph="Blockquote1Example.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Naming%20a%20source" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Add%20%3C%20small%3E%20tag%20for%20identifying%20the%20source.%20Wrap%20the%20name%20of%20the%20source%20work%20in%20lt%3B%20cite%3E." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Blockquote2Example" ph="Row1.Column1" />
-    <r id="{BEEB6F56-F392-4B86-8A47-FEDF61A07C6C}" par="Text=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Integer%20posuere%20erat%20a%20ante.&amp;Footer=Someone%20famous%20Source%20Title" ph="Blockquote2Example.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Alternate%20displays" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Use%20.place-right%20for%20a%20floated%2C%20right-aligned%20blockquote." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Blockquote3Example" ph="Row1.Column1" />
-    <r id="{BEEB6F56-F392-4B86-8A47-FEDF61A07C6C}" par="Text=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Integer%20posuere%20erat%20a%20ante.&amp;Footer=Someone%20famous%20Source%20Title&amp;IsReverse=1" ph="Blockquote3Example.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Lists" ph="Row1.Column1" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Unordered" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=A%20list%20of%20items%20in%20which%20the%20order%20does%20not%20explicitly%20matter." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=List1Example" ph="Row1.Column1" />
-    <r id="{FAEE956E-E058-4AFB-A850-F2BD1F134FD9}" par="ItemsDataSource=%7B31056D46-2FAA-4EA2-8759-BE93EAE10001%7D&amp;MaxDepth=2" ph="List1Example.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Ordered" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=A%20list%20of%20items%20in%20which%20the%20order%20explicitly%20matter." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=List2Example" ph="Row1.Column1" />
-    <r id="{1D2F94D1-0D03-43DD-8974-5FC282AE6473}" par="ItemsDataSource=%7B31056D46-2FAA-4EA2-8759-BE93EAE10001%7D&amp;MaxDepth=2" ph="List2Example.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Unstyled" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Remove%20the%20default%20list-style%20and%20left%20padding%20on%20list%20items%20(immediate%20children%20only)." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=List3Example" ph="Row1.Column1" />
-    <r id="{2EDCFDD2-5538-4730-A0EC-9F256A43A888}" par="ItemsDataSource=%7B31056D46-2FAA-4EA2-8759-BE93EAE10001%7D&amp;MaxDepth=2" ph="List3Example.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Inline" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Place%20all%20list%20items%20on%20a%20single%20line%20with%20inline-block%20and%20some%20light%20padding." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=List4Example" ph="Row1.Column1" />
-    <r id="{96ED27CB-80D2-47FE-9D60-7E3766928BA4}" par="ItemsDataSource=%7B31056D46-2FAA-4EA2-8759-BE93EAE10001%7D&amp;MaxDepth=2" ph="List4Example.Content" />
-    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Description" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=A%20list%20of%20terms%20with%20their%20associated%20descriptions." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Description1Example" ph="Row1.Column1" />
-    <r id="{2032E050-7AE9-4162-AE21-AD4847C8BC41}" par="ItemsDataSource=%7B31056D46-2FAA-4EA2-8759-BE93EAE10001%7D" ph="Description1Example.Content" />
-    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Horizontal%20description" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Make%20terms%20and%20descriptions%20in%20%3C%20dl%3E%20line%20up%20side-by-side." ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Description2Example" ph="Row1.Column1" />
-    <r id="{2032E050-7AE9-4162-AE21-AD4847C8BC41}" par="ItemsDataSource=%7B31056D46-2FAA-4EA2-8759-BE93EAE10001%7D&amp;IsHorizontal=1" ph="Description2Example.Content" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{FB8FF82D-923A-48F4-A13D-758753069BE7}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{B2FC5365-6641-40A5-92C6-1D1F043BE2F7}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{7E11360F-5353-497E-A252-456B92539A20}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{8676C6FB-115A-445E-ADB7-7BA4E246C0E7}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{DDE7765A-360F-40BE-B594-29B05341C922}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Typography" ph="Row1.Column1" uid="{58E905B7-4CB8-4243-AB1F-E6DDA295E335}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Headings" ph="Row1.Column1" uid="{813515E5-736D-47A1-903A-52AD49382625}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=All+HTML+heading%2c+h1-h6+are+available." ph="Row1.Column1" uid="{400A433D-7ECB-4BEE-9183-C9745D140A47}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=HeadingsExample" ph="Row1.Column1" uid="{FE9574E5-53AD-4027-B4F8-974922B2FA4A}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=h1.+Header+1" ph="HeadingsExample.Content" uid="{7CDF65CF-8962-4A2A-94BB-3C504CF34AB2}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=h2.+Header+2" ph="HeadingsExample.Content" uid="{826DF93D-B235-4674-82D9-A6BF4B428B59}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=h3.+Header+3" ph="HeadingsExample.Content" uid="{0A1855E4-A743-42C6-B376-7BD136D2C471}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=h4.+Header+4" ph="HeadingsExample.Content" uid="{83579FFE-8FC3-4CF1-A718-02EF91ED3D8C}" />
+    <r id="{51367460-E5C0-4ED6-87B4-CD6280E2BC5A}" par="Text=h5.+Header+5" ph="HeadingsExample.Content" uid="{9997F743-50FE-4177-BD21-EAD5CB48B207}" />
+    <r id="{20B75EDA-CE11-4440-B390-AA94594FE83C}" par="Text=h6.+Header+6" ph="HeadingsExample.Content" uid="{2692C339-02D1-4E4C-8A7B-01E5170A0D6E}" />
+    <r id="{63170104-6223-4AE8-BE64-07DC3A347832}" par="Text=Header" ph="HeadingsExample.Content" uid="{8CF4B2BD-49CC-404B-99DB-5A34F48822CC}" />
+    <r id="{C2259F84-EB2C-44FB-B00E-73901DC0B1E2}" par="Text=Subheader" ph="HeadingsExample.Content" uid="{30557916-94C9-43CD-AEF5-23A0D0EC6600}" />
+    <r id="{2BD61E78-7DA1-4CF3-85F7-2C9F4D2DCEB6}" par="Text=Subheader+secondary" ph="HeadingsExample.Content" uid="{E50C5E58-3F16-4D51-AEE2-FA0253F0A489}" />
+    <r id="{5EC61A07-6EEA-4D8C-81C4-8D406B7201B8}" par="Text=Item+title" ph="HeadingsExample.Content" uid="{26B1BEF4-559E-4CA6-A3ED-EA082E4F7F26}" />
+    <r id="{C5B304CF-17EC-4A50-A229-85CDEFB8552D}" par="Text=Item+title+secondary" ph="HeadingsExample.Content" uid="{76CAE5FD-38E2-4CA4-9080-66723CCBFE79}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Text" ph="Row1.Column1" uid="{0C82DF22-10D3-4013-8E65-92A0861436DB}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Paragraph+Text" ph="Row1.Column1" uid="{6221C9B9-9075-4060-8BA7-D8918DD725A1}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro+UI+CSS+global+default+font-size+is+11pt%2c+with+a+line-height+of+15pt.+This+is+applied+to+the+%3c+div%3e%2c+%3c+span%3e+and+all+paragraphs.+In+addition%2c+%3c+p%3e+(paragraphs)+receive+a+bottom+margin+7pt." ph="Row1.Column1" uid="{666B4794-F918-46E2-8789-7CD9F74560C3}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=ParagraphTextExample" ph="Row1.Column1" uid="{0BC1576A-EB56-4707-B0FB-883EDEA5424E}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit.+Aenean+luctus+lectus+sit+amet+odio+ullamcorper+malesuada+dignissim+justo+gravida.+Pellentesque+sagittis%2c+tellus+id+sagittis+accumsan%2c+augue+velit+pretium+urna%2c+ac+interdum+dui+nibh+et+orci.+Quisque+dapibus+elit+ut+metus+varius+ac+bibendum+sem+luctus.+Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit.+Sed+quis+sagittis+lorem.+Praesent+ac+eros+quam." ph="ParagraphTextExample.Content" uid="{EEEB1B8D-CBC2-42DC-A64C-EFD36F6EE36E}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Praesent+molestie+bibendum+consequat.+Suspendisse+a+felis+eu+augue+venenatis+egestas+nec+ac+lectus.+Nam+nec+felis+lorem.+Maecenas+luctus+est+et+nulla+cursus+vestibulum.+Curabitur+suscipit+adipiscing+dui+eget+sollicitudin.+Sed+accumsan+tincidunt+enim%2c+in+feugiat+ligula+ornare+et." ph="ParagraphTextExample.Content" uid="{1CFFB32F-E3D7-4626-AA34-6E720CC9636C}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Nullam+libero+odio%2c+lacinia+vel+dignissim+sed%2c+consequat+ac+nisi.+Ut+at+mauris+sit+amet+sem+dapibus+pretium+sit+amet+sed+orci.+Quisque+tincidunt+sodales+sollicitudin.+Ut+purus+odio%2c+imperdiet+ut+laoreet+ac%2c+placerat+vel+ante.+Nulla+tincidunt+sapien+in+metus+tincidunt+imperdiet.+Vestibulum+a+dui+nisi.+Morbi+vestibulum+nulla+lacinia+enim+tempus+ullamcorper." ph="ParagraphTextExample.Content" uid="{BDEB4EBC-1149-4D1E-AEA5-7A15AB2B1B21}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Readable+Text" ph="Row1.Column1" uid="{131B3A35-F1D0-4BC5-8A15-19F4B6FFDCDB}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For+big+text+you+can+use+.readable-text+class." ph="Row1.Column1" uid="{87539E41-408D-496D-8740-C4A86B6F9372}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=ReadableTextExample" ph="Row1.Column1" uid="{BD15C0DC-D185-4042-9F61-48157278D8BA}" />
+    <r id="{D40E3CCC-AA1C-488B-B8EE-9D7EDA3A8072}" par="Text=Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit.+Aenean+luctus+lectus+sit+amet+odio+ullamcorper+malesuada+dignissim+justo+gravida.+Pellentesque+sagittis%2c+tellus+id+sagittis+accumsan%2c+augue+velit+pretium+urna%2c+ac+interdum+dui+nibh+et+orci.+Quisque+dapibus+elit+ut+metus+varius+ac+bibendum+sem+luctus.+Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit.+Sed+quis+sagittis+lorem.+Praesent+ac+eros+quam." ph="ReadableTextExample.Content" uid="{6BF6D0B8-6280-417A-97EE-8A0CF4FF563F}" />
+    <r id="{D40E3CCC-AA1C-488B-B8EE-9D7EDA3A8072}" par="Text=Praesent+molestie+bibendum+consequat.+Suspendisse+a+felis+eu+augue+venenatis+egestas+nec+ac+lectus.+Nam+nec+felis+lorem.+Maecenas+luctus+est+et+nulla+cursus+vestibulum.+Curabitur+suscipit+adipiscing+dui+eget+sollicitudin.+Sed+accumsan+tincidunt+enim%2c+in+feugiat+ligula+ornare+et." ph="ReadableTextExample.Content" uid="{CA06A140-8912-41B8-A262-B1A1D03F5E46}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Tertiary+and+tertiary+secondary+text" ph="Row1.Column1" uid="{E1E17DD9-8F52-4C8A-B555-0B9FE4FCCB0E}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For+tertiary+text+you+can+set+class+.tertiary-text+and+.tertiary-text-secondary." ph="Row1.Column1" uid="{343E0D25-C155-48C9-B36E-C96B040BFEF7}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=TertiaryTextExample" ph="Row1.Column1" uid="{DD38EF3A-FD58-4CE1-90CA-3779B9F314E0}" />
+    <r id="{3D1F05A1-60E5-423F-9D00-3FF7DA18EA08}" par="Text=Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit.+Aenean+luctus+lectus+sit+amet+odio+ullamcorper+malesuada+dignissim+justo+gravida.+Pellentesque+sagittis%2c+tellus+id+sagittis+accumsan%2c+augue+velit+pretium+urna%2c+ac+interdum+dui+nibh+et+orci.+Quisque+dapibus+elit+ut+metus+varius+ac+bibendum+sem+luctus.+Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit.+Sed+quis+sagittis+lorem.+Praesent+ac+eros+quam." ph="TertiaryTextExample.Content" uid="{C106FFA2-20EF-4108-B462-0C839BA2E29D}" />
+    <r id="{9CFE7382-1B05-482E-AFB3-C38B8E94AE97}" par="Text=Praesent+molestie+bibendum+consequat.+Suspendisse+a+felis+eu+augue+venenatis+egestas+nec+ac+lectus.+Nam+nec+felis+lorem.+Maecenas+luctus+est+et+nulla+cursus+vestibulum.+Curabitur+suscipit+adipiscing+dui+eget+sollicitudin.+Sed+accumsan+tincidunt+enim%2c+in+feugiat+ligula+ornare+et." ph="TertiaryTextExample.Content" uid="{8EE53BCB-882D-4013-8382-34AAA793DD52}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Code+text" ph="Row1.Column1" uid="{3F139F77-BCD7-4574-8EAB-C77054934EC1}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For+code+text+you+can+set+class+.code-text.+This+class+use+mono+fonts." ph="Row1.Column1" uid="{B4101757-E999-41B3-8769-83A4C2AF7ECA}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=CodeTextExample" ph="Row1.Column1" uid="{865FCC25-57E5-4892-8623-72204410D732}" />
+    <r id="{0D82D3D6-2DC1-47F4-8117-494009D4F19B}" par="Text=Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit.+Aenean+luctus+lectus+sit+amet+odio+ullamcorper+malesuada+dignissim+justo+gravida.+Pellentesque+sagittis%2c+tellus+id+sagittis+accumsan%2c+augue+velit+pretium+urna%2c+ac+interdum+dui+nibh+et+orci.+Quisque+dapibus+elit+ut+metus+varius+ac+bibendum+sem+luctus.+Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit.+Sed+quis+sagittis+lorem.+Praesent+ac+eros+quam." ph="CodeTextExample.Content" uid="{9E28E385-A825-4B37-9327-74B4AADA4EDB}" />
+    <r id="{EDD44117-196C-4983-A68F-FEC8207B0320}" par="Text=Emphasis" ph="Row1.Column1" uid="{9828970B-9722-45D1-B838-933484172004}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Make+use+of+HTML%27s+default+emphasis+tags+with+lightweight+styles." ph="Row1.Column1" uid="{E7247958-6CCB-418D-B964-1328243A07CA}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Small" ph="Row1.Column1" uid="{031CA5BB-5D2E-4E18-A6EE-033E23402E3E}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For+de-emphasizing+inline+or+blocks+of+text%2c+use+the+%3c+small%3e+tag." ph="Row1.Column1" uid="{637ECF5F-A3C1-4A04-9DF3-0E371E67DB7B}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=SmallExample" ph="Row1.Column1" uid="{81DDE8BB-FA08-4562-AB5E-15E7AFE82F82}" />
+    <r id="{B756C59D-01B5-4567-AE2C-74CF3FAC3D3C}" par="Text=The+text+is+reduced." ph="SmallExample.Content" uid="{1A1A9B26-5563-478B-A1A7-E304372A4E71}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Bold" ph="Row1.Column1" uid="{98B6D946-0BAE-42A4-A82A-BB79490C5548}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For+emphasizing+inline+or+blocks+of+text%2c+use+the+%3c+strong%3e+tag." ph="Row1.Column1" uid="{33EDF855-B291-4FED-A764-B62A54D5A5B3}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=BoldExample" ph="Row1.Column1" uid="{A278BC2D-AE66-4755-91A1-07B260678C28}" />
+    <r id="{8D1BD13B-08A9-4699-AE5A-B46EBDD34907}" par="Text=The+text+is+strong." ph="BoldExample.Content" uid="{95426A49-7E4B-42A4-A75E-5F428169E368}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Italic" ph="Row1.Column1" uid="{0393C5DE-16E7-42A4-9FA9-F23DFB837BAF}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For+emphasizing+a+snippet+of+text+with+italics+use+%3c+em%3e+tag." ph="Row1.Column1" uid="{6A773C0F-8267-44A5-AF9E-3C4ED6D28274}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=ItalicExample" ph="Row1.Column1" uid="{32EC275F-9B31-4AAE-AC78-963A361DDA48}" />
+    <r id="{479330A9-968D-47AD-9832-D1F86E553994}" par="Text=The+text+is+italics." ph="ItalicExample.Content" uid="{5266A5E9-63AC-4BBE-89CB-8F2108028D97}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Alignment+classes" ph="Row1.Column1" uid="{F324FF7D-E0BA-43D5-BA62-15F97FCD3449}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Easily+realign+text+to+components+with+text+alignment+classes." ph="Row1.Column1" uid="{36104262-6C40-4037-9187-5DA57044C0C3}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=AlignmentClassesExample" ph="Row1.Column1" uid="{28AEFE83-92B6-408D-93C7-2333826C21CA}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Left+aligned+text.&amp;Alignment=Left" ph="AlignmentClassesExample.Content" uid="{4E3A4948-D65E-4F06-86E7-D9BBAF40AF15}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Center+aligned+text.&amp;Alignment=Center" ph="AlignmentClassesExample.Content" uid="{2BDDC3DC-3A0E-424C-8BE1-1ADBF7EA72D4}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Right+aligned+text.&amp;Alignment=Right" ph="AlignmentClassesExample.Content" uid="{5308FEAB-C346-4C8A-96C6-6B9D5BB0863F}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Justified+text.&amp;Alignment=Justify" ph="AlignmentClassesExample.Content" uid="{A0C29756-BAA6-4095-A1CD-E8B92DC3D94B}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Emphasis+classes" ph="Row1.Column1" uid="{55877E6C-B2D4-4E2E-8F53-621EC193C457}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Convey+meaning+through+color+with+a+handful+of+emphasis+utility+classes." ph="Row1.Column1" uid="{5523EAA8-0A2C-421C-ACD1-72CC889D5A0C}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=EmphasisClassesExample" ph="Row1.Column1" uid="{324B8D97-109D-4771-AD49-98EA97BDF4C7}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit+(muted).&amp;Emphasis=Muted" ph="EmphasisClassesExample.Content" uid="{9148BCD3-0DBA-4A62-AB97-77729AA742B0}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit+(info).&amp;Emphasis=Info" ph="EmphasisClassesExample.Content" uid="{8E1943FF-0F8C-40C3-8F34-B84717D3C507}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit+(alert).&amp;Emphasis=Alert" ph="EmphasisClassesExample.Content" uid="{B92E55F8-8816-4885-B8DC-D5B3B3426523}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit+(warning).&amp;Emphasis=Warning" ph="EmphasisClassesExample.Content" uid="{304D72F0-7D51-4AC6-9F8A-D34D76B1DC49}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit+(success).&amp;Emphasis=Success" ph="EmphasisClassesExample.Content" uid="{E789FD30-0C11-49C0-9A87-76EE9D656C51}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Abbreviations" ph="Row1.Column1" uid="{63AAF323-1528-4B41-8DB6-3A447757BE15}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Stylized+implementation+of+HTML%27s+%3c+abbr%3e+element+for+abbreviations+and+acronyms+to+show+the+expanded+version+on+hover.+Abbreviations+with+a+title+attribute+have+a+light+dotted+bottom+border+and+a+help+cursor+on+hover%2c+providing+additional+context+on+hover." ph="Row1.Column1" uid="{75AAAEB3-DB8F-4383-B701-BDE99B9DFE60}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=AbbreviationsExample" ph="Row1.Column1" uid="{2EA71F9C-43FC-4A84-B658-05431F17403F}" />
+    <r id="{1B3D2A5B-3AE6-4092-8795-6C0F431B56E9}" par="Text=An+abbreviation+of+the+word+attribute+is+attr.&amp;Tooltip=Abbreviation" ph="AbbreviationsExample.Content" uid="{892B3627-A3BC-4B53-9CB7-29E28D3BD3C6}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Addresses" ph="Row1.Column1" uid="{D0844872-C291-488E-8334-68294D9C99F4}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Present+contact+information+for+the+nearest+ancestor+or+the+entire+body+of+work." ph="Row1.Column1" uid="{C1077E88-EC7E-4082-AA75-010F1BC5F4B2}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=AddressExample" ph="Row1.Column1" uid="{6A1167CD-432C-43B3-A88C-DF44E1B1BF7C}" />
+    <r id="{F8C6EAB3-E950-4E21-8C0B-2F9952A5F088}" par="Text=Sitecore+A%2fS%2c+Vester+Farigmagsgade+3%2c5+Copehagen+V%2c+Denmark." ph="AddressExample.Content" uid="{2D13DFED-995D-4177-A9ED-907D4777FB2B}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Blockquotes" ph="Row1.Column1" uid="{522B4B84-8CAF-4B2F-A6E1-F83D6FF27DE8}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=For+quoting+blocks+of+content+from+another+source+within+your+document." ph="Row1.Column1" uid="{936B05BB-C6D2-483C-8B49-166642A8B98A}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Default+blockquote" ph="Row1.Column1" uid="{A1CC7F7A-0481-42EF-9D85-CC16B3EB5A37}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Wrap+%3c+blockquote%3e+around+any+HTML+as+the+quote.+For+straight+quotes+we+recommend+a+%3c+p%3e." ph="Row1.Column1" uid="{55167921-E8D6-47BE-BAD9-6D7124F87947}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Blockquote1Example" ph="Row1.Column1" uid="{439A16C7-8002-4187-A6CE-8171083A41C6}" />
+    <r id="{BEEB6F56-F392-4B86-8A47-FEDF61A07C6C}" par="Text=Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit.+Integer+posuere+erat+a+ante." ph="Blockquote1Example.Content" uid="{D07CD558-F63D-469D-8D7E-306ABE364737}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Naming+a+source" ph="Row1.Column1" uid="{C943E839-B5B4-4E91-A350-A86A9A7ED16A}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Add+%3c+small%3e+tag+for+identifying+the+source.+Wrap+the+name+of+the+source+work+in+lt%3b+cite%3e." ph="Row1.Column1" uid="{A7F18631-9747-4E46-9791-3393A54B6313}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Blockquote2Example" ph="Row1.Column1" uid="{897DAF01-F7ED-499F-B00F-EA5EBF5B2AAB}" />
+    <r id="{BEEB6F56-F392-4B86-8A47-FEDF61A07C6C}" par="Text=Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit.+Integer+posuere+erat+a+ante.&amp;Footer=Someone+famous+Source+Title" ph="Blockquote2Example.Content" uid="{63B1A327-BB1A-4DD7-86AC-ED0A40F3E2F6}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Alternate+displays" ph="Row1.Column1" uid="{C4D606BD-6A56-458C-9FF8-8BB1802F8F93}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Use+.place-right+for+a+floated%2c+right-aligned+blockquote." ph="Row1.Column1" uid="{832B3F2A-117E-486A-BF19-6DBBAF6DBF28}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Blockquote3Example" ph="Row1.Column1" uid="{08D136C2-0A27-4701-B354-AD7A112F25B7}" />
+    <r id="{BEEB6F56-F392-4B86-8A47-FEDF61A07C6C}" par="IsReverse=1&amp;Text=Lorem+ipsum+dolor+sit+amet%2c+consectetur+adipiscing+elit.+Integer+posuere+erat+a+ante.&amp;Footer=Someone+famous+Source+Title" ph="Blockquote3Example.Content" uid="{9F72AB3F-5178-4E9E-AA67-296E3DEE0BE2}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Lists" ph="Row1.Column1" uid="{F95EB275-CEF3-438D-93B7-9DB1BEBF107B}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Unordered" ph="Row1.Column1" uid="{193CC521-D49F-4211-8793-31F1BCDB2574}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=A+list+of+items+in+which+the+order+does+not+explicitly+matter." ph="Row1.Column1" uid="{334CF9E2-DCB8-4F0E-88BD-150859C012F0}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=List1Example" ph="Row1.Column1" uid="{BF7C9AB5-C268-4433-BF3B-E472060141FE}" />
+    <r id="{FAEE956E-E058-4AFB-A850-F2BD1F134FD9}" par="ItemsDataSource=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;MaxDepth=2" ph="List1Example.Content" uid="{3F2F2108-5469-47D8-BE11-BBBAE6A0897F}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Ordered" ph="Row1.Column1" uid="{1285F4A6-6869-4E10-875A-9A4E9659BAEA}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=A+list+of+items+in+which+the+order+explicitly+matter." ph="Row1.Column1" uid="{0B44E1DE-60F7-41D3-9108-52F1F0BE1877}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=List2Example" ph="Row1.Column1" uid="{A03ACC23-3E7D-4E54-B830-5C1F02609F35}" />
+    <r id="{1D2F94D1-0D03-43DD-8974-5FC282AE6473}" par="ItemsDataSource=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;MaxDepth=2" ph="List2Example.Content" uid="{99506DE9-7751-4E17-97CD-5717827A150F}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Unstyled" ph="Row1.Column1" uid="{AE5DDEE4-6510-4B73-8910-929E7FBD75E2}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Remove+the+default+list-style+and+left+padding+on+list+items+(immediate+children+only)." ph="Row1.Column1" uid="{1B29F9A6-F0A3-4D7E-9C72-0FF8049621C6}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=List3Example" ph="Row1.Column1" uid="{5D5CB1EA-4971-4605-822C-B841D071EDA4}" />
+    <r id="{2EDCFDD2-5538-4730-A0EC-9F256A43A888}" par="ItemsDataSource=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;MaxDepth=2" ph="List3Example.Content" uid="{42E6F45B-6E17-45A3-A73C-769FE8E31D16}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Inline" ph="Row1.Column1" uid="{1E6E11E5-10E0-4A7C-B859-7C4CB9C4B0F1}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Place+all+list+items+on+a+single+line+with+inline-block+and+some+light+padding." ph="Row1.Column1" uid="{BD13B2BD-EF9D-4F27-8980-7CD6DD3A7494}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=List4Example" ph="Row1.Column1" uid="{7F22A094-9686-4C8B-BA91-B36EC2350A33}" />
+    <r id="{96ED27CB-80D2-47FE-9D60-7E3766928BA4}" par="ItemsDataSource=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;MaxDepth=2" ph="List4Example.Content" uid="{9630F2DA-3056-4BB4-9EB4-6C963C3B9C88}" />
+    <r id="{09C3430C-C61C-4120-80CD-21DFF8744483}" par="Text=Description" ph="Row1.Column1" uid="{B9CCD0E1-0B79-4062-B44D-D4413524DB63}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=A+list+of+terms+with+their+associated+descriptions." ph="Row1.Column1" uid="{4A07FEEF-2EEB-405A-8F1D-7A2BF851C297}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Description1Example" ph="Row1.Column1" uid="{D55C0FB6-818B-4D6F-B384-3BF07CED9138}" />
+    <r id="{2032E050-7AE9-4162-AE21-AD4847C8BC41}" par="ItemsDataSource=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d" ph="Description1Example.Content" uid="{53E22BE3-1D96-4DEE-9666-2B26A69A4321}" />
+    <r id="{A1ADFB5A-1F00-4830-91F2-8F646E94763A}" par="Text=Horizontal+description" ph="Row1.Column1" uid="{716F5AF1-301E-43BD-A87E-96FCADF70236}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Make+terms+and+descriptions+in+%3c+dl%3e+line+up+side-by-side." ph="Row1.Column1" uid="{F49BAC50-3E74-45BE-9E87-609246E20A15}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Description2Example" ph="Row1.Column1" uid="{8103F436-EA34-44F9-A0BC-E3367928CE1E}" />
+    <r id="{2032E050-7AE9-4162-AE21-AD4847C8BC41}" par="IsHorizontal=1&amp;ItemsDataSource=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d" ph="Description2Example.Content" uid="{4BD339DC-BED1-45C4-896F-52A5BD10D667}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 4daddae1-e3a5-4edb-821b-82f741f3ed53
+revision: e7a2957e-f116-45d4-b81c-8b228d738801
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -203,14 +203,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4daddae1-e3a5-4edb-821b-82f741f3ed53
+e7a2957e-f116-45d4-b81c-8b228d738801
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152315:635355913959562448
+20141027T123621:635500101815832601Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

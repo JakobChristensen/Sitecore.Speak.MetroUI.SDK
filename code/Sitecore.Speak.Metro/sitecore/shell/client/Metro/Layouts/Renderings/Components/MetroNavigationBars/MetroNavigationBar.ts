@@ -8,4 +8,4 @@ class MetroNavigationBar extends Speak.ControlBase {
   // #endregion
 }
 
-Sitecore.component(["metro"], MetroNavigationBar, "MetroNavigationBar");
+Sitecore.Speak.component(["metro"], MetroNavigationBar, "MetroNavigationBar");

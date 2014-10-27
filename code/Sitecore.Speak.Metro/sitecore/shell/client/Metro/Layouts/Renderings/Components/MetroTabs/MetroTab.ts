@@ -8,4 +8,4 @@ class MetroTab extends Speak.ControlBase {
   // #endregion
 }
 
-Sitecore.component(["metro"], MetroTab, "MetroTab");
+Sitecore.Speak.component(["metro"], MetroTab, "MetroTab");

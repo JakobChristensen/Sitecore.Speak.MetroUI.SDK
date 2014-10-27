@@ -14,11 +14,11 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         MetroButton.prototype.click = function () {
             var click = $(this.el).data("sc-click");
             if (click) {
-                Sitecore.Events.handleEvent(click, this);
+                Sitecore.Speak.Events.handleEvent(click, this);
             }
         };
         return MetroButton;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroButton, "MetroButton");
+    Sitecore.Speak.component(["metro"], MetroButton, "MetroButton");
 });

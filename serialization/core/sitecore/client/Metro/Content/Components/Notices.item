@@ -20,30 +20,30 @@ emerald
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 2400
+content-length: 2951
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1FA1011C-030A-4501-B4F6-7C9E25507972}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="ItemsDataSource=%7BE42849B3-EDF0-4026-86F8-3EC60C0660D7%7D&amp;ClickFieldName=%24itemid&amp;BrandText=Metro%20UI&amp;BrandLink=%7BEB685903-3193-4FDF-8ADF-48F196C35C7E%7D&amp;HasContainer=1" ph="Page.Body" />
-    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" />
-    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Notices" ph="Row1.Column1" />
-    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro%20UI%20CSS%20provides%20plugin%20to%20the%20ability%20to%20create%20tooltips%20for%20any%20elements.%20Positioned%20as%20a%20replacement%20attribute%20title.%20This%20method%20required%20plugin%20metro-hint.js" ph="Row1.Column1" />
-    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" />
-    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Container2&amp;IsFluid=1" ph="Example1.Content" />
-    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row2&amp;Columns=3%2C3%2C3%2C3" ph="Container2.Content" />
-    <r id="{E444DCA5-FE38-4298-A380-7B7176268114}" par="Text=Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20printing%20and%20typesetting%20industry.&amp;Foreground=white" ph="Row2.Column1" />
-    <r id="{E444DCA5-FE38-4298-A380-7B7176268114}" par="Text=Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20printing%20and%20typesetting%20industry.&amp;MarkerPosition=Top&amp;Background=amber&amp;Foreground=white" ph="Row2.Column2" />
-    <r id="{E444DCA5-FE38-4298-A380-7B7176268114}" par="Text=Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20printing%20and%20typesetting%20industry.&amp;MarkerPosition=Bottom&amp;Background=mauve&amp;Foreground=white" ph="Row2.Column3" />
-    <r id="{E444DCA5-FE38-4298-A380-7B7176268114}" par="Text=Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20printing%20and%20typesetting%20industry.&amp;MarkerPosition=Right&amp;Background=crimson&amp;Foreground=white" ph="Row2.Column4" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{656C0B73-D04A-4ED7-9DC5-E47DC00CDBFD}" />
+    <r id="{F96C8F5F-C2B0-409B-BB06-D98A04608C59}" par="BrandText=Metro+UI&amp;HasContainer=1&amp;ClickFieldName=%24itemid&amp;ItemsDataSource=%7bE42849B3-EDF0-4026-86F8-3EC60C0660D7%7d&amp;BrandLink=%7bEB685903-3193-4FDF-8ADF-48F196C35C7E%7d" ph="Page.Body" uid="{0AF3854F-E72B-4A69-936D-7F7B083AB598}" />
+    <r id="{326D7764-E240-4F6D-9FFB-047BF21F6207}" par="Id=Container1" ph="Page.Body" uid="{32C5244D-7874-4508-BC94-01E58EC66442}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Grid1" ph="Container1.Content" uid="{D4977BDC-97FD-414F-B1B5-DD508F0106F3}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row1&amp;Columns=12" ph="Grid1.Content" uid="{E0AD4F6F-778F-4BCD-B1A9-9E45FD0DFB1D}" />
+    <r id="{D747E396-4781-457F-B135-FB9248719F49}" par="Text=Notices" ph="Row1.Column1" uid="{1E2E0267-D168-4BC4-88F7-1C7115967DEF}" />
+    <r id="{E319FA74-CBD1-4C59-B5FF-73A4F6672881}" par="Text=Metro+UI+CSS+provides+plugin+to+the+ability+to+create+tooltips+for+any+elements.+Positioned+as+a+replacement+attribute+title.+This+method+required+plugin+metro-hint.js" ph="Row1.Column1" uid="{5CE98FF8-F619-4A40-A81C-5F0C8A343414}" />
+    <r id="{462C8D95-CE4A-4FA9-808D-F4061458A043}" par="Id=Example1" ph="Row1.Column1" uid="{AAF80F06-CE77-44AF-86BF-7C07F3CC4E51}" />
+    <r id="{9662F589-D8D1-4E66-B60A-FBD3AF110EB7}" par="Id=Container2&amp;IsFluid=1" ph="Example1.Content" uid="{5C66DECB-1A3D-4FEB-A5D8-7BC676BFE052}" />
+    <r id="{15F3748A-D3E7-4FB9-84CA-671B6A023BE6}" par="Id=Row2&amp;Columns=3%2c3%2c3%2c3" ph="Container2.Content" uid="{0A89C9AB-0535-44EB-B2DA-43CB2A4FFCD1}" />
+    <r id="{E444DCA5-FE38-4298-A380-7B7176268114}" par="Foreground=white&amp;Text=Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry." ph="Row2.Column1" uid="{59558414-F2A8-424A-A2ED-2C9104DA7EAE}" />
+    <r id="{E444DCA5-FE38-4298-A380-7B7176268114}" par="Background=amber&amp;Foreground=white&amp;MarkerPosition=Top&amp;Text=Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry." ph="Row2.Column2" uid="{05517713-00E7-40F4-B898-305337321103}" />
+    <r id="{E444DCA5-FE38-4298-A380-7B7176268114}" par="Background=mauve&amp;Foreground=white&amp;MarkerPosition=Bottom&amp;Text=Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry." ph="Row2.Column3" uid="{6472DE50-CF82-471C-A4F4-47A0E1C4A2AC}" />
+    <r id="{E444DCA5-FE38-4298-A380-7B7176268114}" par="Background=crimson&amp;Foreground=white&amp;MarkerPosition=Right&amp;Text=Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry." ph="Row2.Column4" uid="{35AD475E-EC75-4EC0-9998-04E9CE0B531C}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 963fe507-eb9b-4919-9ef1-f09a3bd08fc0
+revision: 8ce7bafd-8ace-42a3-b562-e184cdca8dd5
 
 ----field----
 field: {E712117B-29A1-4FF1-992B-2CE4B293C636}
@@ -79,14 +79,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-963fe507-eb9b-4919-9ef1-f09a3bd08fc0
+8ce7bafd-8ace-42a3-b562-e184cdca8dd5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140513T152506:635355915065737924
+20141027T123829:635500103099207034Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,10 +1,7 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="MetroApplication.cs" company="">
-//   
+// <copyright file="MetroApplication.cs" company="Sitecore A/S">
+//   Copyright (C) by Sitecore A/S
 // </copyright>
-// <summary>
-//   The bootstrap application.
-// </summary>
 // --------------------------------------------------------------------------------------------------------------------
 namespace Sitecore.Metro
 {
@@ -13,7 +10,6 @@ namespace Sitecore.Metro
   using System.Linq;
   using System.Web;
   using System.Web.Mvc;
-
   using Sitecore.Data;
   using Sitecore.Data.Items;
   using Sitecore.Diagnostics;
@@ -42,9 +38,9 @@ namespace Sitecore.Metro
     public static readonly ID DropDownMenu = new ID("{7D2D1231-699F-46EB-BFA6-3B854053DB8F}");
 
     /// <summary>
-    /// The drop tile group
+    /// The header
     /// </summary>
-    public static readonly ID TileGroup = new ID("{016D4799-D6B3-4F89-9763-636FD1C7D593}");
+    public static readonly ID Header = new ID("{6A540BD2-CC6B-40C9-9A26-FF5E82E28DE4}");
 
     /// <summary>
     /// The link
@@ -57,28 +53,22 @@ namespace Sitecore.Metro
     public static readonly ID Separator = new ID("{57266F82-727B-46CD-A4F2-6A08B183C50C}");
 
     /// <summary>
-    /// The header
-    /// </summary>
-    public static readonly ID Header = new ID("{6A540BD2-CC6B-40C9-9A26-FF5E82E28DE4}");
-
-    /// <summary>
     /// The text
     /// </summary>
     public static readonly ID Text = new ID("{A8D8F413-6716-40E2-80F3-9C870CC14E8B}");
+
+    /// <summary>
+    /// The drop tile group
+    /// </summary>
+    public static readonly ID TileGroup = new ID("{016D4799-D6B3-4F89-9763-636FD1C7D593}");
 
     #endregion
 
     #region Public Methods and Operators
 
-    /// <summary>
-    /// Gets the application item.
-    /// </summary>
-    /// <param name="pageItem">
-    /// The page item.
-    /// </param>
-    /// <returns>
-    /// Returns the application item.
-    /// </returns>
+    /// <summary>Gets the application item.</summary>
+    /// <param name="pageItem">The page item.</param>
+    /// <returns>Returns the application item.</returns>
     [CanBeNull]
     public static Item GetApplicationItem([NotNull] Item pageItem)
     {
@@ -97,18 +87,10 @@ namespace Sitecore.Metro
       return null;
     }
 
-    /// <summary>
-    /// Gets the icon.
-    /// </summary>
-    /// <param name="item">
-    /// The item.
-    /// </param>
-    /// <param name="iconFieldName">
-    /// Name of the icon field.
-    /// </param>
-    /// <returns>
-    /// Returns the icon.
-    /// </returns>
+    /// <summary>Gets the icon.</summary>
+    /// <param name="item">The item.</param>
+    /// <param name="iconFieldName">Name of the icon field.</param>
+    /// <returns>Returns the icon.</returns>
     [NotNull]
     public static HtmlString GetIcon([NotNull] Item item, [NotNull] string iconFieldName)
     {
@@ -147,21 +129,11 @@ namespace Sitecore.Metro
       return new HtmlString(string.Format("<i class=\"{0}\"></i>", result));
     }
 
-    /// <summary>
-    /// Gets the menu items.
-    /// </summary>
-    /// <param name="model">
-    /// The model.
-    /// </param>
-    /// <param name="itemsDataSource">
-    /// The items data source.
-    /// </param>
-    /// <param name="defaultMenuName">
-    /// Default name of the menu.
-    /// </param>
-    /// <returns>
-    /// Returns the menu items.
-    /// </returns>
+    /// <summary>Gets the menu items.</summary>
+    /// <param name="model">The model.</param>
+    /// <param name="itemsDataSource">The items data source.</param>
+    /// <param name="defaultMenuName">Default name of the menu.</param>
+    /// <returns>Returns the menu items.</returns>
     [NotNull]
     public static IEnumerable<Item> GetMenuItems([NotNull] SpeakRenderingModel model, [NotNull] string itemsDataSource, [NotNull] string defaultMenuName = "")
     {
@@ -195,21 +167,11 @@ namespace Sitecore.Metro
 
     #region Methods
 
-    /// <summary>
-    /// Gets the menu items.
-    /// </summary>
-    /// <param name="model">
-    /// The model.
-    /// </param>
-    /// <param name="itemsDataSource">
-    /// The items data source.
-    /// </param>
-    /// <param name="app">
-    /// The application.
-    /// </param>
-    /// <returns>
-    /// Returns the menu item.
-    /// </returns>
+    /// <summary>Gets the menu items.</summary>
+    /// <param name="model">The model.</param>
+    /// <param name="itemsDataSource">The items data source.</param>
+    /// <param name="app">The application.</param>
+    /// <returns>Returns the menu item.</returns>
     [CanBeNull]
     private static Item GetMenuItem([NotNull] SpeakRenderingModel model, [NotNull] string itemsDataSource, [CanBeNull] Item app)
     {

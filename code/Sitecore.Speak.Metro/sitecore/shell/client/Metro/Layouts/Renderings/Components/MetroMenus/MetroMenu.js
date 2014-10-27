@@ -16,5 +16,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return MetroMenu;
     })(Speak.ControlBase);
 
-    Sitecore.component(["metro"], MetroMenu, "MetroMenu");
+    Sitecore.Speak.component(["metro"], MetroMenu, "MetroMenu");
 });
