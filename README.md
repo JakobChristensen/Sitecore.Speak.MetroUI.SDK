@@ -3,6 +3,8 @@ Sitecore Speak MetroUI SDK
 
 *PLEASE NOTICE THIS COMPONENT LIBRARY REQUIRES SITECORE SPEAK 1.2.*
 
+Supported in CMS 7.5 and CMS 8.
+
 This component library for Sitecore SPEAK contains 68 SPEAK components that wrap [Metro UI](http://metroui.org.ua/).
 
 Feel free to fork the library and implement any missing features. 
